@@ -1,0 +1,69 @@
+#chartwerk {
+    width:560px;
+}
+#chartwerk div{
+    font-family:'Gotham A', 'Gotham B', arial, sans-serif; 
+}
+#chartwerk.single{
+    width:270px;
+    float:left;
+    overflow:hidden;
+    margin:10px 30px 10px 0;
+}
+#chartwerk #headline { 
+    font-weight:bold;
+    font-size:24px;
+}
+#chartwerk #chatter {
+    margin-top:5px;
+    font-size:14px;
+    line-height:19px;
+}
+#chartwerk #footnote,
+#chartwerk #source,
+#chartwerk #author {
+    font-size:11px;
+    color:grey;
+
+}
+#chartwerk #author {
+    text-align:right;
+}
+#chartwerk #chart{
+    background-color:white;
+}
+#chartwerk .response{
+    margin-top:5px;
+}
+#chartwerk .response p{
+    font: 13px/16px 'Gotham A', 'Gotham B', arial, sans-serif;
+}
+#chartwerk #chart .bar{
+    height:24px;
+    display:inline-block;
+}
+#chartwerk #chart .bar .label{
+    width:100%;
+    text-align:right;
+}
+#chartwerk #chart .bar .name.label{
+    width:100%;
+    text-align:right;
+    padding:5px 5px 0 0;
+    margin-left:-100%;
+    position:absolute;
+    color:#666;
+}
+#chartwerk #chart .bar .value.label p{
+    padding-right:5px;
+    padding-top:4px;
+    font-weight:bold;
+    font-size:14px;
+    line-height:18px;
+    color:#fff;
+}
+#chartwerk #chart .bar .value.label p.offset{
+    text-align:left;
+    padding-left:3px;
+    color:#666;
+}
