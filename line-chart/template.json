@@ -38,8 +38,8 @@
                 "reverseColors": false
             },
             "range": [
-                "#E34E36",
-                "#329CEB"
+                "#8554BF",
+                "#52B033"
             ],
             "scheme": "categorical.default"
         },
@@ -2519,11 +2519,11 @@
             },
             "keys": [
                 {
-                    "color": "#E34E36",
+                    "color": "#8554BF",
                     "text": "CBM"
                 },
                 {
-                    "color": "#329CEB",
+                    "color": "#52B033",
                     "text": "GQS"
                 }
             ],
