@@ -1,0 +1,102 @@
+#chartwerk {
+    width:560px;
+}
+#chartwerk div, #chartwerk p{
+    font-family:'Gotham A', 'Gotham B', arial, sans-serif;
+}
+#chartwerk.single{
+    width:270px;
+    float:left;
+    overflow:hidden;
+    margin:10px 30px 10px 0;
+}
+#chartwerk #headline { 
+    font-weight:bold;
+    font-size:24px;
+}
+#chartwerk #chatter {
+    margin-top:5px;
+    font-size:14px;
+    line-height:19px;
+}
+#chartwerk #footnote,
+#chartwerk #source,
+#chartwerk #author {
+    font-size:11px;
+    color:grey;
+
+}
+#chartwerk #author {
+    text-align:right;
+}
+#chartwerk #chart{
+    background-color:white;
+}
+#chartwerk table{
+    margin:10px 0 20px;
+    overflow-x:visible;
+    text-align:left;
+    width:100%;
+}
+#chartwerk table th, #chartwerk table td{
+    padding:2px 10px 2px 5px;
+    
+}
+#chartwerk table th{
+    border-bottom:2px solid grey;
+    cursor:pointer;
+    vertical-align: bottom;
+}
+#chartwerk table th:hover{
+    background-color:lightgrey;
+}
+#chartwerk table tbody tr:first-child td{
+    padding-top:10px;
+}
+#chartwerk table tbody tr{
+    border-bottom:1px solid lightgrey;
+}
+#chartwerk table tr:hover{
+    background-color:#ccc !important;
+}
+#chartwerk #list{
+    margin:10px 0 20px;
+    max-height:300px;
+    overflow-y:scroll;
+}
+#chartwerk #list li{
+    border-bottom:1px solid lightgrey;
+    padding: 5px 0;
+}
+
+#chartwerk #list p{
+    text-align:left;
+    margin:1px 0;
+    line-height:12px;
+    padding:2px;
+    font-size:12px;
+}
+#chartwerk #list p span.list-hed{
+    font-size:10px;
+    color:grey;
+    display:inline-block;
+    width:25%;
+    word-wrap: normal;
+    line-height:12px;
+}
+::-webkit-scrollbar{
+  width: 6px;
+}
+
+::-webkit-scrollbar-track{
+  background: rgba(0, 0, 0, 0.1);
+  border-radius:5px;
+}
+
+::-webkit-scrollbar-thumb{
+  background: rgba(0, 0, 0, 0.4);
+  border-radius:5px;
+}
+.hidden{
+    display:none !important;
+}
