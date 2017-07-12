@@ -380,7 +380,7 @@
         "footnote": "",
         "headline": "State-craft",
         "legend": {
-            "active": false,
+            "active": true,
             "double": {
                 "align": "l",
                 "background": true,
@@ -394,11 +394,11 @@
             "keys": [
                 {
                     "color": "#329CEB",
-                    "text": ""
+                    "text": "Closed"
                 },
                 {
                     "color": "#52B033",
-                    "text": ""
+                    "text": "Open"
                 }
             ],
             "single": {
@@ -455,6 +455,6 @@
             }
         ],
         "rawData": "State\tStatus\tTooltip\nAL\tclosed\tThis state is closed\nAK\tclosed\tThis state is closed\nAZ\topen\tThis state is open\nAR\tclosed\tThis state is closed\nCA\tclosed\tThis state is closed\nCO\tclosed\tThis state is closed\nCT\tclosed\tThis state is closed\nDE\tclosed\tThis state is closed\nFL\tclosed\tThis state is closed\nGA\topen\tThis state is open\nHI\tclosed\tThis state is closed\nID\tclosed\tThis state is closed\nIL\tclosed\tThis state is closed\nIN\tclosed\tThis state is closed\nIA\tclosed\tThis state is closed\nKS\topen\tThis state is open\nKY\tclosed\tThis state is closed\nLA\tclosed\tThis state is closed\nME\tclosed\tThis state is closed\nMD\topen\tThis state is open\nMA\tclosed\tThis state is closed\nMI\tclosed\tThis state is closed\nMN\topen\tThis state is open\nMS\tclosed\tThis state is closed\nMO\tclosed\tThis state is closed\nMT\tclosed\tThis state is closed\nNE\topen\tThis state is open\nNV\tclosed\tThis state is closed\nNH\tclosed\tThis state is closed\nNJ\topen\tThis state is open\nNM\tclosed\tThis state is closed\nNY\tclosed\tThis state is closed\nNC\tclosed\tThis state is closed\nND\topen\tThis state is open\nOH\topen\tThis state is open\nOK\tclosed\tThis state is closed\nOR\topen\tThis state is open\nPA\topen\tThis state is open\nRI\tclosed\tThis state is closed\nSC\tclosed\tThis state is closed\nSD\tclosed\tThis state is closed\nTN\topen\tThis state is open\nTX\tclosed\tThis state is closed\nUT\tclosed\tThis state is closed\nVT\tclosed\tThis state is closed\nVA\tclosed\tThis state is closed\nWA\tclosed\tThis state is closed\nWV\tclosed\tThis state is closed\nWI\tclosed\tThis state is closed\nWY\tclosed\tThis state is closed\n",
-        "size": "double"
+        "size": "single"
     }
 }
