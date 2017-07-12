@@ -1,0 +1,62 @@
+#chartwerk {
+    font-family:'Gotham A', 'Gotham B', arial, sans-serif; 
+    width:600px;
+}
+#chartwerk #chart {
+    background: white;
+}
+#chartwerk.single{
+    width:290px;
+    float:left;
+    overflow:hidden;
+    margin:10px 30px 10px 0;
+}
+#chartwerk #headline { 
+    font-weight:bold;
+    font-size:24px;
+}
+#chartwerk #chatter {
+    margin-top:5px;
+}
+#chartwerk #footnote,
+#chartwerk #source,
+#chartwerk #author {
+    font-size:11px;
+    color:grey;
+
+}
+#chartwerk #author {
+    text-align:right;
+}
+
+#chartwerk #chart-legend 
+.chart-legend-container .key-label{
+    font:11px 'Gotham A', 'Gotham B', arial, sans-serif;
+}
+#chartwerk #chart path.line{
+    fill: none;
+    stroke-width: 2px;
+}
+#chartwerk #chart-legend{
+    margin-top:10px;
+}
+
+#chartwerk #chart path.state{
+    stroke-width:1px;
+    cursor:crosshair;
+}
+#chartwerk #chart{
+    position:relative;
+}
+#chartwerk #chart .tooltip{
+    font: 13px 'Gotham A', 'Gotham B', arial, sans-serif;
+    opacity:0;
+    pointer-events:none;
+    background:rgba(255,255,255,.75);
+    padding:5px;
+    width:auto;
+}
+#chartwerk #chart .tooltip .title{
+    font-weight: bold;
+    fill:grey;
+}
