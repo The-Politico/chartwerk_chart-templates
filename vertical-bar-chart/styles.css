@@ -1,0 +1,87 @@
+#chartwerk {
+    font-family: 'Gotham A', 'Gotham B', arial, sans-serif; 
+    width: 560px;
+}
+#chartwerk.single {
+    float: left;
+    margin: 10px 30px 10px 0;
+    overflow: hidden;
+    width: 270px;
+}
+#chartwerk #headline { 
+    font-size: 24px;
+    font-weight: bold;
+}
+#chartwerk #chatter {
+    font-size: 14px;
+    line-height: 19px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+#chartwerk #footnote,
+#chartwerk #source,
+#chartwerk #author {
+    color: grey;
+    font-size: 11px;
+}
+#chartwerk #author {
+    text-align: right;
+}
+#chartwerk #chart {
+    background-color: white;
+}
+#chartwerk #chart-legend .chart-legend-container .key-label {
+    font: 11px 'Gotham A', 'Gotham B', arial, sans-serif;
+}
+#chartwerk #chart-legend .chart-legend-container .key-color {
+    margin-right: 2px;
+}
+#chartwerk #chart-legend .chart-legend-container .key {
+    margin-right: 8px;
+}
+#chartwerk .annotation p {
+    font-family: 'Gotham A', 'Gotham B', arial, sans-serif;
+}
+#chartwerk #chart .tooltip {
+    background: rgba(255,255,255,.75);
+    font: 13px 'Gotham A', 'Gotham B', arial, sans-serif;
+    opacity: 0;
+    padding: 5px;
+    pointer-events: none;
+    width: auto;
+}
+#chartwerk #chart .tooltip .value {
+    font-weight: bold;
+}
+#chartwerk #chart path.line {
+    fill: none;
+    stroke-width: 2px;
+}
+.axis path,
+.axis line {
+  fill: none;
+  shape-rendering: crispEdges;
+  stroke: rgb(180,180,180);
+}
+.axis text {
+    fill: rgb(132,132,132);
+    font-family: 'Gotham A', 'Gotham B', 'Montserrat', arial, sans-serif;
+    font-size: 11px;
+}
+.y.axis line {
+    stroke-dasharray: 3px 3px;
+}
+.y.axis path {
+    display:none;
+}
+.y.axis .label {
+    font-family: 'Gotham A', 'Gotham B', 'Montserrat', arial, sans-serif;
+    font-weight: normal;
+}
+rect.shaded-area{
+    fill: #DDDDDD;
+}
+line.zero {
+    stroke: #000000;
+    stroke-width: 1px;
+}
