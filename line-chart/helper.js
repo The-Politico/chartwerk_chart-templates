@@ -94,15 +94,15 @@ var werkHelper = {
                 }); 
             });
         
-        if (chartwerk.axes.value.min && chartwerk.axes.value.max) {
+        if (chartwerk.axes.value.min !== null && chartwerk.axes.value.max !== null) {
             werk.scales.y.domain(
                 [chartwerk.axes.value.min, chartwerk.axes.value.max]
             );
-        } else if (chartwerk.axes.value.min) {
+        } else if (chartwerk.axes.value.min !== null) {
             werk.scales.y.domain(
                 [chartwerk.axes.value.min, yMax ]
             );
-        } else if (chartwerk.axes.value.max) {
+        } else if (chartwerk.axes.value.max !== null) {
             werk.scales.y.domain(
                 [yMin, chartwerk.axes.value.max]
             );
