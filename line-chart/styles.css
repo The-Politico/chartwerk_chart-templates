@@ -1,5 +1,6 @@
 #chartwerk {
-    font-family:'Gotham A', 'Gotham B', arial, sans-serif; 
+    font-family:'proxima-nova', arial, sans-serif;
+    font-weight: 200;
     width:560px;
 }
 #chartwerk.single{
@@ -13,7 +14,7 @@
     font-size:24px;
 }
 #chartwerk #chatter {
-    margin-top:5px;
+    margin-bottom:5px;
 }
 #chartwerk #footnote,
 #chartwerk #source,
@@ -30,7 +31,9 @@
 }
 #chartwerk #chart-legend 
 .chart-legend-container .key-label{
-    font:11px 'Gotham A', 'Gotham B', arial, sans-serif;
+    font-family:'proxima-nova', arial, sans-serif;
+    font-weight: 200;
+    font-size: 12px;
 }
 #chartwerk #chart-legend 
 .chart-legend-container .key-color{
@@ -41,10 +44,12 @@
     margin-right:8px;
 }
 #chartwerk .annotation p{
-    font-family:'Gotham A', 'Gotham B', arial, sans-serif;
+    font-family:'proxima-nova', arial, sans-serif;
+    font-weight: 200;
 }
 #chartwerk #chart .tooltip{
-    font: 13px 'Gotham A', 'Gotham B', arial, sans-serif;
+    font-family:'proxima-nova', arial, sans-serif;
+    font-weight: 200;
     opacity:0;
     pointer-events:none;
     background:rgba(255,255,255,.75);
@@ -67,7 +72,8 @@
   shape-rendering: crispEdges;
 }
 .axis text{
-    font-family: 'Gotham A', 'Gotham B', 'Montserrat', arial, sans-serif;
+    font-family:'proxima-nova', arial, sans-serif;
+    font-weight: 200;
     fill: rgb(132,132,132);
     font-size:11px;
 }
@@ -78,8 +84,8 @@
     display:none;
 }
 .y.axis .label{
-    font-family: 'Gotham A', 'Gotham B', 'Montserrat', arial, sans-serif;
-    font-weight:normal;
+    font-family:'proxima-nova', arial, sans-serif;
+    font-weight: 200;
 }
 line.dotted-line{
     stroke:rgb(33,33,33);
