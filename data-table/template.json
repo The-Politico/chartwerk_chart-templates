@@ -186,10 +186,7 @@
                 "https://cdnjs.cloudflare.com/ajax/libs/d3/4.2.3/d3.min.js",
                 "https://cdnjs.cloudflare.com/ajax/libs/list.js/1.2.0/list.min.js"
             ],
-            "styles": [
-                "https://cloud.typography.com/6922714/7642152/css/fonts.css",
-                "https://interactives.dallasnews.com/common/fonts/gotham.css"
-            ]
+            "styles": []
         },
         "draw": "function draw(){\n\n    var keys = chartwerk.datamap.sort;\n    \n    var table = d3.select(\"#chart\")\n        .append(\"div\")\n        .attr(\"id\",\"table\")\n        .append(\"table\");\n    \n    var thead = table.append(\"thead\");\n    \n    keys.forEach(function(k){\n        thead.append(\"th\")\n            .attr(\"class\", \"sort\")\n            .attr(\"data-sort\", k)\n            .text(k);\n    });\n    \n    var tbody = table.append(\"tbody\")\n            .attr(\"class\", \"list\");\n    \n    chartwerk.data.forEach(function(d){\n        var tr = tbody.append(\"tr\");\n        keys.forEach(function(k){\n            tr.append(\"td\")\n                .attr(\"class\", \"td \"+ k)\n                .text(d[k]);\n        });\n    });\n    \n    var tableOptions = {\n      valueNames: keys\n    };\n\n    var tableList = new List('table', tableOptions);\n    \n    // List\n    \n    var list = d3.select(\"#chart\")\n        .append(\"div\")\n        .attr(\"id\",\"list\")\n        .attr(\"class\",\"hidden\");\n    \n    list.append(\"ul\")\n        .attr(\"class\", \"list\");\n    \n    paras = keys.map(function(k){\n        return '<p><span class=\"list-hed\">'+k+'</span> <span class=\"'+k+'\"></span></p>';\n    }).join('');\n    \n    var listOptions = {\n      valueNames: keys,\n      item: '<li>'+paras+'</li>'\n    };\n    \n    var listList = new List('list', listOptions, chartwerk.data);\n    \n    function switchStyle(){\n        if($(\"#chart\").width() < $(\"#table\")[0].scrollWidth){\n            $(\"#table\").addClass(\"hidden\");\n            $(\"#list\").removeClass(\"hidden\");\n        }\n    }\n    setTimeout(function(){\n        switchStyle();\n    }, 100);\n    \n\n}",
         "helper": "var werkHelper = {};",
