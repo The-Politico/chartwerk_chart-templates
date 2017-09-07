@@ -2,7 +2,8 @@
     width:560px;
 }
 #chartwerk div, #chartwerk p{
-    font-family:'Gotham A', 'Gotham B', arial, sans-serif;
+    font-family:'proxima-nova', arial, sans-serif;
+    font-weight: 200;
 }
 #chartwerk.single{
     width:270px;
