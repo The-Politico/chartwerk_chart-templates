@@ -2,7 +2,8 @@
     width:560px;
 }
 #chartwerk div{
-    font-family:'Gotham A', 'Gotham B', arial, sans-serif; 
+    font-family:'proxima-nova', arial, sans-serif;
+    font-weight: 200;
 }
 #chartwerk.single{
     width:270px;
@@ -36,7 +37,8 @@
     margin-top:10px;
 }
 #chartwerk .response p{
-    font: 13px/16px 'Gotham A', 'Gotham B', arial, sans-serif;
+    font: 13px/16px 'proxima-nova', arial, sans-serif;
+    font-weight: 200;
 }
 #chartwerk #chart .bar{
     height:24px;
