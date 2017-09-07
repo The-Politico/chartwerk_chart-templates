@@ -1,5 +1,6 @@
 #chartwerk {
-    font-family: 'Gotham A', 'Gotham B', arial, sans-serif; 
+    font-family:'proxima-nova', arial, sans-serif;
+    font-weight: 200;
     width: 560px;
 }
 #chartwerk.single {
@@ -31,7 +32,8 @@
     background-color: white;
 }
 #chartwerk #chart-legend .chart-legend-container .key-label {
-    font: 11px 'Gotham A', 'Gotham B', arial, sans-serif;
+    font: 11px 'proxima-nova', arial, sans-serif;
+    font-weight: 200;
 }
 #chartwerk #chart-legend .chart-legend-container .key-color {
     margin-right: 2px;
@@ -40,11 +42,13 @@
     margin-right: 8px;
 }
 #chartwerk .annotation p {
-    font-family: 'Gotham A', 'Gotham B', arial, sans-serif;
+    font-family:'proxima-nova', arial, sans-serif;
+    font-weight: 200;
 }
 #chartwerk #chart .tooltip {
     background: rgba(255,255,255,.75);
-    font: 13px 'Gotham A', 'Gotham B', arial, sans-serif;
+    font: 13px 'proxima-nova', arial, sans-serif;
+    font-weight: 200;
     opacity: 0;
     padding: 5px;
     pointer-events: none;
@@ -65,7 +69,8 @@
 }
 .axis text {
     fill: rgb(132,132,132);
-    font-family: 'Gotham A', 'Gotham B', 'Montserrat', arial, sans-serif;
+    font-family:'proxima-nova', arial, sans-serif;
+    font-weight: 200;
     font-size: 11px;
 }
 .y.axis line {
@@ -75,8 +80,8 @@
     display:none;
 }
 .y.axis .label {
-    font-family: 'Gotham A', 'Gotham B', 'Montserrat', arial, sans-serif;
-    font-weight: normal;
+    font-family:'proxima-nova', arial, sans-serif;
+    font-weight: 200;
 }
 rect.shaded-area{
     fill: #DDDDDD;
