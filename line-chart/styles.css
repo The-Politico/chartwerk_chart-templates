@@ -20,7 +20,7 @@
 #chartwerk #source,
 #chartwerk #author {
     font-size:11px;
-    color:grey;
+    color:#000;
 
 }
 #chartwerk #author {
@@ -74,7 +74,7 @@
 .axis text{
     font-family:'proxima-nova', arial, sans-serif;
     font-weight: 200;
-    fill: rgb(132,132,132);
+    fill: #000;
     font-size:11px;
 }
 .y.axis line{
