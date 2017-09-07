@@ -1,5 +1,6 @@
 #chartwerk {
-    font-family:'Gotham A', 'Gotham B', arial, sans-serif; 
+    font-family:'proxima-nova', arial, sans-serif;
+    font-weight: 200;
     width:600px;
 }
 #chartwerk #chart {
@@ -31,7 +32,8 @@
 
 #chartwerk #chart-legend 
 .chart-legend-container .key-label{
-    font:11px 'Gotham A', 'Gotham B', arial, sans-serif;
+    font: 11px 'proxima-nova', arial, sans-serif;
+    font-weight: 200;
 }
 #chartwerk #chart path.line{
     fill: none;
@@ -49,7 +51,8 @@
     position:relative;
 }
 #chartwerk #chart .tooltip{
-    font: 13px 'Gotham A', 'Gotham B', arial, sans-serif;
+    font: 13px 'proxima-nova', arial, sans-serif;
+    font-weight: 200;
     opacity:0;
     pointer-events:none;
     background:rgba(255,255,255,.75);
