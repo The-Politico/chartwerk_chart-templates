@@ -1,5 +1,5 @@
-body, #preview-pane{
-    background: #f7f8f8 url(http://static.politico.com/resource/images/website/shared/template/bg-noise.24d18bcf9d414e030c36ffd7f30648e8.jpg) repeat left top;
+#preview-pane{
+    background-color: #f7f8f8;
 }
 #chartwerk {
     font-family:'proxima-nova', arial, sans-serif;
@@ -82,7 +82,7 @@ body, #preview-pane{
     font-size:11px;
 }
 .y.axis line{
-    stroke-dasharray: 3px 3px;
+    stroke: #ddd;
 }
 .y.axis path{
     display:none;
@@ -94,7 +94,6 @@ body, #preview-pane{
 line.dotted-line{
     stroke:rgb(33,33,33);
     stroke-width:1px;
-    stroke-dasharray: 7px 5px;
 }
 line.solid-line{
     stroke:rgb(33,33,33);
