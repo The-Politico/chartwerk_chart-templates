@@ -2,7 +2,7 @@
     background-color: #f7f8f8;
 }
 #chartwerk {
-    font-family: 'franklin-gothic-urw-cond', 'proxima-nova', arial, sans-serif;
+    font-family: 'proxima-nova', arial, sans-serif;
     font-weight: 200;
     padding: 10px 0;
     width:560px;
@@ -27,7 +27,7 @@
 #chartwerk #source,
 #chartwerk #author {
     font-size:11px;
-    color:#000;
+    color:#666;
 
 }
 #chartwerk #author {
@@ -55,7 +55,7 @@
     font-weight: 200;
 }
 #chartwerk #chart .tooltip{
-    font-family: inherit;
+    font-family: 'franklin-gothic-urw', arial, sans-serif;
     font-weight: 200;
     opacity:0;
     pointer-events:none;
@@ -79,9 +79,9 @@
   shape-rendering: crispEdges;
 }
 .axis text{
-    font-family:'proxima-nova', arial, sans-serif;
+    font-family:'franklin-gothic-urw', arial, sans-serif;
     font-weight: 200;
-    fill: #000;
+    fill: #666;
     font-size:14px;
 }
 .y.axis line{
@@ -91,8 +91,9 @@
     display:none;
 }
 .y.axis .label{
-    font-family:'proxima-nova', arial, sans-serif;
+    font-family:'franklin-gothic-urw', arial, sans-serif;
     font-weight: 200;
+    font-style: italic;
 }
 line.dotted-line{
     stroke:rgb(33,33,33);
