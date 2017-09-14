@@ -85,9 +85,6 @@
 
 #chartwerk.single #chatter {
     margin: 8px 0px 10px;
-}
-
-#chartwerk.single #chatter {
     font-size: 16px;
 }
 
@@ -110,6 +107,10 @@
     margin-left: 3px;
     margin-right: 6px;
 }
+#chartwerk.single #chart-legend 
+.chart-legend-container .key-label{
+    font-size: 13px;
+}
 #chartwerk #chart-legend 
 .chart-legend-container .key-color{
     margin-right:2px;
@@ -125,6 +126,10 @@
 #chartwerk #chart-legend 
 .chart-legend-container{
     margin-bottom: 2px;
+}
+#chartwerk.single #chart-legend 
+.chart-legend-container{
+    float: left;
 }
 #chartwerk .annotation p{
     font-family: inherit;
@@ -174,6 +179,14 @@
     font-family:'franklin-gothic-urw', arial, sans-serif;
     font-weight: 200;
     // font-style: italic;
+}
+
+#chartwerk.single #chart .y.axis text{
+    font-size: 13px;
+}
+
+#chartwerk.single #chart .x.axis text{
+    font-size: 13px;
 }
 line.dotted-line{
     stroke:rgb(33,33,33);
