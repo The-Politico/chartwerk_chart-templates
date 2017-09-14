@@ -12,6 +12,10 @@
     line-height: 1.1em;
 }
 
+#chartwerk.single #chart-header #headline{
+    line-height: 1em;
+}
+
 #chartwerk .annotation .inner p{
     font-size: 14px;
     line-height: 1.2em;
@@ -63,15 +67,30 @@
     overflow:hidden;
     margin:10px 30px 10px 0;
 }
+
 #chartwerk #headline { 
     font-weight:bold;
     font-size:28px;
     // line-height: 30px;
 }
+
+#chartwerk.single #headline { 
+    font-size:26px;
+}
+
 #chartwerk #chatter {
     margin: 6px 0px 10px;
     font-size: 18px;
 }
+
+#chartwerk.single #chatter {
+    margin: 8px 0px 10px;
+}
+
+#chartwerk.single #chatter {
+    font-size: 16px;
+}
+
 #chartwerk #footnote,
 #chartwerk #source,
 #chartwerk #author {
