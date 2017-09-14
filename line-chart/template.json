@@ -2462,7 +2462,16 @@
         "value": null
     },
     "embed": {
-        "dimensions": {}
+        "dimensions": {
+            "double": {
+                "height": 392,
+                "width": 560
+            },
+            "single": {
+                "height": 444,
+                "width": 270
+            }
+        }
     },
     "margins": {
         "double": {
@@ -2475,7 +2484,7 @@
             "bottom": 0.10999999999999999,
             "left": 0.11,
             "right": 0.020000000000000018,
-            "top": 0.05
+            "top": 0
         }
     },
     "scripts": {
