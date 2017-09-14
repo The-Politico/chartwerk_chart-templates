@@ -35,12 +35,12 @@ function draw(){
     
     bar.append("div")
         .attr("class","name label")
-      .append("p")
+      .append("span")
         .text(function(d){ return d.name;});
         
     bar.append("div")
         .attr("class","value label")
-      .append("p")
+      .append("span")
         .attr("class", function(d){
             return werk.scales.x(d.value) < 75 ?
                 'offset' : '';
