@@ -3,6 +3,14 @@
     font-weight: 600;
 }
 
+#chartwerk #chart-header{
+    line-height: 1.5em;
+}
+
+#chartwerk #chart-header #headline{
+    line-height: 1.1em;
+}
+
 #chartwerk .annotation .inner p{
     font-size: 14px;
     line-height: 1.2em;
@@ -28,7 +36,7 @@
 #chartwerk #headline { 
     font-weight:bold;
     font-size:28px;
-    line-height: 30px;
+    // line-height: 30px;
 }
 #chartwerk #chatter {
     margin:5px 0 10px;
@@ -65,6 +73,11 @@
 #chartwerk #chart-legend 
 .chart-legend-container .key{
     margin-right: 8px;
+}
+
+#chartwerk #chart-legend 
+.chart-legend-container{
+    margin-bottom: 2px;
 }
 #chartwerk .annotation p{
     font-family: inherit;
