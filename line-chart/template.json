@@ -2469,7 +2469,7 @@
             "bottom": 0.07999999999999996,
             "left": 0.06,
             "right": 0.020000000000000018,
-            "top": 0.05
+            "top": 0
         },
         "single": {
             "bottom": 0.10999999999999999,
@@ -2507,7 +2507,7 @@
                 "text": "Annotation goes here, **brief description of event**",
                 "w": 118,
                 "x": 225,
-                "y": 33
+                "y": 24
             }
         ],
         "author": "John Doe / POLITICO",
