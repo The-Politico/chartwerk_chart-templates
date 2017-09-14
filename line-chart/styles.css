@@ -42,6 +42,7 @@
     font-weight: 200;
     font-size: 14px;
     margin-left: 3px;
+    margin-right: 6px;
 }
 #chartwerk #chart-legend 
 .chart-legend-container .key-color{
@@ -52,11 +53,15 @@
 }
 #chartwerk #chart-legend 
 .chart-legend-container .key{
-    margin-right:8px;
+    margin-right: 8px;
 }
 #chartwerk .annotation p{
     font-family: inherit;
     font-weight: 200;
+}
+
+#chart-legend .chart-legend-container, #chart .chart-legend-container{
+    padding: 0;
 }
 #chartwerk #chart .tooltip{
     font-family: 'franklin-gothic-urw', arial, sans-serif;
