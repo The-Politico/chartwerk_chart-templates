@@ -18,17 +18,28 @@
     font-family:'franklin-gothic-urw', arial, sans-serif;
 }
 
-#chartwerk #chart-footer #source{
+.double #chart-footer #source{
     font-weight: 400;
     font-size: 12px;
     display: inline-block;
 }
 
-#chartwerk #chart-footer #author{
+.double #chart-footer #author{
     font-weight: 400;
     font-size: 12px;
     display: inline-block;
     float: right;
+}
+
+.single #chart-footer #source{
+    font-weight: 400;
+    font-size: 12px;
+}
+
+.single #chart-footer #author{
+    font-weight: 400;
+    font-size: 12px;
+    float: left;
 }
 
 #chartwerk #chart-footer{
@@ -58,7 +69,7 @@
     // line-height: 30px;
 }
 #chartwerk #chatter {
-    margin:5px 0 10px;
+    margin: 6px 0px 10px;
     font-size: 18px;
 }
 #chartwerk #footnote,
@@ -68,9 +79,7 @@
     color:#666;
 
 }
-#chartwerk #author {
-    text-align:right;
-}
+
 #chart-legend .chart-legend-container.bg, #chart .chart-legend-container.bg{
     background: #f7f8f8 url(http://static.politico.com/resource/images/website/shared/template/bg-noise.24d18bcf9d414e030c36ffd7f30648e8.jpg) repeat left top;
 }
