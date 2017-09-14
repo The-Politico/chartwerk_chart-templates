@@ -42,7 +42,6 @@
 }
 #chartwerk #chart .bar{
     height:24px;
-    display:inline-block;
 }
 #chartwerk #chart .bar .label{
     width:100%;
@@ -68,4 +67,8 @@
     text-align:left;
     padding-left:3px;
     color:#666;
+}
+
+#chartwerk #chart .bar p{
+    margin: 0;
 }
