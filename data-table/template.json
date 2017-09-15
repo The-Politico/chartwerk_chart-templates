@@ -62,92 +62,49 @@
     },
     "data": [
         {
-            "Another": 234,
-            "City": "Asheville",
-            "Country": "US",
-            "More": 14,
-            "Numbers": 12
+            "Head of Household": "$0 - 13,250",
+            "Married Filing Jointly": "$0 - 18,550",
+            "Single": "$0 - 9,275",
+            "Tax Bracket": "10%"
         },
         {
-            "Another": 334,
-            "City": "Boston",
-            "Country": "US",
-            "More": 11.12,
-            "Numbers": 11
+            "Head of Household": "$13,250 - 50,400",
+            "Married Filing Jointly": "$18,550 - 75,300",
+            "Single": "$9,275 - 37,650",
+            "Tax Bracket": "15%"
         },
         {
-            "Another": 124,
-            "City": "Belfast",
-            "Country": "UK",
-            "More": 7,
-            "Numbers": 9
+            "Head of Household": "$50,400 - 130,150",
+            "Married Filing Jointly": "$75,300 - 151,900",
+            "Single": "$37,650 - 91,150",
+            "Tax Bracket": "25%"
         },
         {
-            "Another": 151,
-            "City": "Los Angeles",
-            "Country": "US",
-            "More": 3.45,
-            "Numbers": 7
+            "Head of Household": "$130,150 - 210,800",
+            "Married Filing Jointly": "$151,900 - 231,450",
+            "Single": "$91,150 - 190,150",
+            "Tax Bracket": "28%"
         },
         {
-            "Another": 323,
-            "City": "New York",
-            "Country": "US",
-            "More": 6.77,
-            "Numbers": 7
+            "Head of Household": "$210,800 - 413,350",
+            "Married Filing Jointly": "$231,450 - 413,350",
+            "Single": "$190,150 - 413,350",
+            "Tax Bracket": "33%"
         },
         {
-            "Another": 272,
-            "City": "Dallas",
-            "Country": "US",
-            "More": 4,
-            "Numbers": 6
+            "Head of Household": "$413,350 - 441,000",
+            "Married Filing Jointly": "$413,350 - 466,950",
+            "Single": "$413,350 - 415,050",
+            "Tax Bracket": "35%"
         },
         {
-            "Another": 234,
-            "City": "Denver",
-            "Country": "US",
-            "More": 8,
-            "Numbers": 2
-        },
-        {
-            "Another": 334,
-            "City": "London",
-            "Country": "UK",
-            "More": 10.22,
-            "Numbers": -3
-        },
-        {
-            "Another": 124,
-            "City": "Kansas City",
-            "Country": "US",
-            "More": 16.66,
-            "Numbers": -4
-        },
-        {
-            "Another": 123,
-            "City": "Berlin",
-            "Country": "DE",
-            "More": 13,
-            "Numbers": -7
-        },
-        {
-            "Another": 412,
-            "City": "Lisbon",
-            "Country": "PT",
-            "More": 41.11,
-            "Numbers": -10
-        },
-        {
-            "Another": 311,
-            "City": "Helsinki",
-            "Country": "FI",
-            "More": 14.3,
-            "Numbers": -12
+            "Head of Household": "$441,000+",
+            "Married Filing Jointly": "$466,950+",
+            "Single": "$415,050+",
+            "Tax Bracket": "40%"
         }
     ],
     "datamap": {
-        "annotations": [],
         "base": null,
         "custom": {},
         "facet": null,
@@ -155,11 +112,10 @@
         "scale": null,
         "series": [],
         "sort": [
-            "City",
-            "Country",
-            "Numbers",
-            "More",
-            "Another"
+            "Tax Bracket",
+            "Single",
+            "Head of Household",
+            "Married Filing Jointly"
         ],
         "value": null
     },
@@ -191,7 +147,7 @@
         "draw": "function draw(){\n\n    var keys = chartwerk.datamap.sort;\n    \n    var table = d3.select(\"#chart\")\n        .append(\"div\")\n        .attr(\"id\",\"table\")\n        .append(\"table\");\n    \n    var thead = table.append(\"thead\");\n    \n    keys.forEach(function(k){\n        thead.append(\"th\")\n            .attr(\"class\", \"sort\")\n            .attr(\"data-sort\", k)\n            .text(k);\n    });\n    \n    var tbody = table.append(\"tbody\")\n            .attr(\"class\", \"list\");\n    \n    chartwerk.data.forEach(function(d){\n        var tr = tbody.append(\"tr\");\n        keys.forEach(function(k){\n            tr.append(\"td\")\n                .attr(\"class\", \"td \"+ k)\n                .text(d[k]);\n        });\n    });\n    \n    var tableOptions = {\n      valueNames: keys\n    };\n\n    var tableList = new List('table', tableOptions);\n    \n    // List\n    \n    var list = d3.select(\"#chart\")\n        .append(\"div\")\n        .attr(\"id\",\"list\")\n        .attr(\"class\",\"hidden\");\n    \n    list.append(\"ul\")\n        .attr(\"class\", \"list\");\n    \n    paras = keys.map(function(k){\n        return '<p><span class=\"list-hed\">'+k+'</span> <span class=\"'+k+'\"></span></p>';\n    }).join('');\n    \n    var listOptions = {\n      valueNames: keys,\n      item: '<li>'+paras+'</li>'\n    };\n    \n    var listList = new List('list', listOptions, chartwerk.data);\n    \n    function switchStyle(){\n        if($(\"#chart\").width() < $(\"#table\")[0].scrollWidth){\n            $(\"#table\").addClass(\"hidden\");\n            $(\"#list\").removeClass(\"hidden\");\n        }\n    }\n    setTimeout(function(){\n        switchStyle();\n    }, 100);\n    \n\n}",
         "helper": "var werkHelper = {};",
         "html": "<div id='chart-header'>\n\t<h2 id='headline'></h2>\n\t<div id='chatter'></div> \n</div> \n<div id='chart-ui'>\n\t<!--You can put any necessary buttons, etc., here.-->\n</div>\n<div id='chart-legend'></div>\n<div id='chart'></div> \n<div id='chart-footer'> \n\t<div id='footnote'></div> \n\t<div id='source'></div> \n\t<div id='author'></div> \n</div>",
-        "styles": "#chartwerk {\n    background: inherit;\n}\n#chartwerk table{\n    margin:10px 0 20px;\n    overflow-x:visible;\n    text-align:left;\n    width:100%;\n    font-family: 'franklin-gothic-urw', arial, sans-serif;\n}\n#chartwerk table th, #chartwerk table td{\n    padding:2px 10px 2px 5px;\n    \n}\n#chartwerk table th{\n    border-bottom:2px solid grey;\n    cursor:pointer;\n    vertical-align: bottom;\n    position: relative;\n}\n#chartwerk table th:hover{\n    background-color:#eee;\n}\n#chartwerk table th.asc, #chartwerk table th.desc {\n    background-color: #eee;\n}\n#chartwerk table th.asc:after, #chartwerk table th.desc:after, #chartwerk table th:hover:after {\n    position: absolute;\n    right: 5px;\n    top: 2px;\n    font-size: 14px;\n    color: #999;\n}\n#chartwerk table th.asc:after, #chartwerk table th:hover:after {\n    content: \"\\25b2\";\n}\n#chartwerk table th.desc:after {\n    content: \"\\25bc\";\n}\n#chartwerk table tbody tr:first-child td{\n    padding-top:10px;\n}\n#chartwerk table tbody tr{\n    border-bottom:1px solid #ccc;\n}\n#chartwerk table tbody tr:last-child {\n    border-bottom: none;\n}\n#chartwerk table tr:hover{\n    background-color:#eee !important;\n}\n#chartwerk #list{\n    margin:10px 0 20px;\n    max-height:300px;\n    overflow-y:scroll;\n}\n#chartwerk #list li{\n    border-bottom:1px solid #ccc;\n    padding: 5px 0;\n}\n\n#chartwerk #list p{\n    text-align:left;\n    margin:1px 0;\n    line-height:12px;\n    padding:2px;\n    font-size:12px;\n}\n#chartwerk #list p span.list-hed{\n    font-size:10px;\n    color:grey;\n    display:inline-block;\n    width:25%;\n    word-wrap: normal;\n    line-height:12px;\n}\n::-webkit-scrollbar{\n  width: 6px;\n}\n\n::-webkit-scrollbar-track{\n  background: rgba(0, 0, 0, 0.1);\n  border-radius:5px;\n}\n\n::-webkit-scrollbar-thumb{\n  background: rgba(0, 0, 0, 0.4);\n  border-radius:5px;\n}\n.hidden{\n    display:none !important;\n}\n\n\n/****************/\n/*shared chart spec styles*/\n/****************/\n\n#chartwerk {\n    font-family: 'proxima-nova', arial, sans-serif;\n    font-weight: 200;\n    padding: 20px 0;\n    width:560px;\n    background: #f7f8f8 url(http://static.politico.com/resource/images/website/shared/template/bg-noise.24d18bcf9d414e030c36ffd7f30648e8.jpg) repeat left top;\n}\n\n\n#chartwerk.single{\n    width:270px;\n    float:left;\n    overflow:hidden;\n    margin:10px 30px 10px 0;\n}\n\n/****************/\n/*shared head dek styles*/\n/****************/\n\n\n#chartwerk strong{\n    font-weight: 600;\n}\n\n#chartwerk #chart-header{\n    line-height: 1.45em;\n    font-weight: 400;\n}\n\n#chartwerk #chart-header #headline{\n    line-height: 1.1em;\n}\n\n#chartwerk.single #chart-header #headline{\n    line-height: 1em;\n}\n\n#preview-pane{\n    background-color: #f7f8f8;\n}\n\n#chartwerk #headline { \n    font-weight:bold;\n    font-size:25px;\n    line-height: 1.05em;\n}\n\n#chartwerk.single #headline { \n    font-size:22px;\n}\n\n#chartwerk #chatter {\n    margin: 6px 0px 12px;\n    font-size: 17px;\n}\n\n#chartwerk.single #chatter {\n    margin: 8px 0px 10px;\n    font-size: 14px;\n    line-height: 1.2em;\n}\n\n\n\n/****************/\n/*shared source byline styles*/\n/****************/\n\n.double #chart-footer #author{\n    float: right;\n}\n\n.single #chart-footer #source{\n    font-weight: 400;\n    font-size: 10px;\n}\n\n.single #chart-footer #author{\n    font-weight: 400;\n    font-size: 10px;\n    float: left;\n}\n\n\n#chartwerk #footnote,\n#chartwerk #source,\n#chartwerk #author {\n    font-size:12px;\n    font-weight: 400\n    color:#666;\n    display: inline-block;\n}\n\n#chartwerk.single #footnote,\n#chartwerk.single #source,\n#chartwerk.single #author {\n    display: block;\n}\n\n#chartwerk #chart-footer {\n    margin-top: 12px;\n}"
+        "styles": "#chartwerk {\n    background: inherit;\n}\n#chartwerk table{\n    margin:10px 0 20px;\n    overflow-x:visible;\n    text-align:left;\n    width:100%;\n    font-family: 'franklin-gothic-urw', arial, sans-serif;\n}\n#chartwerk table th, #chartwerk table td{\n    padding:6px 10px 6px 5px;\n    \n}\n#chartwerk table th{\n    border-bottom:2px solid grey;\n    cursor:pointer;\n    vertical-align: bottom;\n    position: relative;\n}\n#chartwerk table th:hover{\n    background-color:#eee;\n}\n#chartwerk table th.asc, #chartwerk table th.desc {\n    background-color: #eee;\n}\n#chartwerk table th.asc:after, #chartwerk table th.desc:after, #chartwerk table th:hover:after {\n    position: absolute;\n    right: 5px;\n    top: 2px;\n    font-size: 14px;\n    color: #999;\n}\n#chartwerk table th.asc:after, #chartwerk table th:hover:after {\n    content: \"\\25b2\";\n}\n#chartwerk table th.desc:after {\n    content: \"\\25bc\";\n}\n#chartwerk table tbody tr:first-child td{\n    padding-top:10px;\n}\n#chartwerk table tbody tr td{\n    border-bottom:1px solid #ccc;\n}\n#chartwerk table tbody tr:last-child {\n    border-bottom: none;\n}\n#chartwerk table tr:hover{\n    background-color:#eee !important;\n}\n#chartwerk #list{\n    margin:10px 0 20px;\n    max-height:300px;\n    overflow-y:scroll;\n}\n#chartwerk #list li{\n    border-bottom:1px solid #ccc;\n    padding: 5px 0;\n}\n\n#chartwerk #list p{\n    text-align:left;\n    margin:1px 0;\n    line-height:12px;\n    padding:2px;\n    font-size:12px;\n}\n#chartwerk #list p span.list-hed{\n    font-size:10px;\n    color:grey;\n    display:inline-block;\n    width:25%;\n    word-wrap: normal;\n    line-height:12px;\n}\n::-webkit-scrollbar{\n  width: 6px;\n}\n\n::-webkit-scrollbar-track{\n  background: rgba(0, 0, 0, 0.1);\n  border-radius:5px;\n}\n\n::-webkit-scrollbar-thumb{\n  background: rgba(0, 0, 0, 0.4);\n  border-radius:5px;\n}\n.hidden{\n    display:none !important;\n}\n\n\n/****************/\n/*shared chart spec styles*/\n/****************/\n\n#chartwerk {\n    font-family: 'proxima-nova', arial, sans-serif;\n    font-weight: 200;\n    padding: 20px 0;\n    width:560px;\n    background: #f7f8f8 url(http://static.politico.com/resource/images/website/shared/template/bg-noise.24d18bcf9d414e030c36ffd7f30648e8.jpg) repeat left top;\n}\n\n\n#chartwerk.single{\n    width:270px;\n    float:left;\n    overflow:hidden;\n    margin:10px 30px 10px 0;\n}\n\n/****************/\n/*shared head dek styles*/\n/****************/\n\n\n#chartwerk strong{\n    font-weight: 600;\n}\n\n#chartwerk #chart-header{\n    line-height: 1.45em;\n    font-weight: 400;\n}\n\n#chartwerk #chart-header #headline{\n    line-height: 1.1em;\n}\n\n#chartwerk.single #chart-header #headline{\n    line-height: 1em;\n}\n\n#preview-pane{\n    background-color: #f7f8f8;\n}\n\n#chartwerk #headline { \n    font-weight:bold;\n    font-size:25px;\n    line-height: 1.05em;\n}\n\n#chartwerk.single #headline { \n    font-size:22px;\n}\n\n#chartwerk #chatter {\n    margin: 6px 0px 12px;\n    font-size: 17px;\n}\n\n#chartwerk.single #chatter {\n    margin: 8px 0px 10px;\n    font-size: 14px;\n    line-height: 1.2em;\n}\n\n\n\n/****************/\n/*shared source byline styles*/\n/****************/\n\n.double #chart-footer #author{\n    float: right;\n}\n\n.single #chart-footer #source{\n    font-weight: 400;\n    font-size: 10px;\n}\n\n.single #chart-footer #author{\n    font-weight: 400;\n    font-size: 10px;\n    float: left;\n}\n\n\n#chartwerk #footnote,\n#chartwerk #source,\n#chartwerk #author {\n    font-size:12px;\n    font-weight: 400\n    color:#666;\n    display: inline-block;\n}\n\n#chartwerk.single #footnote,\n#chartwerk.single #source,\n#chartwerk.single #author {\n    display: block;\n}\n\n#chartwerk #chart-footer {\n    margin-top: 12px;\n}"
     },
     "template": {
         "description": "Use this template to create a basic table.\n\nJust paste your table in; none of the usual chart configuration is required for this template.",
@@ -266,7 +222,7 @@
                 "class": "ignore"
             }
         ],
-        "rawData": "City\tCountry\tNumbers\tMore\tAnother\nAsheville\tUS\t12\t14\t234\nBoston\tUS\t11\t11.12\t334\nBelfast\tUK\t9\t7\t124\nLos Angeles\tUS\t7\t3.45\t151\nNew York\tUS\t7\t6.77\t323\nDallas\tUS\t6\t4\t272\nDenver\tUS\t2\t8\t234\nLondon\tUK\t-3\t10.22\t334\nKansas City\tUS\t-4\t16.66\t124\nBerlin\tDE\t-7\t13\t123\nLisbon\tPT\t-10\t41.11\t412\nHelsinki\tFI\t-12\t14.3\t311\n",
+        "rawData": "Tax Bracket\tSingle\tHead of Household\tMarried Filing Jointly\n10%\t$0 - 9,275\t$0 - 13,250\t$0 - 18,550\n15%\t$9,275 - 37,650\t$13,250 - 50,400\t$18,550 - 75,300\n25%\t$37,650 - 91,150\t$50,400 - 130,150\t$75,300 - 151,900\n28%\t$91,150 - 190,150\t$130,150 - 210,800\t$151,900 - 231,450\n33%\t$190,150 - 413,350\t$210,800 - 413,350\t$231,450 - 413,350\n35%\t$413,350 - 415,050\t$413,350 - 441,000\t$413,350 - 466,950\n40%\t$415,050+\t$441,000+\t$466,950+",
         "size": "double"
     }
 }
