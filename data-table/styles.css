@@ -74,6 +74,9 @@
 #chartwerk table tbody tr{
     border-bottom:1px solid #ccc;
 }
+#chartwerk table tbody tr:last-child {
+    border-bottom: none;
+}
 #chartwerk table tr:hover{
     background-color:#ccc !important;
 }
