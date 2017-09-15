@@ -45,18 +45,18 @@
 
 .single #chart-footer #source{
     font-weight: 400;
-    font-size: 12px;
+    font-size: 10px;
 }
 
 .single #chart-footer #author{
     font-weight: 400;
-    font-size: 12px;
+    font-size: 10px;
     float: left;
 }
 
 #chartwerk #chart-footer{
     width: 100%;
-    margin-top: 6px;
+    margin-top: 12px;
 }
 
 #preview-pane{
@@ -65,7 +65,7 @@
 #chartwerk {
     font-family: 'proxima-nova', arial, sans-serif;
     font-weight: 200;
-    padding: 10px 0;
+    padding: 20px 0;
     width:560px;
     background: #f7f8f8 url(http://static.politico.com/resource/images/website/shared/template/bg-noise.24d18bcf9d414e030c36ffd7f30648e8.jpg) repeat left top;
 }
@@ -78,8 +78,8 @@
 
 #chartwerk #headline { 
     font-weight:bold;
-    font-size:28px;
-    // line-height: 30px;
+    font-size:25px;
+    line-height: 1.05em;
 }
 
 #chartwerk.single #headline { 
@@ -87,8 +87,8 @@
 }
 
 #chartwerk #chatter {
-    margin: 6px 0px 10px;
-    font-size: 18px;
+    margin: 6px 0px 12px;
+    font-size: 17px;
 }
 
 #chartwerk.single #chatter {
