@@ -9,7 +9,7 @@
     font-family: 'franklin-gothic-urw', arial, sans-serif;
 }
 #chartwerk table th, #chartwerk table td{
-    padding:2px 10px 2px 5px;
+    padding:6px 10px 6px 5px;
     
 }
 #chartwerk table th{
@@ -40,7 +40,7 @@
 #chartwerk table tbody tr:first-child td{
     padding-top:10px;
 }
-#chartwerk table tbody tr{
+#chartwerk table tbody tr td{
     border-bottom:1px solid #ccc;
 }
 #chartwerk table tbody tr:last-child {
