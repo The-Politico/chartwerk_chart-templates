@@ -40,7 +40,7 @@
 #chartwerk table tbody tr:first-child td{
     padding-top:10px;
 }
-#chartwerk table tbody tr td{
+#chartwerk table tbody tr{
     border-bottom:1px solid #ccc;
 }
 #chartwerk table tbody tr:last-child {
