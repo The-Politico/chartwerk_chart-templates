@@ -1,14 +1,10 @@
+/****************/
+/*shared head dek styles*/
+/****************/
+
 
 #chartwerk strong{
     font-weight: 600;
-}
-
-#chartwerk #chart .tooltip{
-    background: none !important;
-}
-
-#chartwerk #chart .tooltip .value{
-    text-shadow: -1px -1px 0px #fff, -1px 1px 0px #fff, 1px -1px 0px #fff, 1px 1px 0px #fff,  -1px -1px 0px #fff, -1px 1px 0px #fff, 1px -1px 0px #fff, 1px 1px 0px #fff,  -1px -1px 0px #fff, -1px 1px 0px #fff, 1px -1px 0px #fff, 1px 1px 0px #fff,-1px -1px 0px #fff, -1px 1px 0px #fff, 1px -1px 0px #fff, 1px 1px 0px #fff,-1px -1px 0px #fff, -1px 1px 0px #fff, 1px -1px 0px #fff, 1px 1px 0px #fff, -1px -1px 0px #fff, -1px 1px 0px #fff, 1px -1px 0px #fff, 1px 1px 0px #fff,-1px -1px 0px #fff, -1px 1px 0px #fff, 1px -1px 0px #fff, 1px 1px 0px #fff,-1px -1px 0px #fff, -1px 1px 0px #fff, 1px -1px 0px #fff, 1px 1px 0px #fff;
 }
 
 #chartwerk #chart-header{
@@ -24,56 +20,8 @@
     line-height: 1em;
 }
 
-#chartwerk .annotation .inner p{
-    font-size: 14px;
-    line-height: 1.2em;
-    font-family:'franklin-gothic-urw', arial, sans-serif;
-}
-
-.double #chart-footer #source{
-    font-weight: 400;
-    font-size: 12px;
-    display: inline-block;
-}
-
-.double #chart-footer #author{
-    font-weight: 400;
-    font-size: 12px;
-    display: inline-block;
-    float: right;
-}
-
-.single #chart-footer #source{
-    font-weight: 400;
-    font-size: 10px;
-}
-
-.single #chart-footer #author{
-    font-weight: 400;
-    font-size: 10px;
-    float: left;
-}
-
-#chartwerk #chart-footer{
-    width: 100%;
-    margin-top: 12px;
-}
-
 #preview-pane{
     background-color: #f7f8f8;
-}
-#chartwerk {
-    font-family: 'proxima-nova', arial, sans-serif;
-    font-weight: 200;
-    padding: 20px 0;
-    width:560px;
-    background: #f7f8f8 url(http://static.politico.com/resource/images/website/shared/template/bg-noise.24d18bcf9d414e030c36ffd7f30648e8.jpg) repeat left top;
-}
-#chartwerk.single{
-    width:270px;
-    float:left;
-    overflow:hidden;
-    margin:10px 30px 10px 0;
 }
 
 #chartwerk #headline { 
@@ -97,13 +45,95 @@
     line-height: 1.2em;
 }
 
+
+
+/****************/
+/*shared source byline styles*/
+/****************/
+
+.double #chart-footer #author{
+    float: right;
+}
+
+.single #chart-footer #source{
+    font-weight: 400;
+    font-size: 10px;
+}
+
+.single #chart-footer #author{
+    font-weight: 400;
+    font-size: 10px;
+    float: left;
+}
+
 #chartwerk #footnote,
 #chartwerk #source,
 #chartwerk #author {
     font-size:12px;
+    font-weight: 400
     color:#666;
-
+    display: inline-block;
 }
+
+
+/****************/
+/*shared tooltip styles*/
+/****************/
+
+#chartwerk #chart .tooltip .value{
+    text-shadow: -1px -1px 0px #fff, -1px 1px 0px #fff, 1px -1px 0px #fff, 1px 1px 0px #fff,  -1px -1px 0px #fff, -1px 1px 0px #fff, 1px -1px 0px #fff, 1px 1px 0px #fff,  -1px -1px 0px #fff, -1px 1px 0px #fff, 1px -1px 0px #fff, 1px 1px 0px #fff,-1px -1px 0px #fff, -1px 1px 0px #fff, 1px -1px 0px #fff, 1px 1px 0px #fff,-1px -1px 0px #fff, -1px 1px 0px #fff, 1px -1px 0px #fff, 1px 1px 0px #fff, -1px -1px 0px #fff, -1px 1px 0px #fff, 1px -1px 0px #fff, 1px 1px 0px #fff,-1px -1px 0px #fff, -1px 1px 0px #fff, 1px -1px 0px #fff, 1px 1px 0px #fff,-1px -1px 0px #fff, -1px 1px 0px #fff, 1px -1px 0px #fff, 1px 1px 0px #fff;
+    font-weight: bold;
+}
+
+#chartwerk #chart .tooltip{
+    font-family: 'franklin-gothic-urw', arial, sans-serif;
+    font-weight: 200;
+    opacity:0;
+    pointer-events:none;
+    padding:5px;
+    width:auto;
+    background: none;
+}
+
+/****************/
+/*shared annotation styles*/
+/****************/
+
+
+#chartwerk .annotation .inner p{
+    font-size: 14px;
+    line-height: 1.2em;
+    font-family:'franklin-gothic-urw', arial, sans-serif;
+}
+
+#chartwerk .annotation p{
+    font-family: inherit;
+    font-weight: 200;
+}
+
+/****************/
+/*shared chart spec styles*/
+/****************/
+
+#chartwerk {
+    font-family: 'proxima-nova', arial, sans-serif;
+    font-weight: 200;
+    padding: 20px 0;
+    width:560px;
+    background: #f7f8f8 url(http://static.politico.com/resource/images/website/shared/template/bg-noise.24d18bcf9d414e030c36ffd7f30648e8.jpg) repeat left top;
+}
+
+
+#chartwerk.single{
+    width:270px;
+    float:left;
+    overflow:hidden;
+    margin:10px 30px 10px 0;
+}
+
+/****************/
+/*shared legend styles*/
+/****************/
 
 #chart-legend .chart-legend-container.bg, #chart .chart-legend-container.bg{
     background: #f7f8f8 url(http://static.politico.com/resource/images/website/shared/template/bg-noise.24d18bcf9d414e030c36ffd7f30648e8.jpg) repeat left top;
@@ -140,33 +170,14 @@
 .chart-legend-container{
     float: left;
 }
-#chartwerk .annotation p{
-    font-family: inherit;
-    font-weight: 200;
-}
 
 #chart-legend .chart-legend-container, #chart .chart-legend-container{
     padding: 0;
 }
-#chartwerk #chart .tooltip{
-    font-family: 'franklin-gothic-urw', arial, sans-serif;
-    font-weight: 200;
-    opacity:0;
-    pointer-events:none;
-    background:rgba(255,255,255,.75);
-    padding:5px;
-    width:auto;
-}
-#chartwerk #chart .tooltip .value{
-    font-weight: bold;
-}
 
-#chartwerk #chart path.line{
-    fill: none;
-    stroke-width: 2px;
-    stroke-linejoin: round;
-    stroke-linecap: round;
-}
+/****************/
+/*line axis styles*/
+/****************/
 
 .axis path,
 .axis line {
@@ -189,7 +200,6 @@
 .y.axis .label{
     font-family:'franklin-gothic-urw', arial, sans-serif;
     font-weight: 200;
-    // font-style: italic;
 }
 
 #chartwerk.single #chart .y.axis text{
@@ -199,6 +209,20 @@
 #chartwerk.single #chart .x.axis text{
     font-size: 13px;
 }
+
+
+/****************/
+/*line chart styles*/
+/****************/
+
+#chartwerk #chart path.line{
+    fill: none;
+    stroke-width: 2px;
+    stroke-linejoin: round;
+    stroke-linecap: round;
+}
+
+
 line.dotted-line{
     stroke:rgb(33,33,33);
     stroke-width:1px;
