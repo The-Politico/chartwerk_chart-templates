@@ -100,10 +100,9 @@
 #chartwerk #chart-legend 
 .chart-legend-container .key-label{
     font-family:'franklin-gothic-urw', arial, sans-serif;
-    font-weight: 200;
+    font-weight: 400;
     font-size: 11px;
-    margin-left: 3px;
-    margin-right: 6px;
+    margin-left: -3px;
 }
 
 #chartwerk #chart path.line{
@@ -119,8 +118,8 @@
 .chart-legend-container .key-color{
     margin-right:2px;
     margin-top: 2px;
-    width: 12px;
-    height: 12px;
+    width: 10px;
+    height: 10px;
 }
 
 #chartwerk #chart path.state{
@@ -139,17 +138,31 @@
     pointer-events:none;
     padding:5px;
     width:auto;
-    background:rgba(255,255,255,.75);
+    max-width: 200px;
+    line-height: 1.15em;
+    background:rgb(255,255,255);
+}
+
+#chartwerk.single #chart .tooltip{
+    font-family: 'franklin-gothic-urw', arial, sans-serif;
+    font-weight: 200;
+    font-size: 0.8em;
+    opacity:0;
+    pointer-events:none;
+    padding:5px;
+    width:auto;
+    max-width: 100px;
+    line-height: 1em;
+    background:rgb(255,255,255);
 }
 
 #chartwerk #chart .tooltip .title{
-    // font-weight: bold;
+    font-weight: bold;
     fill:grey;
 }
 
 #chartwerk #chart .tooltip .value{
-    text-shadow: -1px -1px 0px #fff, -1px 1px 0px #fff, 1px -1px 0px #fff, 1px 1px 0px #fff,  -1px -1px 0px #fff, -1px 1px 0px #fff, 1px -1px 0px #fff, 1px 1px 0px #fff,  -1px -1px 0px #fff, -1px 1px 0px #fff, 1px -1px 0px #fff, 1px 1px 0px #fff,-1px -1px 0px #fff, -1px 1px 0px #fff, 1px -1px 0px #fff, 1px 1px 0px #fff,-1px -1px 0px #fff, -1px 1px 0px #fff, 1px -1px 0px #fff, 1px 1px 0px #fff, -1px -1px 0px #fff, -1px 1px 0px #fff, 1px -1px 0px #fff, 1px 1px 0px #fff,-1px -1px 0px #fff, -1px 1px 0px #fff, 1px -1px 0px #fff, 1px 1px 0px #fff,-1px -1px 0px #fff, -1px 1px 0px #fff, 1px -1px 0px #fff, 1px 1px 0px #fff;
-    font-weight: bold;
+    font-weight: normal;
 }
 
 #preview-pane{
