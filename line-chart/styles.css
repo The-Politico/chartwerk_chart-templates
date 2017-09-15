@@ -75,7 +75,7 @@
 }
 
 #chartwerk.single #headline { 
-    font-size:26px;
+    font-size:24px;
 }
 
 #chartwerk #chatter {
@@ -85,7 +85,8 @@
 
 #chartwerk.single #chatter {
     margin: 8px 0px 10px;
-    font-size: 16px;
+    font-size: 14px;
+    line-height: 1.2em;
 }
 
 #chartwerk #footnote,
