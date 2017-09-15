@@ -11,8 +11,9 @@ var werkHelper = {
         werk.data = chartwerk.data.map(function(d){
             return {
                 state: d[chartwerk.datamap.base],
-                value: chartwerk.axes.color.quantize ? 
-                    +d[chartwerk.datamap.scale] : d[chartwerk.datamap.scale],
+                value: d[chartwerk.datamap.scale],
+                // value: chartwerk.axes.color.quantize ? 
+                //     +d[chartwerk.datamap.scale] : d[chartwerk.datamap.scale],
                 tooltip: chartwerk.datamap.custom.tooltip !== '' ?
                     d[chartwerk.datamap.custom.tooltip] : null,
             };
