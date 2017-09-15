@@ -185,7 +185,7 @@ function draw(){
                     w = werk.dims[s].width,
                     tipW = parseInt(d3.select(".tooltip").style("width"), 10),
                     pos = p[0] > (w / 2) ?
-                        p[0] - (tipW - 60) : p[0] - 40;
+                        p[0] - (tipW + 5) : p[0] + 20;
                 return pos.toString() + "px";
             });
     }
