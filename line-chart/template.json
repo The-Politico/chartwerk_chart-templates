@@ -2535,7 +2535,7 @@
         "footnote": "",
         "headline": "Headline goes here please keep it short",
         "legend": {
-            "active": false,
+            "active": true,
             "double": {
                 "align": "l",
                 "background": true,
@@ -2549,11 +2549,11 @@
             "keys": [
                 {
                     "color": "#329CAC",
-                    "text": "CBM"
+                    "text": "ABC"
                 },
                 {
                     "color": "#F95100",
-                    "text": "GQS"
+                    "text": "EDF"
                 }
             ],
             "single": {
