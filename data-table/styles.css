@@ -38,6 +38,7 @@
     overflow-x:visible;
     text-align:left;
     width:100%;
+    font-family: 'franklin-gothic-urw', arial, sans-serif;
 }
 #chartwerk table th, #chartwerk table td{
     padding:2px 10px 2px 5px;
@@ -47,15 +48,31 @@
     border-bottom:2px solid grey;
     cursor:pointer;
     vertical-align: bottom;
+    position: relative;
 }
 #chartwerk table th:hover{
-    background-color:lightgrey;
+    background-color:#ccc;
+}
+#chartwerk table th.asc, #chartwerk table th.desc {
+    background-color: #ccc;
+}
+#chartwerk table th.asc:after, #chartwerk table th.desc:after {
+    position: absolute;
+    right: 5px;
+    top: 2px;
+    font-size: 14px;
+}
+#chartwerk table th.asc:after {
+    content: "\25b2";
+}
+#chartwerk table th.desc:after {
+    content: "\25bc";
 }
 #chartwerk table tbody tr:first-child td{
     padding-top:10px;
 }
 #chartwerk table tbody tr{
-    border-bottom:1px solid lightgrey;
+    border-bottom:1px solid #ccc;
 }
 #chartwerk table tr:hover{
     background-color:#ccc !important;
@@ -66,7 +83,7 @@
     overflow-y:scroll;
 }
 #chartwerk #list li{
-    border-bottom:1px solid lightgrey;
+    border-bottom:1px solid #ccc;
     padding: 5px 0;
 }
 
