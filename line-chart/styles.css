@@ -8,7 +8,7 @@
 }
 
 #chartwerk #chart .tooltip .value{
-    text-shadow: -1px -1px 0px #fff, -1px 1px 0px #fff, 1px -1px 0px #fff, 1px 1px 0px #fff,  -1px -1px 0px #fff, -1px 1px 0px #fff, 1px -1px 0px #fff, 1px 1px 0px #fff,  -1px -1px 0px #fff, -1px 1px 0px #fff, 1px -1px 0px #fff, 1px 1px 0px #fff,-1px -1px 0px #fff, -1px 1px 0px #fff, 1px -1px 0px #fff, 1px 1px 0px #fff,-1px -1px 0px #fff, -1px 1px 0px #fff, 1px -1px 0px #fff, 1px 1px 0px #fff;
+    text-shadow: -1px -1px 0px #fff, -1px 1px 0px #fff, 1px -1px 0px #fff, 1px 1px 0px #fff,  -1px -1px 0px #fff, -1px 1px 0px #fff, 1px -1px 0px #fff, 1px 1px 0px #fff,  -1px -1px 0px #fff, -1px 1px 0px #fff, 1px -1px 0px #fff, 1px 1px 0px #fff,-1px -1px 0px #fff, -1px 1px 0px #fff, 1px -1px 0px #fff, 1px 1px 0px #fff,-1px -1px 0px #fff, -1px 1px 0px #fff, 1px -1px 0px #fff, 1px 1px 0px #fff, -1px -1px 0px #fff, -1px 1px 0px #fff, 1px -1px 0px #fff, 1px 1px 0px #fff,-1px -1px 0px #fff, -1px 1px 0px #fff, 1px -1px 0px #fff, 1px 1px 0px #fff,-1px -1px 0px #fff, -1px 1px 0px #fff, 1px -1px 0px #fff, 1px 1px 0px #fff;
 }
 
 #chartwerk #chart-header{
@@ -164,6 +164,8 @@
 #chartwerk #chart path.line{
     fill: none;
     stroke-width: 2px;
+    stroke-linejoin: round;
+    stroke-linecap: round;
 }
 
 .axis path,
