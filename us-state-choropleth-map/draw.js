@@ -28,7 +28,7 @@ function draw(){
     function getState(d){
         return postal ? map.get(d.properties.ABBREVIATION) : map.get(d.properties.NAME);
     }
-    
+
     d3.json("//interactives.dallasnews.com/common/data/geo/us-states.json", function(error, us_states){
 
         var states = svg.append("g")
@@ -41,16 +41,15 @@ function draw(){
             .attr('d', d3.geoPath().projection(projection))
             .attr("class", "state")
             .style('fill', function(d){
-                if (getState(d)) {
-                   return werk.scales.color(getState(d).value); 
+                if (getState(d) && getState(d).value !== '') {
+                    return werk.scales.color(getState(d).value);
                 }
                 return '#e2e2e2';
             })
             .style("stroke", "#fff")
             .on("mouseover",function(d){
                 
-                if (d) {
-                    console.log(d)
+                if (getState(d) && getState(d).value !== '') {
                     d3.select(this)
                       .style("stroke", "black")
                       .moveToFront();
@@ -62,7 +61,7 @@ function draw(){
                       .text(function(){
                           var s = chartwerk.axes.scale;
                           var data = getState(d);
-                          if (data) {
+                          if (data || data.value !== '') {
                               if (data.tooltip){
                                   return data.tooltip;
                               } else {
@@ -96,10 +95,10 @@ function draw(){
                 d3.select(this)
                   .style("stroke","#fff")
                   .style('fill', function(d){ 
-                       if (getState(d)) {
-                            return werk.scales.color(getState(d).value); 
-                       }
-                       return '#e2e2e2';
+                    if (getState(d) && getState(d).value !== '') {
+                        return werk.scales.color(getState(d).value);
+                    }
+                    return '#e2e2e2';
                 });
                 d3.select(".tooltip")
                     .style("opacity", 0);
