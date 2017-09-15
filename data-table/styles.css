@@ -27,8 +27,8 @@
 #chartwerk table th.asc:after, #chartwerk table th.desc:after, #chartwerk table th:hover:after {
     position: absolute;
     right: 5px;
-    top: 2px;
-    font-size: 14px;
+    top: 7px;
+    font-size: 13px;
     color: #999;
 }
 #chartwerk table th.asc:after, #chartwerk table th:hover:after {
@@ -63,7 +63,7 @@
     text-align:left;
     margin:1px 0;
     line-height:12px;
-    padding:2px;
+    padding:5px 2px;
     font-size:12px;
 }
 #chartwerk #list p span.list-hed{
