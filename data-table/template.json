@@ -62,46 +62,88 @@
     },
     "data": [
         {
-            "Head of Household": "$0 - 13,250",
-            "Married Filing Jointly": "$0 - 18,550",
-            "Single": "$0 - 9,275",
-            "Tax Bracket": "10%"
+            "Another": 234,
+            "City": "Asheville",
+            "Country": "US",
+            "More": 14,
+            "Numbers": 12
         },
         {
-            "Head of Household": "$13,250 - 50,400",
-            "Married Filing Jointly": "$18,550 - 75,300",
-            "Single": "$9,275 - 37,650",
-            "Tax Bracket": "15%"
+            "Another": 334,
+            "City": "Boston",
+            "Country": "US",
+            "More": 11.12,
+            "Numbers": 11
         },
         {
-            "Head of Household": "$50,400 - 130,150",
-            "Married Filing Jointly": "$75,300 - 151,900",
-            "Single": "$37,650 - 91,150",
-            "Tax Bracket": "25%"
+            "Another": 124,
+            "City": "Belfast",
+            "Country": "UK",
+            "More": 7,
+            "Numbers": 9
         },
         {
-            "Head of Household": "$130,150 - 210,800",
-            "Married Filing Jointly": "$151,900 - 231,450",
-            "Single": "$91,150 - 190,150",
-            "Tax Bracket": "28%"
+            "Another": 151,
+            "City": "Los Angeles",
+            "Country": "US",
+            "More": 3.45,
+            "Numbers": 7
         },
         {
-            "Head of Household": "$210,800 - 413,350",
-            "Married Filing Jointly": "$231,450 - 413,350",
-            "Single": "$190,150 - 413,350",
-            "Tax Bracket": "33%"
+            "Another": 323,
+            "City": "New York",
+            "Country": "US",
+            "More": 6.77,
+            "Numbers": 7
         },
         {
-            "Head of Household": "$413,350 - 441,000",
-            "Married Filing Jointly": "$413,350 - 466,950",
-            "Single": "$413,350 - 415,050",
-            "Tax Bracket": "35%"
+            "Another": 272,
+            "City": "Dallas",
+            "Country": "US",
+            "More": 4,
+            "Numbers": 6
         },
         {
-            "Head of Household": "$441,000+",
-            "Married Filing Jointly": "$466,950+",
-            "Single": "$415,050+",
-            "Tax Bracket": "40%"
+            "Another": 234,
+            "City": "Denver",
+            "Country": "US",
+            "More": 8,
+            "Numbers": 2
+        },
+        {
+            "Another": 334,
+            "City": "London",
+            "Country": "UK",
+            "More": 10.22,
+            "Numbers": -3
+        },
+        {
+            "Another": 124,
+            "City": "Kansas City",
+            "Country": "US",
+            "More": 16.66,
+            "Numbers": -4
+        },
+        {
+            "Another": 123,
+            "City": "Berlin",
+            "Country": "DE",
+            "More": 13,
+            "Numbers": -7
+        },
+        {
+            "Another": 412,
+            "City": "Lisbon",
+            "Country": "PT",
+            "More": 41.11,
+            "Numbers": -10
+        },
+        {
+            "Another": 311,
+            "City": "Helsinki",
+            "Country": "FI",
+            "More": 14.3,
+            "Numbers": -12
         }
     ],
     "datamap": {
