@@ -66,6 +66,7 @@
     float: left;
 }
 
+
 #chartwerk #footnote,
 #chartwerk #source,
 #chartwerk #author {
@@ -73,6 +74,16 @@
     font-weight: 400
     color:#666;
     display: inline-block;
+}
+
+#chartwerk.single #footnote,
+#chartwerk.single #source,
+#chartwerk.single #author {
+    display: block;
+}
+
+#chartwerk #chart-footer {
+    margin-top: 12px;
 }
 
 
