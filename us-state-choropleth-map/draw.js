@@ -40,50 +40,66 @@ function draw(){
             .enter().append("path")
             .attr('d', d3.geoPath().projection(projection))
             .attr("class", "state")
-            .style('fill', function(d){ 
-                return werk.scales.color(getState(d).value);
+            .style('fill', function(d){
+                if (getState(d)) {
+                   return werk.scales.color(getState(d).value); 
+                }
+                return '#e2e2e2';
             })
             .style("stroke", "#fff")
             .on("mouseover",function(d){
-                d3.select(this)
-                  .style("stroke", "black")
-                  .moveToFront();
-                d3.select(".tooltip .title")
-                  .text(d.properties.NAME);
-                d3.select(".tooltip .value")
-                  .text(function(){
-                      var s = chartwerk.axes.scale;
-                      var data = getState(d);
-                      if (data.tooltip){
-                          return data.tooltip;
-                      } else {
-                          return chartwerk.axes.color.quantize ? 
-                            s.prefix + comma(data.value) + s.suffix : data.value;
-                      }
-                  });
-                var p = d3.mouse(this.parentElement.parentElement);
-                d3.select(".tooltip")
-                    .style("opacity", 1)
-                    .style("top",function(){
-                        return p[1].toString() + "px";
-                    })
-                    .style("left", function(){
-                        // We position either left or right of the mouse point based
-                        // on whether we're past the midpoint of the chart. This protects
-                        // against tooltips overflowing embedded iframes.
-                        var s = chartwerk.ui.size,
-                            w = werk.dims[s].width,
-                            tipW = parseInt(d3.select(".tooltip").style("width"), 10),
-                            pos = p[0] > (w / 2) ?
-                                p[0] - (tipW - 10) : p[0] + 40;
-                        return pos.toString() + "px";
-                    });
+                
+                if (d) {
+                    console.log(d)
+                    d3.select(this)
+                      .style("stroke", "black")
+                      .moveToFront();
+                  
+                    d3.select(".tooltip .title")
+                      .text(d.properties.NAME);
+                  
+                    d3.select(".tooltip .value")
+                      .text(function(){
+                          var s = chartwerk.axes.scale;
+                          var data = getState(d);
+                          if (data) {
+                              if (data.tooltip){
+                                  return data.tooltip;
+                              } else {
+                                  return chartwerk.axes.color.quantize ? 
+                                    s.prefix + comma(data.value) + s.suffix : data.value;
+                              }
+                          }
+                      });
+                      
+                    var p = d3.mouse(this.parentElement.parentElement);
+                    
+                    d3.select(".tooltip")
+                        .style("opacity", 1)
+                        .style("top",function(){
+                            return p[1].toString() + "px";
+                        })
+                        .style("left", function(){
+                            // We position either left or right of the mouse point based
+                            // on whether we're past the midpoint of the chart. This protects
+                            // against tooltips overflowing embedded iframes.
+                            var s = chartwerk.ui.size,
+                                w = werk.dims[s].width,
+                                tipW = parseInt(d3.select(".tooltip").style("width"), 10),
+                                pos = p[0] > (w / 2) ?
+                                    p[0] - (tipW - 10) : p[0] + 40;
+                            return pos.toString() + "px";
+                        });
+                }
             })
             .on("mouseout",function(){
                 d3.select(this)
                   .style("stroke","#fff")
                   .style('fill', function(d){ 
-                      return werk.scales.color(getState(d).value);
+                       if (getState(d)) {
+                            return werk.scales.color(getState(d).value); 
+                       }
+                       return '#e2e2e2';
                 });
                 d3.select(".tooltip")
                     .style("opacity", 0);
