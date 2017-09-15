@@ -154,10 +154,11 @@
         "scale": null,
         "series": [],
         "sort": [
-            "Tax Bracket",
-            "Single",
-            "Head of Household",
-            "Married Filing Jointly"
+            "City",
+            "Country",
+            "Numbers",
+            "Another",
+            "More"
         ],
         "value": null
     },
@@ -228,7 +229,7 @@
             },
             "title": ""
         },
-        "source": "SOURCE: Tax Policy Center",
+        "source": "SOURCE: Fake data",
         "title": ""
     },
     "ui": {
@@ -264,7 +265,7 @@
                 "class": "ignore"
             }
         ],
-        "rawData": "Tax Bracket\tSingle\tHead of Household\tMarried Filing Jointly\n10%\t$0 - 9,275\t$0 - 13,250\t$0 - 18,550\n15%\t$9,275 - 37,650\t$13,250 - 50,400\t$18,550 - 75,300\n25%\t$37,650 - 91,150\t$50,400 - 130,150\t$75,300 - 151,900\n28%\t$91,150 - 190,150\t$130,150 - 210,800\t$151,900 - 231,450\n33%\t$190,150 - 413,350\t$210,800 - 413,350\t$231,450 - 413,350\n35%\t$413,350 - 415,050\t$413,350 - 441,000\t$413,350 - 466,950\n40%\t$415,050+\t$441,000+\t$466,950+",
+        "rawData": "City\tCountry\tNumbers\tAnother\tMore\nAsheville\tUS\t12\t234\t14\nBoston\tUS\t11\t334\t11.12\nBelfast\tUK\t9\t124\t7\nLos Angeles\tUS\t7\t151\t3.45\nNew York\tUS\t7\t323\t6.77\nDallas\tUS\t6\t272\t4\nDenver\tUS\t2\t234\t8\nLondon\tUK\t-3\t334\t10.22\nKansas City\tUS\t-4\t124\t16.66\nBerlin\tDE\t-7\t123\t13\nLisbon\tPT\t-10\t412\t41.11\nHelsinki\tFI\t-12\t311\t14.3",
         "size": "double"
     }
 }
