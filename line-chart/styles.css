@@ -3,6 +3,14 @@
     font-weight: 600;
 }
 
+#chartwerk #chart .tooltip{
+    background: none !important;
+}
+
+#chartwerk #chart .tooltip .value{
+    text-shadow: -1px -1px 0px #fff, -1px 1px 0px #fff, 1px -1px 0px #fff, 1px 1px 0px #fff,  -1px -1px 0px #fff, -1px 1px 0px #fff, 1px -1px 0px #fff, 1px 1px 0px #fff,  -1px -1px 0px #fff, -1px 1px 0px #fff, 1px -1px 0px #fff, 1px 1px 0px #fff,-1px -1px 0px #fff, -1px 1px 0px #fff, 1px -1px 0px #fff, 1px 1px 0px #fff,-1px -1px 0px #fff, -1px 1px 0px #fff, 1px -1px 0px #fff, 1px 1px 0px #fff;
+}
+
 #chartwerk #chart-header{
     line-height: 1.45em;
     font-weight: 400;
