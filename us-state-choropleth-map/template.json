@@ -36,15 +36,15 @@
             "quantizeProps": {
                 "column": "value",
                 "groups": 4,
-                "reverseColors": false
+                "reverseColors": true
             },
             "range": [
-                "#0d3c73",
-                "#41b3de",
-                "#f96f11",
-                "#ab9f8f"
+                "#e4f7eb",
+                "#aecfb8",
+                "#7aa888",
+                "#46825a"
             ],
-            "scheme": "categorical.default"
+            "scheme": "sequential.moneyfoam"
         },
         "scale": {
             "prefix": "",
@@ -344,19 +344,19 @@
             },
             "keys": [
                 {
-                    "color": "#0d3c73",
+                    "color": "#e4f7eb",
                     "text": "10.6"
                 },
                 {
-                    "color": "#41b3de",
+                    "color": "#aecfb8",
                     "text": "17.82"
                 },
                 {
-                    "color": "#f96f11",
+                    "color": "#7aa888",
                     "text": "25.05"
                 },
                 {
-                    "color": "#ab9f8f",
+                    "color": "#46825a",
                     "text": "32.27"
                 }
             ],
@@ -373,7 +373,7 @@
             "title": ""
         },
         "source": "SOURCE: National Organization for the Reform of Marijuana Laws",
-        "title": "The United States of Marijuana"
+        "title": ""
     },
     "ui": {
         "datamap": [
