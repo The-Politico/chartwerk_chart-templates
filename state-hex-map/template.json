@@ -35,7 +35,7 @@
                 "reverseColors": false
             },
             "range": [],
-            "scheme": "categorical.default"
+            "scheme": "sequential.democrat"
         },
         "scale": {
             "prefix": "",
@@ -569,12 +569,12 @@
         "datamap": [
             {
                 "alias": "X axis",
-                "available": true,
+                "available": false,
                 "class": "base"
             },
             {
                 "alias": "value axis",
-                "available": false,
+                "available": true,
                 "class": "value"
             },
             {
@@ -584,7 +584,7 @@
             },
             {
                 "alias": "Y axis",
-                "available": true,
+                "available": false,
                 "class": "series"
             },
             {
