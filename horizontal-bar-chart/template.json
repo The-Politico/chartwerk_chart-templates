@@ -66,20 +66,8 @@
     },
     "data": [
         {
-            "Numbers": 8,
-            "State": "Kentucky"
-        },
-        {
             "Numbers": 13,
             "State": "Massachusetts"
-        },
-        {
-            "Numbers": 7,
-            "State": "Arizona"
-        },
-        {
-            "Numbers": 8,
-            "State": "Missouri"
         },
         {
             "Numbers": 10,
@@ -87,7 +75,19 @@
         },
         {
             "Numbers": 8,
+            "State": "Kentucky"
+        },
+        {
+            "Numbers": 8,
+            "State": "Missouri"
+        },
+        {
+            "Numbers": 8,
             "State": "New York"
+        },
+        {
+            "Numbers": 7,
+            "State": "Arizona"
         },
         {
             "Numbers": 5,
@@ -102,7 +102,10 @@
         "ignore": [],
         "scale": null,
         "series": [],
-        "sort": [],
+        "sort": [
+            "State",
+            "Numbers"
+        ],
         "value": "Numbers"
     },
     "embed": {
@@ -207,7 +210,7 @@
                 "class": "ignore"
             }
         ],
-        "rawData": "State\tNumbers\nKentucky\t8\nMassachusetts\t13\nArizona\t7\nMissouri\t8\nCalifornia\t10\nNew York\t8\nTexas\t5\n",
+        "rawData": "State\tNumbers\nMassachusetts\t13\nCalifornia\t10\nKentucky\t8\nMissouri\t8\nNew York\t8\nArizona\t7\nTexas\t5\n",
         "size": "double"
     }
 }
