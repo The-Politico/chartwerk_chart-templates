@@ -52,16 +52,16 @@
 /*shared source byline styles*/
 /****************/
 
-.double #chart-footer #author{
+#chartwerk.double #chart-footer #author{
     float: right;
 }
 
-.single #chart-footer #source{
+#chartwerk.single #chart-footer #source{
     font-weight: 400;
     font-size: 10px;
 }
 
-.single #chart-footer #author{
+#chartwerk.single #chart-footer #author{
     font-weight: 400;
     font-size: 10px;
     float: left;
