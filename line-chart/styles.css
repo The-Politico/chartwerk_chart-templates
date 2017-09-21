@@ -87,6 +87,10 @@
     margin-top: 12px;
 }
 
+#chartwerk #author{
+    float: right;
+}
+
 
 /****************/
 /*shared tooltip styles*/
