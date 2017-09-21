@@ -28,11 +28,11 @@
     font-weight:bold;
     font-size:25px;
     line-height: 1.05em;
+    margin: 0;
 }
 
 #chartwerk.single #headline { 
     font-size:22px;
-    margin: 0;
 }
 
 #chartwerk #chatter {
