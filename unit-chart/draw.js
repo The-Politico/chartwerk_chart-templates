@@ -69,14 +69,34 @@ function draw(){
 
   facets
     .on('mouseover', function(d) {
+        console.log(d[0][chartwerk.datamap.scale], d[0][VALUE_KEY])
       d3.select(this).classed('highlight', true);
       d3.select('.tooltip .title').text(d[0][chartwerk.datamap.scale]);
       d3.select('.tooltip .value').text(d[0][VALUE_KEY]);
+      
+      var p = d3.mouse(this.parentElement.parentElement);
+                    
+     d3.select(".tooltip")
+        .style("opacity", 1)
+        .style("top",function(){
+            return p[1].toString() + "px";
+        })
+        .style("left", function(){
+            // We position either left or right of the mouse point based
+            // on whether we're past the midpoint of the chart. This protects
+            // against tooltips overflowing embedded iframes.
+            var s = chartwerk.ui.size,
+                w = werk.dims[s].width,
+                tipW = parseInt(d3.select(".tooltip").style("width"), 10),
+                pos = p[0] > (w / 2) ?
+                    p[0] - (tipW - 10) : p[0] + 40;
+            return pos.toString() + "px";
+        });
     })
     .on('mouseout', function(d) {
       d3.select(this).classed('highlight', false);
     });
-
+    
     var tooltip = d3.select("#chart")
       .append("div")
         .attr("class","tooltip")
