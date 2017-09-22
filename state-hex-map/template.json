@@ -592,7 +592,7 @@
                 "class": "series"
             },
             {
-                "alias": "faceting column",
+                "alias": "",
                 "available": false,
                 "class": "facet"
             },
