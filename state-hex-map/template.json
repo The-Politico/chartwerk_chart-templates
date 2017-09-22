@@ -568,22 +568,22 @@
     "ui": {
         "datamap": [
             {
-                "alias": "X axis",
+                "alias": "",
                 "available": false,
                 "class": "base"
             },
             {
-                "alias": "value column",
-                "available": true,
+                "alias": "",
+                "available": false,
                 "class": "value"
             },
             {
-                "alias": "state column",
+                "alias": "value column",
                 "available": true,
                 "class": "scale"
             },
             {
-                "alias": "Y Axis",
+                "alias": "",
                 "available": false,
                 "class": "series"
             },
@@ -593,8 +593,8 @@
                 "class": "facet"
             },
             {
-                "alias": "ignored column",
-                "available": false,
+                "alias": "state column",
+                "available": true,
                 "class": "ignore"
             }
         ],
