@@ -583,13 +583,13 @@
                 "class": "scale"
             },
             {
-                "alias": "Y axis",
-                "available": false,
+                "alias": "state column",
+                "available": true,
                 "class": "series"
             },
             {
-                "alias": "state column",
-                "available": true,
+                "alias": "",
+                "available": false,
                 "class": "facet"
             },
             {
