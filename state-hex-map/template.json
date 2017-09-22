@@ -26,7 +26,9 @@
         },
         "color": {
             "byFacet": false,
-            "domain": [],
+            "domain": [
+                "federal"
+            ],
             "ignoreScale": false,
             "quantize": false,
             "quantizeProps": {
@@ -34,7 +36,9 @@
                 "groups": 0,
                 "reverseColors": false
             },
-            "range": [],
+            "range": [
+                "#889ed6"
+            ],
             "scheme": "sequential.democrat"
         },
         "scale": {
@@ -485,7 +489,7 @@
             "post-2016",
             "equipment"
         ],
-        "value": null
+        "value": "federal"
     },
     "embed": {
         "dimensions": {
@@ -568,8 +572,8 @@
     "ui": {
         "datamap": [
             {
-                "alias": "X axis",
-                "available": false,
+                "alias": "state axis",
+                "available": true,
                 "class": "base"
             },
             {
