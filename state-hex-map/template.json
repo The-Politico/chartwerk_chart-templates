@@ -1,7 +1,7 @@
 {
     "axes": {
         "base": {
-            "dateFormat": "%Y-%m-%d",
+            "dateFormat": null,
             "format": {
                 "double": {
                     "customTicks": [],
@@ -22,7 +22,7 @@
             "prefix": "",
             "shadedRegions": [],
             "suffix": "",
-            "type": "date"
+            "type": "categorical"
         },
         "color": {
             "byFacet": false,
@@ -475,7 +475,7 @@
         }
     ],
     "datamap": {
-        "base": null,
+        "base": "state",
         "custom": {},
         "facet": null,
         "ignore": [],
@@ -572,12 +572,12 @@
     "ui": {
         "datamap": [
             {
-                "alias": "state axis",
+                "alias": "state column",
                 "available": true,
                 "class": "base"
             },
             {
-                "alias": "value axis",
+                "alias": "value column",
                 "available": true,
                 "class": "value"
             },
