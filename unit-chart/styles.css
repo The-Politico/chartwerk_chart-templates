@@ -1,65 +1,191 @@
+/****************/
+/*shared head dek styles*/
+/****************/
+
+
+#chartwerk strong{
+    font-weight: 600;
+}
+
+#chartwerk #chart-header{
+    line-height: 1.45em;
+    font-weight: 400;
+}
+
+#chartwerk #chart-header #headline{
+    line-height: 1.1em;
+}
+
+#chartwerk.single #chart-header #headline{
+    line-height: 1em;
+}
+
+#preview-pane{
+    background-color: #f7f8f8;
+}
+
+#chartwerk #headline { 
+    font-weight:bold;
+    font-size:25px;
+    line-height: 1.05em;
+}
+
+#chartwerk.single #headline { 
+    font-size:22px;
+}
+
+#chartwerk #chatter {
+    margin: 6px 0px 12px;
+    font-size: 17px;
+}
+
+#chartwerk.single #chatter {
+    margin: 8px 0px 10px;
+    font-size: 14px;
+    line-height: 1.2em;
+}
+
+
+
+/****************/
+/*shared source byline styles*/
+/****************/
+
+.double #chart-footer #author{
+    float: right;
+}
+
+.single #chart-footer #source{
+    font-weight: 400;
+    font-size: 10px;
+}
+
+.single #chart-footer #author{
+    font-weight: 400;
+    font-size: 10px;
+    float: left;
+}
+
+
+#chartwerk #footnote,
+#chartwerk #source,
+#chartwerk #author {
+    font-size:12px;
+    font-weight: 400
+    color:#666;
+    display: inline-block;
+}
+
+#chartwerk.single #footnote,
+#chartwerk.single #source,
+#chartwerk.single #author {
+    display: block;
+}
+
+#chartwerk #chart-footer {
+    margin-top: 12px;
+}
+
+
+/****************/
+/*shared tooltip styles*/
+/****************/
+
+#chartwerk #chart .tooltip .value{
+    text-shadow: -1px -1px 0px #fff, -1px 1px 0px #fff, 1px -1px 0px #fff, 1px 1px 0px #fff,  -1px -1px 0px #fff, -1px 1px 0px #fff, 1px -1px 0px #fff, 1px 1px 0px #fff,  -1px -1px 0px #fff, -1px 1px 0px #fff, 1px -1px 0px #fff, 1px 1px 0px #fff,-1px -1px 0px #fff, -1px 1px 0px #fff, 1px -1px 0px #fff, 1px 1px 0px #fff,-1px -1px 0px #fff, -1px 1px 0px #fff, 1px -1px 0px #fff, 1px 1px 0px #fff, -1px -1px 0px #fff, -1px 1px 0px #fff, 1px -1px 0px #fff, 1px 1px 0px #fff,-1px -1px 0px #fff, -1px 1px 0px #fff, 1px -1px 0px #fff, 1px 1px 0px #fff,-1px -1px 0px #fff, -1px 1px 0px #fff, 1px -1px 0px #fff, 1px 1px 0px #fff;
+    font-weight: bold;
+}
+
+#chartwerk #chart .tooltip{
+    font-family: 'franklin-gothic-urw', arial, sans-serif;
+    font-weight: 200;
+    opacity:0;
+    pointer-events:none;
+    padding:5px;
+    width:auto;
+    background: none;
+}
+
+/****************/
+/*shared annotation styles*/
+/****************/
+
+
+#chartwerk .annotation .inner p{
+    font-size: 14px;
+    line-height: 1.2em;
+    font-family:'franklin-gothic-urw', arial, sans-serif;
+}
+
+#chartwerk .annotation p{
+    font-family: inherit;
+    font-weight: 200;
+}
+
+/****************/
+/*shared chart spec styles*/
+/****************/
 
 #chartwerk {
-    font-family:'proxima-nova', arial, sans-serif;
+    font-family: 'proxima-nova', arial, sans-serif;
     font-weight: 200;
-    width:600px;
+    padding: 20px 0;
+    width:560px;
+    background: #f7f8f8 url(http://static.politico.com/resource/images/website/shared/template/bg-noise.24d18bcf9d414e030c36ffd7f30648e8.jpg) repeat left top;
 }
+
+
 #chartwerk.single{
-    width:290px;
+    width:270px;
     float:left;
     overflow:hidden;
     margin:10px 30px 10px 0;
 }
-#chartwerk #headline { 
-    font-weight:bold;
-    font-size:24px;
-}
-#chartwerk #chatter {
-    margin-top:5px;
-}
-#chartwerk #footnote,
-#chartwerk #source,
-#chartwerk #author {
-    font-size:11px;
-    color:grey;
 
-}
-#chartwerk #author {
-    text-align:right;
-}
-#chartwerk #chart{
-    background-color:white;
+/****************/
+/*shared legend styles*/
+/****************/
+
+#chart-legend .chart-legend-container.bg, #chart .chart-legend-container.bg{
+    background: #f7f8f8 url(http://static.politico.com/resource/images/website/shared/template/bg-noise.24d18bcf9d414e030c36ffd7f30648e8.jpg) repeat left top;
 }
 #chartwerk #chart-legend 
 .chart-legend-container .key-label{
-    font: 11px 'proxima-nova', arial, sans-serif;
+    font-family:'franklin-gothic-urw', arial, sans-serif;
     font-weight: 200;
+    font-size: 14px;
+    margin-left: 3px;
+    margin-right: 6px;
+}
+#chartwerk.single #chart-legend 
+.chart-legend-container .key-label{
+    font-size: 13px;
 }
 #chartwerk #chart-legend 
 .chart-legend-container .key-color{
     margin-right:2px;
+    margin-top: 2px;
+    width: 12px;
+    height: 12px;
 }
 #chartwerk #chart-legend 
 .chart-legend-container .key{
-    margin-right:8px;
+    margin-right: 8px;
 }
-#chartwerk .annotation p{
-    font-family:'proxima-nova', arial, sans-serif;
-    font-weight: 200;
+
+#chartwerk #chart-legend 
+.chart-legend-container{
+    margin-bottom: 2px;
 }
-#chartwerk #chart .tooltip{
-    font: 13px'proxima-nova', arial, sans-serif;
-    font-weight: 200;
-    opacity:0;
-    pointer-events:none;
-    background:rgba(255,255,255,.75);
-    padding:5px;
-    width:auto;
+#chartwerk.single #chart-legend 
+.chart-legend-container{
+    float: left;
 }
-#chartwerk #chart .tooltip .title{
-    font-weight: bold;
-    fill:grey;
+
+#chart-legend .chart-legend-container, #chart .chart-legend-container{
+    padding: 0;
 }
+
 .facet.highlight {
     stroke: #000;
 }
