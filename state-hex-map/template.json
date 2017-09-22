@@ -578,13 +578,13 @@
                 "class": "value"
             },
             {
-                "alias": "scale axis",
-                "available": false,
+                "alias": "state column",
+                "available": true,
                 "class": "scale"
             },
             {
-                "alias": "state column",
-                "available": true,
+                "alias": "Y Axis",
+                "available": false,
                 "class": "series"
             },
             {
