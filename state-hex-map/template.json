@@ -27,13 +27,10 @@
         "color": {
             "byFacet": false,
             "domain": [
-                "Open",
-                "Open to it",
-                "Oppose",
-                "Opposed",
-                "Support",
-                "Support more money",
-                "Want remaining 2002 money"
+                "Certain times",
+                "Not written into law",
+                "Risk-limiting audit",
+                "Yes"
             ],
             "ignoreScale": false,
             "quantize": false,
@@ -43,15 +40,12 @@
                 "reverseColors": false
             },
             "range": [
-                "#2b6abd",
-                "#2b6abd",
-                "#2b6abd",
-                "#2b6abd",
-                "#2b6abd",
-                "#2b6abd",
-                "#2b6abd"
+                "#47BEF8",
+                "#F95100",
+                "#329CAC",
+                "#0D3C73"
             ],
-            "scheme": "sequential.democrat"
+            "scheme": "categorical.default"
         },
         "scale": {
             "prefix": "",
@@ -491,7 +485,7 @@
         "custom": {},
         "facet": null,
         "ignore": [],
-        "scale": "federal",
+        "scale": "audit",
         "series": [],
         "sort": [
             "state_name",
@@ -567,31 +561,19 @@
             },
             "keys": [
                 {
-                    "color": "#2b6abd",
+                    "color": "#47BEF8",
                     "text": ""
                 },
                 {
-                    "color": "#2b6abd",
+                    "color": "#F95100",
                     "text": ""
                 },
                 {
-                    "color": "#2b6abd",
+                    "color": "#329CAC",
                     "text": ""
                 },
                 {
-                    "color": "#2b6abd",
-                    "text": ""
-                },
-                {
-                    "color": "#2b6abd",
-                    "text": ""
-                },
-                {
-                    "color": "#2b6abd",
-                    "text": ""
-                },
-                {
-                    "color": "#2b6abd",
+                    "color": "#0D3C73",
                     "text": ""
                 }
             ],
