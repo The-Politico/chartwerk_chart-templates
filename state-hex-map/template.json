@@ -1,7 +1,7 @@
 {
     "axes": {
         "base": {
-            "dateFormat": "%Y-%m-%d",
+            "dateFormat": null,
             "format": {
                 "double": {
                     "customTicks": [],
@@ -22,7 +22,7 @@
             "prefix": "",
             "shadedRegions": [],
             "suffix": "",
-            "type": "date"
+            "type": "categorical"
         },
         "color": {
             "byFacet": false,
@@ -487,12 +487,10 @@
         }
     ],
     "datamap": {
-        "base": null,
+        "base": "state_name",
         "custom": {},
         "facet": null,
-        "ignore": [
-            "state_name"
-        ],
+        "ignore": [],
         "scale": "federal",
         "series": [],
         "sort": [
