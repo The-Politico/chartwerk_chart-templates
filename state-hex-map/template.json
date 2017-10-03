@@ -526,7 +526,7 @@
     "scripts": {
         "dependencies": {
             "scripts": [
-                "https://www.politico.com/interactives/cdn/chart-modules/state-grid-map/js/main.bundle.js"
+                "https://s3.amazonaws.com/com.politico.interactives.politico.com/cdn/chart-modules/state-grid-map/js/main.bundle.js"
             ],
             "styles": []
         },
