@@ -9,8 +9,4 @@ function draw(){
         'isNumeric': chartwerk.axes.color.quantize,
         'size': chartwerk.ui.size
     });
-    
-    window.addEventListener('resize', function() {
-       map.resize(); 
-    });
 }
