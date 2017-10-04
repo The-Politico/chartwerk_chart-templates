@@ -154,6 +154,11 @@
 }
 
 #chartwerk #chart-legend 
+.chart-legend-container .key{
+    margin-right: 0px;
+}
+
+#chartwerk #chart-legend 
 .chart-legend-container{
     margin-bottom: 2px;
 }
@@ -177,15 +182,12 @@
     fill:#979797
 }
 .label-active{
-    fill:#fff
+    fill:#fff;
+    text-shadow: 1px 1px 3px black;
 }
-@media screen and (max-width:500px){
-    .label{
-        font-size:15px
-    }
+.label {
+    font-size: 14px;
 }
-@media screen and (min-width:500px){
-    .label{
-        font-size:14px
-    }
+#chartwerk.single .label {
+    font-size: 20px;
 }
