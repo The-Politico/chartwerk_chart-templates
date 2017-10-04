@@ -38,8 +38,8 @@
                 "reverseColors": false
             },
             "range": [
-                "#E34E36",
-                "#329CEB"
+                "#329CAC",
+                "#F7A12D"
             ],
             "scheme": "categorical.default"
         },
@@ -160,12 +160,12 @@
             },
             "keys": [
                 {
-                    "color": "#E34E36",
-                    "text": "Abbreviation"
+                    "color": "#329CAC",
+                    "text": "Abbreviated"
                 },
                 {
-                    "color": "#329CEB",
-                    "text": "Full name"
+                    "color": "#F7A12D",
+                    "text": "Letter count"
                 }
             ],
             "single": {
