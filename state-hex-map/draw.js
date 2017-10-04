@@ -6,6 +6,7 @@ function draw(){
         'colorRange': chartwerk.axes.color.range,
         'colorDomain': chartwerk.axes.color.domain,
         'stateColumn': chartwerk.datamap.base,
-        'isNumeric': chartwerk.axes.color.quantize
+        'isNumeric': chartwerk.axes.color.quantize,
+        'size': chartwerk.ui.size,
     });
 }
