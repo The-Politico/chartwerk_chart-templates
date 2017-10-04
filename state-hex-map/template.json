@@ -27,10 +27,7 @@
         "color": {
             "byFacet": false,
             "domain": [
-                "Approved/Expected",
-                "No decision",
-                "Rejected",
-                "Undecided"
+                "number"
             ],
             "ignoreScale": false,
             "quantize": false,
@@ -40,12 +37,9 @@
                 "reverseColors": false
             },
             "range": [
-                "#0D3C73",
-                "#0D3C73",
-                "#0D3C73",
                 "#0D3C73"
             ],
-            "scheme": "categorical.default"
+            "scheme": "sequential.democrat"
         },
         "scale": {
             "prefix": "",
@@ -72,439 +66,231 @@
     },
     "data": [
         {
-            "audit": "Not written into law",
-            "equipment": "",
-            "federal": "Open to it",
-            "post-2016": "",
-            "state": "No decision",
-            "state_name": "Alabama"
+            "number": 50,
+            "state": "Alabama"
         },
         {
-            "audit": "Yes",
-            "equipment": "",
-            "federal": "Support more money",
-            "post-2016": "",
-            "state": "No decision",
-            "state_name": "Alaska"
+            "number": 20,
+            "state": "Alaska"
         },
         {
-            "audit": "Yes",
-            "equipment": "",
-            "federal": "Support more money",
-            "post-2016": "",
-            "state": "Rejected",
-            "state_name": "Arizona"
+            "number": 30,
+            "state": "Arizona"
         },
         {
-            "audit": "Not written into law",
-            "equipment": "Are purchasing",
-            "federal": "",
-            "post-2016": "",
-            "state": "",
-            "state_name": "Arkansas"
+            "number": 45,
+            "state": "Arkansas"
         },
         {
-            "audit": "Yes",
-            "equipment": "",
-            "federal": "Support more money",
-            "post-2016": "",
-            "state": "No decision",
-            "state_name": "California"
+            "number": 12,
+            "state": "California"
         },
         {
-            "audit": "Risk-limiting audit",
-            "equipment": "Are purchasing",
-            "federal": "Support",
-            "post-2016": "",
-            "state": "Undecided",
-            "state_name": "Colorado"
+            "number": 59,
+            "state": "Colorado"
         },
         {
-            "audit": "Yes",
-            "equipment": "",
-            "federal": "Support more money",
-            "post-2016": "Failed",
-            "state": "No decision",
-            "state_name": "Connecticut"
+            "number": 34,
+            "state": "Connecticut"
         },
         {
-            "audit": "Not written into law",
-            "equipment": "",
-            "federal": "Support more money",
-            "post-2016": "",
-            "state": "Undecided",
-            "state_name": "Delaware"
+            "number": 49,
+            "state": "Delaware"
         },
         {
-            "audit": "Yes",
-            "equipment": "",
-            "federal": "",
-            "post-2016": "",
-            "state": "",
-            "state_name": "District of Columbia"
+            "number": 20,
+            "state": "District of Columbia"
         },
         {
-            "audit": "Yes",
-            "equipment": "",
-            "federal": "",
-            "post-2016": "Failed",
-            "state": "No decision",
-            "state_name": "Florida"
+            "number": 40,
+            "state": "Florida"
         },
         {
-            "audit": "Not written into law",
-            "equipment": "",
-            "federal": "Oppose",
-            "post-2016": "",
-            "state": "No decision",
-            "state_name": "Georgia"
+            "number": 47,
+            "state": "Georgia"
         },
         {
-            "audit": "Yes",
-            "equipment": "",
-            "federal": "",
-            "post-2016": "",
-            "state": "",
-            "state_name": "Hawaii"
+            "number": 19,
+            "state": "Hawaii"
         },
         {
-            "audit": "Certain times",
-            "equipment": "",
-            "federal": "Support more money",
-            "post-2016": "",
-            "state": "No decision",
-            "state_name": "Idaho"
+            "number": 48,
+            "state": "Idaho"
         },
         {
-            "audit": "Yes",
-            "equipment": "",
-            "federal": "Support more money",
-            "post-2016": "Pending",
-            "state": "No decision",
-            "state_name": "Illinois"
+            "number": 32,
+            "state": "Illinois"
         },
         {
-            "audit": "Certain times",
-            "equipment": "",
-            "federal": "Support more money",
-            "post-2016": "Pending",
-            "state": "Approved/Expected",
-            "state_name": "Indiana"
+            "number": 60,
+            "state": "Indiana"
         },
         {
-            "audit": "Yes",
-            "equipment": "",
-            "federal": "",
-            "post-2016": "Pending",
-            "state": "",
-            "state_name": "Iowa"
+            "number": 38,
+            "state": "Iowa"
         },
         {
-            "audit": "Not written into law",
-            "equipment": "",
-            "federal": "",
-            "post-2016": "Pending",
-            "state": "",
-            "state_name": "Kansas"
+            "number": 20,
+            "state": "Kansas"
         },
         {
-            "audit": "Yes",
-            "equipment": "",
-            "federal": "",
-            "post-2016": "",
-            "state": "",
-            "state_name": "Kentucky"
+            "number": 14,
+            "state": "Kentucky"
         },
         {
-            "audit": "Not written into law",
-            "equipment": "",
-            "federal": "Support more money",
-            "post-2016": "",
-            "state": "No decision",
-            "state_name": "Louisiana"
+            "number": 9,
+            "state": "Louisiana"
         },
         {
-            "audit": "Not written into law",
-            "equipment": "",
-            "federal": "Support more money",
-            "post-2016": "Failed",
-            "state": "No decision",
-            "state_name": "Maine"
+            "number": 39,
+            "state": "Maine"
         },
         {
-            "audit": "Yes",
-            "equipment": "Are purchasing",
-            "federal": "Open",
-            "post-2016": "",
-            "state": "Undecided",
-            "state_name": "Maryland"
+            "number": 29,
+            "state": "Maryland"
         },
         {
-            "audit": "Yes",
-            "equipment": "",
-            "federal": "",
-            "post-2016": "Pending",
-            "state": "",
-            "state_name": "Massachusetts"
+            "number": 37,
+            "state": "Massachusetts"
         },
         {
-            "audit": "Not written into law",
-            "equipment": "Are purchasing",
-            "federal": "Open",
-            "post-2016": "",
-            "state": "Approved/Expected",
-            "state_name": "Michigan"
+            "number": 41,
+            "state": "Michigan"
         },
         {
-            "audit": "Yes",
-            "equipment": "Are purchasing",
-            "federal": "Support",
-            "post-2016": "Pending",
-            "state": "No decision",
-            "state_name": "Minnesota"
+            "number": 41,
+            "state": "Minnesota"
         },
         {
-            "audit": "Not written into law",
-            "equipment": "",
-            "federal": "",
-            "post-2016": "",
-            "state": "",
-            "state_name": "Mississippi"
+            "number": 42,
+            "state": "Mississippi"
         },
         {
-            "audit": "Yes",
-            "equipment": "",
-            "federal": "",
-            "post-2016": "",
-            "state": "",
-            "state_name": "Missouri"
+            "number": 58,
+            "state": "Missouri"
         },
         {
-            "audit": "Yes",
-            "equipment": "",
-            "federal": "",
-            "post-2016": "",
-            "state": "",
-            "state_name": "Montana"
+            "number": 39,
+            "state": "Montana"
         },
         {
-            "audit": "Certain times",
-            "equipment": "",
-            "federal": "Support more money",
-            "post-2016": "",
-            "state": "Rejected",
-            "state_name": "Nebraska"
+            "number": 21,
+            "state": "Nebraska"
         },
         {
-            "audit": "Yes",
-            "equipment": "Are purchasing",
-            "federal": "",
-            "post-2016": "",
-            "state": "",
-            "state_name": "Nevada"
+            "number": 36,
+            "state": "Nevada"
         },
         {
-            "audit": "Not written into law",
-            "equipment": "",
-            "federal": "",
-            "post-2016": "Failed",
-            "state": "",
-            "state_name": "New Hampshire"
+            "number": 29,
+            "state": "New Hampshire"
         },
         {
-            "audit": "Yes",
-            "equipment": "",
-            "federal": "",
-            "post-2016": "Pending",
-            "state": "",
-            "state_name": "New Jersey"
+            "number": 19,
+            "state": "New Jersey"
         },
         {
-            "audit": "Yes",
-            "equipment": "Are purchasing",
-            "federal": "",
-            "post-2016": "",
-            "state": "",
-            "state_name": "New Mexico"
+            "number": 46,
+            "state": "New Mexico"
         },
         {
-            "audit": "Yes",
-            "equipment": "",
-            "federal": "Support more money",
-            "post-2016": "Pending",
-            "state": "Rejected",
-            "state_name": "New York"
+            "number": 28,
+            "state": "New York"
         },
         {
-            "audit": "Yes",
-            "equipment": "",
-            "federal": "Support more money",
-            "post-2016": "",
-            "state": "No decision",
-            "state_name": "North Carolina"
+            "number": 39,
+            "state": "North Carolina"
         },
         {
-            "audit": "Not written into law",
-            "equipment": "",
-            "federal": "Opposed",
-            "post-2016": "",
-            "state": "No decision",
-            "state_name": "North Dakota"
+            "number": 63,
+            "state": "North Dakota"
         },
         {
-            "audit": "Yes",
-            "equipment": "",
-            "federal": "Support more money",
-            "post-2016": "",
-            "state": "No decision",
-            "state_name": "Ohio"
+            "number": 39,
+            "state": "Ohio"
         },
         {
-            "audit": "Not written into law",
-            "equipment": "",
-            "federal": "Open to it",
-            "post-2016": "",
-            "state": "No decision",
-            "state_name": "Oklahoma"
+            "number": 21,
+            "state": "Oklahoma"
         },
         {
-            "audit": "Yes",
-            "equipment": "",
-            "federal": "Open to it",
-            "post-2016": "",
-            "state": "Approved/Expected",
-            "state_name": "Oregon"
+            "number": 43,
+            "state": "Oregon"
         },
         {
-            "audit": "Yes",
-            "equipment": "",
-            "federal": "Want remaining 2002 money",
-            "post-2016": "",
-            "state": "Rejected",
-            "state_name": "Pennsylvania"
+            "number": 52,
+            "state": "Pennsylvania"
         },
         {
-            "audit": "Not written into law",
-            "equipment": "Are purchasing",
-            "federal": "Support",
-            "post-2016": "Pending",
-            "state": "",
-            "state_name": "Rhode Island"
+            "number": 32,
+            "state": "Rhode Island"
         },
         {
-            "audit": "Not written into law",
-            "equipment": "",
-            "federal": "Support more money",
-            "post-2016": "Pending",
-            "state": "Undecided",
-            "state_name": "South Carolina"
+            "number": 34,
+            "state": "South Carolina"
         },
         {
-            "audit": "Not written into law",
-            "equipment": "",
-            "federal": "",
-            "post-2016": "",
-            "state": "",
-            "state_name": "South Dakota"
+            "number": 44,
+            "state": "South Dakota"
         },
         {
-            "audit": "Yes",
-            "equipment": "",
-            "federal": "",
-            "post-2016": "",
-            "state": "",
-            "state_name": "Tennessee"
+            "number": 32,
+            "state": "Tennessee"
         },
         {
-            "audit": "Yes",
-            "equipment": "",
-            "federal": "",
-            "post-2016": "",
-            "state": "",
-            "state_name": "Texas"
+            "number": 54,
+            "state": "Texas"
         },
         {
-            "audit": "Yes",
-            "equipment": "",
-            "federal": "Oppose",
-            "post-2016": "",
-            "state": "No decision",
-            "state_name": "Utah"
+            "number": 23,
+            "state": "Utah"
         },
         {
-            "audit": "Yes",
-            "equipment": "",
-            "federal": "Support more money",
-            "post-2016": "",
-            "state": "Approved/Expected",
-            "state_name": "Vermont"
+            "number": 49,
+            "state": "Vermont"
         },
         {
-            "audit": "Yes",
-            "equipment": "",
-            "federal": "Support more money",
-            "post-2016": "Enacted",
-            "state": "Approved/Expected",
-            "state_name": "Virginia"
+            "number": 30,
+            "state": "Virginia"
         },
         {
-            "audit": "Yes",
-            "equipment": "",
-            "federal": "Support more money",
-            "post-2016": "Enacted",
-            "state": "Approved/Expected",
-            "state_name": "Washington"
+            "number": 10,
+            "state": "Washington"
         },
         {
-            "audit": "Yes",
-            "equipment": "",
-            "federal": "",
-            "post-2016": "",
-            "state": "",
-            "state_name": "West Virginia"
+            "number": 20,
+            "state": "West Virginia"
         },
         {
-            "audit": "Yes",
-            "equipment": "",
-            "federal": "Want remaining 2002 money",
-            "post-2016": "",
-            "state": "No decision",
-            "state_name": "Wisconsin"
+            "number": 30,
+            "state": "Wisconsin"
         },
         {
-            "audit": "Not written into law",
-            "equipment": "",
-            "federal": "",
-            "post-2016": "",
-            "state": "",
-            "state_name": "Wyoming"
+            "number": 40,
+            "state": "Wyoming"
         }
     ],
     "datamap": {
-        "base": "state_name",
+        "base": "state",
         "custom": {},
         "facet": null,
         "ignore": [],
-        "scale": "state",
+        "scale": null,
         "series": [],
         "sort": [
-            "state_name",
             "state",
-            "federal",
-            "audit",
-            "post-2016",
-            "equipment"
+            "number"
         ],
-        "value": null
+        "value": "number"
     },
     "embed": {
         "dimensions": {
             "double": {
-                "height": 392,
+                "height": 481,
                 "width": 560
             },
             "single": {
-                "height": 444,
+                "height": 515,
                 "width": 270
             }
         }
@@ -548,7 +334,7 @@
         "footnote": "",
         "headline": "Headline goes here please keep it short",
         "legend": {
-            "active": true,
+            "active": false,
             "double": {
                 "align": "l",
                 "background": true,
@@ -559,24 +345,7 @@
                 },
                 "width": 500
             },
-            "keys": [
-                {
-                    "color": "#0D3C73",
-                    "text": ""
-                },
-                {
-                    "color": "#0D3C73",
-                    "text": ""
-                },
-                {
-                    "color": "#0D3C73",
-                    "text": ""
-                },
-                {
-                    "color": "#0D3C73",
-                    "text": ""
-                }
-            ],
+            "keys": [],
             "single": {
                 "align": "l",
                 "background": true,
@@ -611,7 +380,7 @@
             },
             {
                 "alias": "Y axis",
-                "available": false,
+                "available": true,
                 "class": "series"
             },
             {
@@ -625,7 +394,7 @@
                 "class": "ignore"
             }
         ],
-        "rawData": "state_name\tstate\tfederal\taudit\tpost-2016\tequipment\nAlabama\tNo decision\tOpen to it\tNot written into law\t\t\nAlaska\tNo decision\tSupport more money\tYes\t\t\nArizona\tRejected\tSupport more money\tYes\t\t\nArkansas\t\t\tNot written into law\t\tAre purchasing\nCalifornia\tNo decision\tSupport more money\tYes\t\t\nColorado\tUndecided\tSupport\tRisk-limiting audit\t\tAre purchasing\nConnecticut\tNo decision\tSupport more money\tYes\tFailed\t\nDelaware\tUndecided\tSupport more money\tNot written into law\t\t\nDistrict of Columbia\t\t\tYes\t\t\nFlorida\tNo decision\t\tYes\tFailed\t\nGeorgia\tNo decision\tOppose\tNot written into law\t\t\nHawaii\t\t\tYes\t\t\nIdaho\tNo decision\tSupport more money\tCertain times\t\t\nIllinois\tNo decision\tSupport more money\tYes\tPending\t\nIndiana\tApproved/Expected\tSupport more money\tCertain times\tPending\t\nIowa\t\t\tYes\tPending\t\nKansas\t\t\tNot written into law\tPending\t\nKentucky\t\t\tYes\t\t\nLouisiana\tNo decision\tSupport more money\tNot written into law\t\t\nMaine\tNo decision\tSupport more money\tNot written into law\tFailed\t\nMaryland\tUndecided\tOpen\tYes\t\tAre purchasing\nMassachusetts\t\t\tYes\tPending\t\nMichigan\tApproved/Expected\tOpen\tNot written into law\t\tAre purchasing\nMinnesota\tNo decision\tSupport\tYes\tPending\tAre purchasing\nMississippi\t\t\tNot written into law\t\t\nMissouri\t\t\tYes\t\t\nMontana\t\t\tYes\t\t\nNebraska\tRejected\tSupport more money\tCertain times\t\t\nNevada\t\t\tYes\t\tAre purchasing\nNew Hampshire\t\t\tNot written into law\tFailed\t\nNew Jersey\t\t\tYes\tPending\t\nNew Mexico\t\t\tYes\t\tAre purchasing\nNew York\tRejected\tSupport more money\tYes\tPending\t\nNorth Carolina\tNo decision\tSupport more money\tYes\t\t\nNorth Dakota\tNo decision\tOpposed\tNot written into law\t\t\nOhio\tNo decision\tSupport more money\tYes\t\t\nOklahoma\tNo decision\tOpen to it\tNot written into law\t\t\nOregon\tApproved/Expected\tOpen to it\tYes\t\t\nPennsylvania\tRejected\tWant remaining 2002 money\tYes\t\t\nRhode Island\t\tSupport\tNot written into law\tPending\tAre purchasing\nSouth Carolina\tUndecided\tSupport more money\tNot written into law\tPending\t\nSouth Dakota\t\t\tNot written into law\t\t\nTennessee\t\t\tYes\t\t\nTexas\t\t\tYes\t\t\nUtah\tNo decision\tOppose\tYes\t\t\nVermont\tApproved/Expected\tSupport more money\tYes\t\t\nVirginia\tApproved/Expected\tSupport more money\tYes\tEnacted\t\nWashington\tApproved/Expected\tSupport more money\tYes\tEnacted\t\nWest Virginia\t\t\tYes\t\t\nWisconsin\tNo decision\tWant remaining 2002 money\tYes\t\t\nWyoming\t\t\tNot written into law\t\t",
+        "rawData": "state\tnumber\nAlabama\t50\nAlaska\t20\nArizona\t30\nArkansas\t45\nCalifornia\t12\nColorado\t59\nConnecticut\t34\nDelaware\t49\nDistrict of Columbia\t20\nFlorida\t40\nGeorgia\t47\nHawaii\t19\nIdaho\t48\nIllinois\t32\nIndiana\t60\nIowa\t38\nKansas\t20\nKentucky\t14\nLouisiana\t9\nMaine\t39\nMaryland\t29\nMassachusetts\t37\nMichigan\t41\nMinnesota\t41\nMississippi\t42\nMissouri\t58\nMontana\t39\nNebraska\t21\nNevada\t36\nNew Hampshire\t29\nNew Jersey\t19\nNew Mexico\t46\nNew York\t28\nNorth Carolina\t39\nNorth Dakota\t63\nOhio\t39\nOklahoma\t21\nOregon\t43\nPennsylvania\t52\nRhode Island\t32\nSouth Carolina\t34\nSouth Dakota\t44\nTennessee\t32\nTexas\t54\nUtah\t23\nVermont\t49\nVirginia\t30\nWashington\t10\nWest Virginia\t20\nWisconsin\t30\nWyoming\t40",
         "size": "double"
     }
 }
