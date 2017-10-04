@@ -154,7 +154,7 @@
 }
 
 #chartwerk #chart-legend 
-.chart-legend-container .key{
+.chart-legend-container .key.quantized{
     margin-right: 0px;
 }
 
@@ -176,18 +176,15 @@
 .state{
     fill:#eee
 }
-.label{
-    font-family:proxima-nova;
-    font-size:15px;
-    fill:#979797
+.map-label{
+    font-family:franklin-gothic-urw;
+    fill:#979797;
+    font-size: 20px;
 }
-.label-active{
+.map-label-active{
     fill:#fff;
     text-shadow: 1px 1px 3px black;
 }
-.label {
-    font-size: 16px;
-}
-#chartwerk.single .label {
-    font-size: 20px;
+#chartwerk.single .map-label {
+    font-size: 24px;
 }
