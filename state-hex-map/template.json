@@ -27,10 +27,10 @@
         "color": {
             "byFacet": false,
             "domain": [
-                "Certain times",
-                "Not written into law",
-                "Risk-limiting audit",
-                "Yes"
+                "Approved/Expected",
+                "No decision",
+                "Rejected",
+                "Undecided"
             ],
             "ignoreScale": false,
             "quantize": false,
@@ -40,9 +40,9 @@
                 "reverseColors": false
             },
             "range": [
-                "#47BEF8",
-                "#F95100",
-                "#329CAC",
+                "#0D3C73",
+                "#0D3C73",
+                "#0D3C73",
                 "#0D3C73"
             ],
             "scheme": "categorical.default"
@@ -485,7 +485,7 @@
         "custom": {},
         "facet": null,
         "ignore": [],
-        "scale": "audit",
+        "scale": "state",
         "series": [],
         "sort": [
             "state_name",
@@ -548,7 +548,7 @@
         "footnote": "",
         "headline": "Headline goes here please keep it short",
         "legend": {
-            "active": false,
+            "active": true,
             "double": {
                 "align": "l",
                 "background": true,
@@ -561,15 +561,15 @@
             },
             "keys": [
                 {
-                    "color": "#47BEF8",
+                    "color": "#0D3C73",
                     "text": ""
                 },
                 {
-                    "color": "#F95100",
+                    "color": "#0D3C73",
                     "text": ""
                 },
                 {
-                    "color": "#329CAC",
+                    "color": "#0D3C73",
                     "text": ""
                 },
                 {
@@ -600,8 +600,8 @@
                 "class": "base"
             },
             {
-                "alias": "value axis",
-                "available": false,
+                "alias": "threshold column",
+                "available": true,
                 "class": "value"
             },
             {
