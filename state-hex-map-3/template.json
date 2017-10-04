@@ -1,0 +1,423 @@
+{
+    "axes": {
+        "base": {
+            "dateFormat": null,
+            "format": {
+                "double": {
+                    "customTicks": [],
+                    "dateString": "Y",
+                    "frequency": 1,
+                    "ticks": 7
+                },
+                "single": {
+                    "customTicks": [],
+                    "dateString": "Y",
+                    "frequency": 2,
+                    "ticks": 7
+                }
+            },
+            "label": "",
+            "max": null,
+            "min": null,
+            "prefix": "",
+            "shadedRegions": [],
+            "suffix": "",
+            "type": "categorical"
+        },
+        "color": {
+            "byFacet": false,
+            "domain": [
+                "Certain times",
+                "Not written into law",
+                "Risk-limiting audit",
+                "Yes"
+            ],
+            "ignoreScale": false,
+            "quantize": false,
+            "quantizeProps": {
+                "column": null,
+                "groups": 0,
+                "reverseColors": false
+            },
+            "range": [
+                "#47BEF8",
+                "#F95100",
+                "#329CAC",
+                "#0D3C73"
+            ],
+            "scheme": "categorical.default"
+        },
+        "scale": {
+            "prefix": "",
+            "suffix": ""
+        },
+        "value": {
+            "format": {
+                "double": {
+                    "customTicks": [],
+                    "ticks": 7
+                },
+                "single": {
+                    "customTicks": [],
+                    "ticks": 7
+                }
+            },
+            "label": "",
+            "max": null,
+            "min": null,
+            "prefix": "$",
+            "shadedRegions": [],
+            "suffix": ""
+        }
+    },
+    "data": [
+        {
+            "audit": "Not written into law",
+            "state_name": "Alabama"
+        },
+        {
+            "audit": "Yes",
+            "state_name": "Alaska"
+        },
+        {
+            "audit": "Yes",
+            "state_name": "Arizona"
+        },
+        {
+            "audit": "Not written into law",
+            "state_name": "Arkansas"
+        },
+        {
+            "audit": "Yes",
+            "state_name": "California"
+        },
+        {
+            "audit": "Risk-limiting audit",
+            "state_name": "Colorado"
+        },
+        {
+            "audit": "Yes",
+            "state_name": "Connecticut"
+        },
+        {
+            "audit": "Not written into law",
+            "state_name": "Delaware"
+        },
+        {
+            "audit": "Yes",
+            "state_name": "District of Columbia"
+        },
+        {
+            "audit": "Yes",
+            "state_name": "Florida"
+        },
+        {
+            "audit": "Not written into law",
+            "state_name": "Georgia"
+        },
+        {
+            "audit": "Yes",
+            "state_name": "Hawaii"
+        },
+        {
+            "audit": "Certain times",
+            "state_name": "Idaho"
+        },
+        {
+            "audit": "Yes",
+            "state_name": "Illinois"
+        },
+        {
+            "audit": "Certain times",
+            "state_name": "Indiana"
+        },
+        {
+            "audit": "Yes",
+            "state_name": "Iowa"
+        },
+        {
+            "audit": "Not written into law",
+            "state_name": "Kansas"
+        },
+        {
+            "audit": "Yes",
+            "state_name": "Kentucky"
+        },
+        {
+            "audit": "Not written into law",
+            "state_name": "Louisiana"
+        },
+        {
+            "audit": "Not written into law",
+            "state_name": "Maine"
+        },
+        {
+            "audit": "Yes",
+            "state_name": "Maryland"
+        },
+        {
+            "audit": "Yes",
+            "state_name": "Massachusetts"
+        },
+        {
+            "audit": "Not written into law",
+            "state_name": "Michigan"
+        },
+        {
+            "audit": "Yes",
+            "state_name": "Minnesota"
+        },
+        {
+            "audit": "Not written into law",
+            "state_name": "Mississippi"
+        },
+        {
+            "audit": "Yes",
+            "state_name": "Missouri"
+        },
+        {
+            "audit": "Yes",
+            "state_name": "Montana"
+        },
+        {
+            "audit": "Certain times",
+            "state_name": "Nebraska"
+        },
+        {
+            "audit": "Yes",
+            "state_name": "Nevada"
+        },
+        {
+            "audit": "Not written into law",
+            "state_name": "New Hampshire"
+        },
+        {
+            "audit": "Yes",
+            "state_name": "New Jersey"
+        },
+        {
+            "audit": "Yes",
+            "state_name": "New Mexico"
+        },
+        {
+            "audit": "Yes",
+            "state_name": "New York"
+        },
+        {
+            "audit": "Yes",
+            "state_name": "North Carolina"
+        },
+        {
+            "audit": "Not written into law",
+            "state_name": "North Dakota"
+        },
+        {
+            "audit": "Yes",
+            "state_name": "Ohio"
+        },
+        {
+            "audit": "Not written into law",
+            "state_name": "Oklahoma"
+        },
+        {
+            "audit": "Yes",
+            "state_name": "Oregon"
+        },
+        {
+            "audit": "Yes",
+            "state_name": "Pennsylvania"
+        },
+        {
+            "audit": "Not written into law",
+            "state_name": "Rhode Island"
+        },
+        {
+            "audit": "Not written into law",
+            "state_name": "South Carolina"
+        },
+        {
+            "audit": "Not written into law",
+            "state_name": "South Dakota"
+        },
+        {
+            "audit": "Yes",
+            "state_name": "Tennessee"
+        },
+        {
+            "audit": "Yes",
+            "state_name": "Texas"
+        },
+        {
+            "audit": "Yes",
+            "state_name": "Utah"
+        },
+        {
+            "audit": "Yes",
+            "state_name": "Vermont"
+        },
+        {
+            "audit": "Yes",
+            "state_name": "Virginia"
+        },
+        {
+            "audit": "Yes",
+            "state_name": "Washington"
+        },
+        {
+            "audit": "Yes",
+            "state_name": "West Virginia"
+        },
+        {
+            "audit": "Yes",
+            "state_name": "Wisconsin"
+        },
+        {
+            "audit": "Not written into law",
+            "state_name": "Wyoming"
+        }
+    ],
+    "datamap": {
+        "base": "state_name",
+        "custom": {},
+        "facet": null,
+        "ignore": [],
+        "scale": "audit",
+        "series": [],
+        "sort": [
+            "state_name",
+            "audit"
+        ],
+        "value": null
+    },
+    "embed": {
+        "dimensions": {
+            "double": {
+                "height": 507,
+                "width": 560
+            },
+            "single": {
+                "height": 408,
+                "width": 270
+            }
+        }
+    },
+    "margins": {
+        "double": {
+            "bottom": 0.07999999999999996,
+            "left": 0.06,
+            "right": 0.020000000000000018,
+            "top": 0
+        },
+        "single": {
+            "bottom": 0.10999999999999999,
+            "left": 0.11,
+            "right": 0.020000000000000018,
+            "top": 0
+        }
+    },
+    "scripts": {
+        "dependencies": {
+            "scripts": [
+                "https://s3.amazonaws.com/com.politico.interactives.politico.com/cdn/chart-modules/state-grid-map/js/main.bundle.js"
+            ],
+            "styles": []
+        },
+        "draw": "function draw(){\n    var map = window.StateGridMap();\n    \n    map.create('#chart', chartwerk.data, {\n        'column': chartwerk.datamap.scale,\n        'colorRange': chartwerk.axes.color.range,\n        'colorDomain': chartwerk.axes.color.domain,\n        'stateColumn': chartwerk.datamap.base,\n        'isNumeric': chartwerk.axes.color.quantize,\n        'size': chartwerk.ui.size\n    });\n    \n    window.addEventListener('resize', function() {\n       map.resize(); \n    });\n}",
+        "helper": "var werkHelper = {\n    parse: function(werk){\n        werk.parsers = {\n          base: d3.timeParse( chartwerk.axes.base.dateFormat ),\n          value: function(d){ return d === '' ? NaN : +d; }\n        };\n        \n        werk.data = chartwerk.axes.color.domain.map(function(category){\n            return {\n                name: category,\n                values: chartwerk.data.map(function(d){\n                    return {\n                        x: werk.parsers.base(\n                            String(d[chartwerk.datamap.base])\n                        ),\n                        y: werk.parsers.value(d[category])\n                    };\n                })\n                .sort(function(a, b){ return d3.ascending(a.x, b.x); })\n            };\n        });\n        \n        // Get max and min of data \n        var xMax = d3.max(werk.data,function(series){return d3.max(series.values,function(d){return d.x; }); }),\n\t        xMin = d3.min(werk.data,function(series){return d3.min(series.values,function(d){return d.x; }); }),\n\t        yMax = d3.max(werk.data,function(series){return d3.max(series.values,function(d){return d.y; }); }),\n\t        yMin = d3.min(werk.data,function(series){return d3.min(series.values,function(d){return d.y; }); });\n        \n        werk.dataDims = {\n            xMin: xMin,\n            xMax: xMax,\n            yMin: yMin,\n            yMax: yMax\n        };\n    },\n    \n    dims: function(werk){\n        var s = chartwerk.ui.size;\n            w = werk.dims[s].width,\n            h = werk.dims[s].height,\n            margins = {\n                right: chartwerk.margins[s].right * w,\n                left: chartwerk.margins[s].left * w,\n                top: chartwerk.margins[s].top * h,\n                bottom: chartwerk.margins[s].bottom * h\n            },\n            svg = {\n                width: w - margins.left - margins.right,\n                height: h - margins.top - margins.bottom\n            };\n        \n        werk.dims.margins = margins;\n        werk.dims.svg = svg;\n    },\n\n    scales: function(werk){\n        var svg = werk.dims.svg;\n        werk.scales = {\n            x: d3.scaleTime()\n                .range([0, svg.width]),\n            y: d3.scaleLinear()\n                .range([svg.height, 0]),\n            color: chartwerk.axes.color.range.length > 1 ? \n                d3.scaleOrdinal()\n                  .domain(chartwerk.axes.color.domain)\n                  .range(chartwerk.axes.color.range) \n            :   function(d){return chartwerk.axes.color.range[0];},\n        };\n    },\n    \n    baseDomain:  function(werk){\n        var xMax = d3.max(werk.data, function(category) {\n                return d3.max(category.values, function(d){\n                    return d.x; \n                }); \n            }),\n            xMin = d3.min(werk.data, function(category) { \n                return d3.min(category.values, function(d){ \n                    return d.x;\n                });\n            });\n        werk.scales.x.domain([xMin, xMax]);\n    },\n\n    valueDomain: function(werk){\n        var yMax = d3.max(werk.data, function(category) { \n                return d3.max(category.values, function(d){ \n                    return d.y; \n                }); \n            }),\n            yMin = d3.min(werk.data, function(category) {\n                return d3.min(category.values, function(d){ \n                    return d.y; \n                }); \n            });\n        \n        if (chartwerk.axes.value.min !== null && chartwerk.axes.value.max !== null) {\n            werk.scales.y.domain(\n                [chartwerk.axes.value.min, chartwerk.axes.value.max]\n            );\n        } else if (chartwerk.axes.value.min !== null) {\n            werk.scales.y.domain(\n                [chartwerk.axes.value.min, yMax ]\n            );\n        } else if (chartwerk.axes.value.max !== null) {\n            werk.scales.y.domain(\n                [yMin, chartwerk.axes.value.max]\n            );\n        } else {\n            werk.scales.y.domain([yMin, yMax]);\n        }\n        \n        werk.scales.y.nice();\n    },\n\n    axes: function(werk){\n        werk.axes = {\n          x: d3.axisBottom(werk.scales.x)\n              .tickSizeInner(6)\n              .tickSizeOuter(0)\n              .tickPadding(3),\n          y: d3.axisLeft(werk.scales.y)\n              .tickSizeInner(-werk.dims.svg.width)\n              .tickSizeOuter(0)\n              .tickPadding(7)\n              .tickFormat( function(d){ \n                var formatter = werk.scales.y.tickFormat();\n                if (d >= 0) {\n                  return formatter(d) === '0' ? '0' : \n                  chartwerk.axes.value.prefix + formatter(d) + chartwerk.axes.value.suffix;\n                } else {\n                  return \"-\" + chartwerk.axes.value.prefix + formatter(Math.abs(d)) + chartwerk.axes.value.suffix;\n                }\n              }),\n        };\n    },\n\n    baseTicks: function(werk){\n        if (chartwerk.axes.base.type !== 'date') {\n            return;\n        }\n        \n        // Abstract this to a separate file once formats settled.\n        var customLocale = {\n          \"dateTime\": \"%x, %X\",\n          \"date\": \"%-m/%-d/%Y\",\n          \"time\": \"%-I:%M:%S %p\",\n          \"periods\": [\"AM\", \"PM\"],\n          \"days\": [\"Sunday\", \"Monday\", \"Tuesday\", \"Wednesday\", \"Thursday\", \"Friday\", \"Saturday\"],\n          \"shortDays\": [\"S\", \"M\", \"T\", \"W\", \"T\", \"F\", \"S\"],\n          \"months\": [\"January\", \"February\", \"March\", \"April\", \"May\", \"June\", \"July\", \"August\", \"September\", \"October\", \"November\", \"December\"],\n          \"shortMonths\": [\"Jan\", \"Feb\", \"Mar\", \"Apr\", \"May\", \"Jun\", \"Jul\", \"Aug\", \"Sep\", \"Oct\", \"Nov\", \"Dec\"]\n        }\n        \n        d3.timeFormatDefaultLocale(customLocale);\n        \n        \n        var formatMillisecond = d3.timeFormat(\".%L\"),\n            formatSecond = d3.timeFormat(\":%S\"),\n            formatMinute = d3.timeFormat(\"%I:%M\"),\n            formatHour = d3.timeFormat(\"%I %p\"),\n            formatDay = d3.timeFormat(\"%a %d\"),\n            formatWeek = d3.timeFormat(\"%b %d\"),\n            formatMonth = d3.timeFormat(\"%B\"),\n            formatYear = d3.timeFormat(\"%Y\");\n        \n        \n        var s = chartwerk.ui.size;\n        var dateTick;\n        switch(chartwerk.axes.base.format[s].dateString) {\n            case 'Y':\n                dateTick = d3.timeYear;\n                formatYear = d3.timeFormat(\"%Y\");\n                break;\n            case 'y':\n                dateTick = d3.timeYear;\n                formatYear = d3.timeFormat(\"'%y\");\n                break;\n            case 'M':\n                dateTick = d3.timeMonth;\n                formatMonth = d3.timeFormat(\"%B\");\n                formatYear = d3.timeFormat(\"Jan. '%y\");\n                break;\n            case 'm':\n                dateTick = d3.timeMonth;\n                formatMonth = d3.timeFormat(\"%b.\");\n                formatYear = d3.timeFormat(\"J/%y\");\n                break;\n            case 'W':\n            case 'w':\n                dateTick = d3.timeWeek;\n                formatMonth = d3.timeFormat(\"%b.\");\n                formatYear = d3.timeFormat(\"J/%y\");\n                break;\n            case 'D':\n                dateTick = d3.timeDay;\n                formatMonth = d3.timeFormat(\"%b.\");\n                formatYear = d3.timeFormat(\"J/%y\");\n        }\n        \n        function multiFormat(date) {\n          return (d3.timeSecond(date) < date ? formatMillisecond\n              : d3.timeMinute(date) < date ? formatSecond\n              : d3.timeHour(date) < date ? formatMinute\n              : d3.timeDay(date) < date ? formatHour\n              : d3.timeMonth(date) < date ? (d3.timeWeek(date) < date ? formatDay : formatWeek)\n              : d3.timeYear(date) < date ? formatMonth\n              : formatYear)(date);\n        }\n        \n        werk.axes.x.tickFormat(multiFormat)\n        \n        werk.axes.x.ticks(\n            dateTick.every( chartwerk.axes.base.format[s].frequency )\n        );\n    },\n\n    valueTicks: function(werk){\n        var s = chartwerk.ui.size;\n        if (chartwerk.axes.value.format[s].customTicks.length > 0) { \n            werk.axes.y.tickValues(\n                chartwerk.axes.value.format[s].customTicks\n            );\n        } else {\n            werk.axes.y.ticks(\n              chartwerk.axes.value.format[s].ticks\n            );\n        }\n    },\n\n    // Build dims, scales and axes.\n    build: function(werk){\n        this.parse(werk);\n        this.dims(werk);\n        this.scales(werk);\n        this.baseDomain(werk);\n        this.valueDomain(werk);\n        this.axes(werk);\n        this.baseTicks(werk);\n        this.valueTicks(werk);\n        return werk;\n    },\n};",
+        "html": "<div id='chart-header'>\n\t<h2 id='headline'></h2>\n\t<div id='chatter'></div> \n</div> \n<div id='chart-ui'>\n\t<!--You can put any necessary buttons, etc., here.-->\n</div>\n<div id='chart-legend'></div>\n<div id='chart'></div> \n<div id='chart-footer'> \n\t<div id='footnote'></div> \n\t<div id='source'></div> \n\t<div id='author'></div> \n</div>\n<div id=\"map-template\" style=\"display: none;\">\n    <div class=\"key-wrap\">\n        <ul class=\"key\"></ul>\n    </div>\n\n    <svg viewBox=\"66 70 752 484\" version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" xmlns:sketch=\"http://www.bohemiancoding.com/sketch/ns\">\n        <title>map</title>\n        <desc></desc>\n        <defs></defs>\n        <g stroke=\"none\" stroke-width=\"1\" fill=\"none\" fill-rule=\"evenodd\" sketch:type=\"MSPage\">\n            <g class=\"map\" sketch:type=\"MSLayerGroup\" transform=\"translate(1.000000, 2.000000)\" stroke-width=\"2\" stroke=\"#FFFFFF\" fill=\"#DDDDDD\">\n                <g class=\"states\" sketch:type=\"MSShapeGroup\">\n                    <path class=\"st0 state-alaska\" d=\"M125.6,66.8l30,17.3v34.6l-30,17.3l-30-17.3V84.2L125.6,66.8z\"/>\n                    <path class=\"st0 state-maine\" d=\"M786.2,68.8l30,17.3v34.6l-30,17.3l-30-17.3V86.1L786.2,68.8z\"/>\n                    <path class=\"st0 state-vermont\" d=\"M695.7,119.8l30,17.3v34.6l-30,17.3l-30-17.3v-34.6L695.7,119.8z\"/>\n                    <path class=\"st0 state-new-hampshire\" d=\"M755.7,119.8l30,17.3v34.6l-30,17.3l-30-17.3v-34.6L755.7,119.8z\"/>\n                    <path class=\"st0 state-washington\" d=\"M185.6,170.8l30,17.3v34.6l-30,17.3l-30-17.3v-34.6L185.6,170.8z\"/>\n                    <path class=\"st0 state-montana\" d=\"M305.7,170.8l30,17.3v34.6l-30,17.3l-30-17.3v-34.6L305.7,170.8z\"/>\n                    <path class=\"st0 state-north-dakota\" d=\"M365.7,170.8l30,17.3v34.6l-30,17.3l-30-17.3v-34.6L365.7,170.8z\"/>\n                    <path class=\"st0 state-minnesota\" d=\"M425.7,170.8l30,17.3v34.6l-30,17.3l-30-17.3v-34.6L425.7,170.8z\"/>\n                    <path class=\"st0 state-wisconsin\" d=\"M485.7,170.8l30,17.3v34.6l-30,17.3l-30-17.3v-34.6L485.7,170.8z\"/>\n                    <path class=\"st0 state-michigan\" d=\"M545.7,170.8l30,17.3v34.6l-30,17.3l-30-17.3v-34.6L545.7,170.8z\"/>\n                    <path class=\"st0 state-new-york\" d=\"M665.5,171.8l30,17.3v34.6l-30,17.3l-30-17.3v-34.6L665.5,171.8z\"/>\n                    <path class=\"st0 state-massachusetts\" d=\"M726,171.8l30,17.3v34.6l-30,17.3l-30-17.3v-34.6L726,171.8z\"/>\n                    <path class=\"st0 state-rhode-island\" d=\"M785.2,171.8l30,17.3v34.6l-30,17.3l-30-17.3v-34.6L785.2,171.8z\"/>\n                    <path class=\"st0 state-idaho\" d=\"M245.7,170.8l30,17.3v34.6l-30,17.3l-30-17.3v-34.6L245.7,170.8z\"/>\n                    <path class=\"st0 state-wyoming\" d=\"M275.7,222.7l30,17.3v34.6l-30,17.3l-30-17.3v-34.6L275.7,222.7z\"/>\n                    <path class=\"st0 state-south-dakota\" d=\"M335.7,222.7l30,17.3v34.6l-30,17.3l-30-17.3v-34.6L335.7,222.7z\"/>\n                    <path class=\"st0 state-iowa\" d=\"M395.7,222.7l30,17.3v34.6l-30,17.3l-30-17.3v-34.6L395.7,222.7z\"/>\n                    <path class=\"st0 state-illinois\" d=\"M455.7,222.7l30,17.3v34.6l-30,17.3l-30-17.3v-34.6L455.7,222.7z\"/>\n                    <path class=\"st0 state-indiana\" d=\"M515.7,222.7l30,17.3v34.6l-30,17.3l-30-17.3v-34.6L515.7,222.7z\"/>\n                    <path class=\"st0 state-ohio\" d=\"M575.7,222.7l30,17.3v34.6l-30,17.3l-30-17.3v-34.6L575.7,222.7z\"/>\n                    <path class=\"st0 state-pennsylvania\" d=\"M635.7,222.7l30,17.3v34.6l-30,17.3l-30-17.3v-34.6L635.7,222.7z\"/>\n                    <path class=\"st0 state-new-jersey\" d=\"M695.7,222.7l30,17.3v34.6l-30,17.3l-30-17.3v-34.6L695.7,222.7z\"/>\n                    <path class=\"st0 state-connecticut\" d=\"M755.7,222.7l30,17.3v34.6l-30,17.3l-30-17.3v-34.6L755.7,222.7z\"/>\n                    <path class=\"st0 state-oregon\" d=\"M215.6,222.7l30,17.3v34.6l-30,17.3l-30-17.3v-34.6L215.6,222.7z\"/>\n                    <path class=\"st0 state-nevada\" d=\"M245.7,274.7l30,17.3v34.6l-30,17.3l-30-17.3V292L245.7,274.7z\"/>\n                    <path class=\"st0 state-colorado\" d=\"M335.7,326.7l30,17.3v34.6l-30,17.3l-30-17.3V344L335.7,326.7z\"/>\n                    <path class=\"st0 state-nebraska\" d=\"M365.7,274.7l30,17.3v34.6l-30,17.3l-30-17.3V292L365.7,274.7z\"/>\n                    <path class=\"st0 state-missouri\" d=\"M425.7,274.7l30,17.3v34.6l-30,17.3l-30-17.3V292L425.7,274.7z\"/>\n                    <path class=\"st0 state-kentucky\" d=\"M485.7,274.7l30,17.3v34.6l-30,17.3l-30-17.3V292L485.7,274.7z\"/>\n                    <path class=\"st0 state-west-virginia\" d=\"M545.7,274.7l30,17.3v34.6l-30,17.3l-30-17.3V292L545.7,274.7z\"/>\n                    <path class=\"st0 state-virginia\" d=\"M636.2,326.7l30,17.3v34.6l-30,17.3l-30-17.3V344L636.2,326.7z\"/>\n                    <path class=\"st0 state-maryland\" d=\"M665.7,274.7l30,17.3v34.6l-30,17.3l-30-17.3V292L665.7,274.7z\"/>\n                    <path class=\"st0 state-delaware\" d=\"M725.7,274.7l30,17.3v34.6l-30,17.3l-30-17.3V292L725.7,274.7z\"/>\n                    <path class=\"st0 state-california\" d=\"M185.7,274.7l30,17.3v34.6l-30,17.3l-30-17.3V292L185.7,274.7z\"/>\n                    <path class=\"st0 state-utah\" d=\"M305.7,274.7l30,17.3v34.6l-30,17.3l-30-17.3V292L305.7,274.7z\"/>\n                    <path class=\"st0 state-new-mexico\" d=\"M275.7,326.7l30,17.3v34.6l-30,17.3l-30-17.3V344L275.7,326.7z\"/>\n                    <path class=\"st0 state-kansas\" d=\"M395.7,326.7l30,17.3v34.6l-30,17.3l-30-17.3V344L395.7,326.7z\"/>\n                    <path class=\"st0 state-arkansas\" d=\"M455.7,326.7l30,17.3v34.6l-30,17.3l-30-17.3V344L455.7,326.7z\"/>\n                    <path class=\"st0 state-tennessee\" d=\"M515.7,326.7l30,17.3v34.6l-30,17.3l-30-17.3V344L515.7,326.7z\"/>\n                    <path class=\"st0 state-north-carolina\" d=\"M575.7,326.7l30,17.3v34.6l-30,17.3l-30-17.3V344L575.7,326.7z\"/>\n                    <path class=\"st0 state-south-carolina\" d=\"M605.7,378.6l30,17.3v34.6l-30,17.3l-30-17.3V396L605.7,378.6z\"/>\n                    <path class=\"st0 state-district-of-columbia\" d=\"M606.2,274.7l30,17.3v34.6l-30,17.3l-30-17.3V292L606.2,274.7z\"/>\n                    <path class=\"st0 state-arizona\" d=\"M215.7,326.7l30,17.3v34.6l-30,17.3l-30-17.3V344L215.7,326.7z\"/>\n                    <path class=\"st0 state-oklahoma\" d=\"M365.7,378.6l30,17.3v34.6l-30,17.3l-30-17.3V396L365.7,378.6z\"/>\n                    <path class=\"st0 state-louisiana\" d=\"M425.7,378.6l30,17.3v34.6l-30,17.3l-30-17.3V396L425.7,378.6z\"/>\n                    <path class=\"st0 state-mississippi\" d=\"M485.7,378.6l30,17.3v34.6l-30,17.3l-30-17.3V396L485.7,378.6z\"/>\n                    <path class=\"st0 state-alabama\" d=\"M545.7,378.6l30,17.3v34.6l-30,17.3l-30-17.3V396L545.7,378.6z\"/>\n                    <path class=\"st0 state-georgia\" d=\"M575.7,430.6l30,17.3v34.6l-30,17.3l-30-17.3v-34.6L575.7,430.6z\"/>\n                    <path class=\"st0 state-hawaii\" d=\"M95.6,430.6l30,17.3v34.6l-30,17.3l-30-17.3v-34.6L95.6,430.6z\"/>\n                    <path class=\"st0 state-texas\" d=\"M395.7,430.6l30,17.3v34.6l-30,17.3l-30-17.3v-34.6L395.7,430.6z\"/>\n                    <path class=\"st0 state-florida\" d=\"M605.7,482.6l30,17.3v34.6l-30,17.3l-30-17.3v-34.6L605.7,482.6z\"/>\n                </g>\n            </g>\n        </g>\n    </svg>\n</div>\n",
+        "styles": "/****************/\n/*shared head dek styles*/\n/****************/\n\n\n#chartwerk strong{\n    font-weight: 600;\n}\n\n#chartwerk #chart-header{\n    line-height: 1.45em;\n    font-weight: 400;\n}\n\n#chartwerk #chart-header #headline{\n    line-height: 1.1em;\n}\n\n#chartwerk.single #chart-header #headline{\n    line-height: 1em;\n}\n\n#preview-pane{\n    background-color: #f7f8f8;\n}\n\n#chartwerk #headline { \n    font-weight:bold;\n    font-size:25px;\n    line-height: 1.05em;\n}\n\n#chartwerk.single #headline { \n    font-size:22px;\n}\n\n#chartwerk #chatter {\n    margin: 6px 0px 12px;\n    font-size: 17px;\n}\n\n#chartwerk.single #chatter {\n    margin: 8px 0px 10px;\n    font-size: 14px;\n    line-height: 1.2em;\n}\n\n\n\n/****************/\n/*shared source byline styles*/\n/****************/\n\n.double #chart-footer #author{\n    float: right;\n}\n\n.single #chart-footer #source{\n    font-weight: 400;\n    font-size: 10px;\n}\n\n.single #chart-footer #author{\n    font-weight: 400;\n    font-size: 10px;\n    float: left;\n}\n\n\n#chartwerk #footnote,\n#chartwerk #source,\n#chartwerk #author {\n    font-size:12px;\n    font-weight: 400\n    color:#666;\n    display: inline-block;\n}\n\n#chartwerk.single #footnote,\n#chartwerk.single #source,\n#chartwerk.single #author {\n    display: block;\n}\n\n#chartwerk #chart-footer {\n    margin-top: 12px;\n}\n\n/****************/\n/*shared annotation styles*/\n/****************/\n\n\n#chartwerk .annotation .inner p{\n    font-size: 14px;\n    line-height: 1.2em;\n    font-family:'franklin-gothic-urw', arial, sans-serif;\n}\n\n#chartwerk .annotation p{\n    font-family: inherit;\n    font-weight: 200;\n}\n\n/****************/\n/*shared chart spec styles*/\n/****************/\n\n#chartwerk {\n    font-family: 'proxima-nova', arial, sans-serif;\n    font-weight: 200;\n    padding: 20px 0;\n    width:560px;\n    background: #f7f8f8 url(http://static.politico.com/resource/images/website/shared/template/bg-noise.24d18bcf9d414e030c36ffd7f30648e8.jpg) repeat left top;\n}\n\n\n#chartwerk.single{\n    width:270px;\n    float:left;\n    overflow:hidden;\n    margin:10px 30px 10px 0;\n}\n\n/****************/\n/*shared legend styles*/\n/****************/\n\n#chart-legend .chart-legend-container.bg, #chart .chart-legend-container.bg{\n    background: #f7f8f8 url(http://static.politico.com/resource/images/website/shared/template/bg-noise.24d18bcf9d414e030c36ffd7f30648e8.jpg) repeat left top;\n}\n#chartwerk #chart-legend \n.chart-legend-container .key-label{\n    font-family:'franklin-gothic-urw', arial, sans-serif;\n    font-weight: 200;\n    font-size: 14px;\n    margin-left: 3px;\n    margin-right: 6px;\n}\n#chartwerk.single #chart-legend \n.chart-legend-container .key-label{\n    font-size: 13px;\n}\n#chartwerk #chart-legend \n.chart-legend-container .key-color{\n    margin-right:2px;\n    margin-top: 2px;\n    width: 12px;\n    height: 12px;\n}\n#chartwerk #chart-legend \n.chart-legend-container .key{\n    margin-right: 8px;\n}\n\n#chartwerk #chart-legend \n.chart-legend-container .key.quantize{\n    margin-right: 0px;\n}\n\n#chartwerk #chart-legend \n.chart-legend-container{\n    margin-bottom: 2px;\n}\n#chartwerk.single #chart-legend \n.chart-legend-container{\n    float: left;\n}\n\n#chart-legend .chart-legend-container, #chart .chart-legend-container{\n    padding: 0;\n}\n.tile-grid-map{\n    margin-bottom:33px;\n}\n.state{\n    fill:#eee\n}\n.map-label{\n    font-family:franklin-gothic-urw;\n    fill:#979797;\n    font-size: 20px;\n}\n.map-label-active{\n    fill:#fff;\n    text-shadow: 1px 1px 3px black;\n}\n#chartwerk.single .map-label {\n    font-size: 24px;\n}"
+    },
+    "template": {
+        "description": "State hex maps approximate the geographic shape of the U.S. and make each state an equal hexagon. These types of charts are useful for when you want to show each state as an *equal entity* and don't want to distort the data by the geographic size of the states.",
+        "icon": null,
+        "tags": [],
+        "title": "State Hex Map"
+    },
+    "text": {
+        "annotations": [],
+        "author": "Tyler Fisher / POLITICO",
+        "chatter": "Thirty-one states and Washington, D.C., require some type of post-election audit. Three others call for them only under certain circumstances.",
+        "footnote": "",
+        "headline": "States with mandatory post-election audits",
+        "legend": {
+            "active": true,
+            "double": {
+                "align": "l",
+                "background": true,
+                "inside": false,
+                "position": {
+                    "x": 0,
+                    "y": 0
+                },
+                "width": 500
+            },
+            "keys": [
+                {
+                    "color": "#0D3C73",
+                    "text": "Yes"
+                },
+                {
+                    "color": "#47BEF8",
+                    "text": "Certain times"
+                },
+                {
+                    "color": "#329CAC",
+                    "text": "Risk-limiting audit"
+                },
+                {
+                    "color": "#F95100",
+                    "text": "Not written into law"
+                }
+            ],
+            "single": {
+                "align": "l",
+                "background": true,
+                "inside": false,
+                "position": {
+                    "x": 10,
+                    "y": 10
+                },
+                "width": 250
+            },
+            "title": ""
+        },
+        "source": "SOURCE: National Conference of State Legislatures",
+        "title": "States with mandatory post-election audits"
+    },
+    "ui": {
+        "datamap": [
+            {
+                "alias": "state column",
+                "available": true,
+                "class": "base"
+            },
+            {
+                "alias": "",
+                "available": false,
+                "class": "value"
+            },
+            {
+                "alias": "value column",
+                "available": true,
+                "class": "scale"
+            },
+            {
+                "alias": "Y axis",
+                "available": false,
+                "class": "series"
+            },
+            {
+                "alias": "faceting column",
+                "available": false,
+                "class": "facet"
+            },
+            {
+                "alias": "",
+                "available": false,
+                "class": "ignore"
+            }
+        ],
+        "rawData": "state_name\taudit\nAlabama\tNot written into law\nAlaska\tYes\nArizona\tYes\nArkansas\tNot written into law\nCalifornia\tYes\nColorado\tRisk-limiting audit\nConnecticut\tYes\nDelaware\tNot written into law\nDistrict of Columbia\tYes\nFlorida\tYes\nGeorgia\tNot written into law\nHawaii\tYes\nIdaho\tCertain times\nIllinois\tYes\nIndiana\tCertain times\nIowa\tYes\nKansas\tNot written into law\nKentucky\tYes\nLouisiana\tNot written into law\nMaine\tNot written into law\nMaryland\tYes\nMassachusetts\tYes\nMichigan\tNot written into law\nMinnesota\tYes\nMississippi\tNot written into law\nMissouri\tYes\nMontana\tYes\nNebraska\tCertain times\nNevada\tYes\nNew Hampshire\tNot written into law\nNew Jersey\tYes\nNew Mexico\tYes\nNew York\tYes\nNorth Carolina\tYes\nNorth Dakota\tNot written into law\nOhio\tYes\nOklahoma\tNot written into law\nOregon\tYes\nPennsylvania\tYes\nRhode Island\tNot written into law\nSouth Carolina\tNot written into law\nSouth Dakota\tNot written into law\nTennessee\tYes\nTexas\tYes\nUtah\tYes\nVermont\tYes\nVirginia\tYes\nWashington\tYes\nWest Virginia\tYes\nWisconsin\tYes\nWyoming\tNot written into law",
+        "size": "double"
+    }
+}
