@@ -154,7 +154,7 @@
 }
 
 #chartwerk #chart-legend 
-.chart-legend-container .key{
+.chart-legend-container .key.quantize{
     margin-right: 0px;
 }
 
