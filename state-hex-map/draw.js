@@ -3,8 +3,8 @@ function draw(){
     
     map.create('#chart', chartwerk.data, {
         'column': chartwerk.datamap.scale,
-        'colorScale': chartwerk.axes.color.range,
-        'legendItems': chartwerk.axes.color.domain,
+        'colorRange': chartwerk.axes.color.range,
+        'colorDomain': chartwerk.axes.color.domain,
         'stateColumn': chartwerk.datamap.base,
         'isNumeric': chartwerk.axes.color.quantize
     });
