@@ -253,4 +253,5 @@ line.solid-line{
 }
 rect.shaded-area{
     fill:#ddd;
+    fill-opacity: 0.5;
 }
