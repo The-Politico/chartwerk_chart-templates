@@ -106,6 +106,7 @@
 #chartwerk #chart {
     background: transparent;
 }
+
 /****************/
 /*shared legend styles*/
 /****************/
@@ -163,6 +164,7 @@
     width: auto;
 }
 #chartwerk #chart .tooltip .value {
+    text-shadow: -1px -1px 0px #fff, -1px 1px 0px #fff, 1px -1px 0px #fff, 1px 1px 0px #fff,  -1px -1px 0px #fff, -1px 1px 0px #fff, 1px -1px 0px #fff, 1px 1px 0px #fff,  -1px -1px 0px #fff, -1px 1px 0px #fff, 1px -1px 0px #fff, 1px 1px 0px #fff,-1px -1px 0px #fff, -1px 1px 0px #fff, 1px -1px 0px #fff, 1px 1px 0px #fff,-1px -1px 0px #fff, -1px 1px 0px #fff, 1px -1px 0px #fff, 1px 1px 0px #fff, -1px -1px 0px #fff, -1px 1px 0px #fff, 1px -1px 0px #fff, 1px 1px 0px #fff,-1px -1px 0px #fff, -1px 1px 0px #fff, 1px -1px 0px #fff, 1px 1px 0px #fff,-1px -1px 0px #fff, -1px 1px 0px #fff, 1px -1px 0px #fff, 1px 1px 0px #fff;
     font-weight: bold;
 }
 #chartwerk #chart path.line {
