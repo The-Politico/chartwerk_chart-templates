@@ -2589,7 +2589,7 @@
                 "class": "scale"
             },
             {
-                "alias": "Y axis",
+                "alias": "data series",
                 "available": true,
                 "class": "series"
             },
