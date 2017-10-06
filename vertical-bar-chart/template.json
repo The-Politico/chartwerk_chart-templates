@@ -110,14 +110,14 @@
     },
     "margins": {
         "double": {
-            "bottom": 0.07999999999999996,
+            "bottom": 0.09999999999999998,
             "left": 0.06,
             "right": 0.020000000000000018,
             "top": 0.05
         },
         "single": {
             "bottom": 0.10999999999999999,
-            "left": 0.11,
+            "left": 0.1,
             "right": 0.020000000000000018,
             "top": 0.05
         }
@@ -217,6 +217,6 @@
             }
         ],
         "rawData": "State\tLetter count\tAbbreviated\nVirginia\t8\t3\nMissouri\t8\t3\nIowa\t4\t4\nTexas\t5\t5",
-        "size": "single"
+        "size": "double"
     }
 }
