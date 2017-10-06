@@ -3,9 +3,6 @@
     font-family: 'proxima-nova', arial, sans-serif;
     background: transparent;
 }
-#chartwerk div{
-    font-weight: 200;
-}
 #chartwerk.single{
     width:270px;
     float:left;
@@ -65,7 +62,7 @@
 #chartwerk #source,
 #chartwerk #author {
     font-size:12px;
-    font-weight: 400
+    font-weight: 400;
     color:#666;
     display: inline-block;
 }
@@ -95,7 +92,6 @@
 }
 #chartwerk .response p{
     font: 13px/16px 'proxima-nova', arial, sans-serif;
-    font-weight: 200;
 }
 #chartwerk #chart .bar{
     height:24px;
