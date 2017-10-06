@@ -20,10 +20,6 @@
     line-height: 1em;
 }
 
-#preview-pane{
-    background-color: #f7f8f8;
-}
-
 #chartwerk #headline { 
     font-weight:bold;
     font-size:25px;
@@ -156,7 +152,7 @@
 /****************/
 
 #chart-legend .chart-legend-container.bg, #chart .chart-legend-container.bg{
-    background: #f7f8f8 url(http://static.politico.com/resource/images/website/shared/template/bg-noise.24d18bcf9d414e030c36ffd7f30648e8.jpg) repeat left top;
+    background: transparent;
 }
 #chartwerk #chart-legend 
 .chart-legend-container .key-label{
