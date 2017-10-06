@@ -2,6 +2,7 @@
     font-family:'proxima-nova', arial, sans-serif;
     font-weight: 200;
     width: 560px;
+    background: transparent;
 }
 #chartwerk.single {
     float: left;
@@ -9,37 +10,144 @@
     overflow: hidden;
     width: 270px;
 }
+/****************/
+/*shared head dek styles*/
+/****************/
+
+
+#chartwerk strong{
+    font-weight: 600;
+}
+
+#chartwerk #chart-header{
+    line-height: 1.45em;
+    font-weight: 400;
+}
+
+#chartwerk #chart-header #headline{
+    line-height: 1.1em;
+}
+
+#chartwerk.single #chart-header #headline{
+    line-height: 1em;
+}
+
 #chartwerk #headline { 
-    font-size: 24px;
-    font-weight: bold;
+    font-weight:bold;
+    font-size:25px;
+    line-height: 1.05em;
+    margin: 0;
 }
+
+#chartwerk.single #headline { 
+    font-size:22px;
+}
+
 #chartwerk #chatter {
-    font-size: 14px;
-    line-height: 19px;
-    margin-bottom: 5px;
-    margin-top: 5px;
+    margin: 6px 0px 12px;
+    font-size: 17px;
 }
+
+#chartwerk.single #chatter {
+    margin: 8px 0px 10px;
+    font-size: 14px;
+    line-height: 1.2em;
+}
+
+
+
+/****************/
+/*shared source byline styles*/
+/****************/
+
+#chartwerk.double #chart-footer #author{
+    float: right;
+}
+
+#chartwerk.single #chart-footer #source{
+    font-weight: 400;
+    font-size: 10px;
+}
+
+#chartwerk.single #chart-footer #author{
+    font-weight: 400;
+    font-size: 10px;
+    float: left;
+}
+
+
 #chartwerk #footnote,
 #chartwerk #source,
 #chartwerk #author {
-    color: grey;
-    font-size: 11px;
+    font-size:12px;
+    font-weight: 400
+    color:#666;
+    display: inline-block;
 }
-#chartwerk #author {
-    text-align: right;
+
+#chartwerk.single #footnote,
+#chartwerk.single #source,
+#chartwerk.single #author {
+    display: block;
 }
+
+#chartwerk #chart-footer {
+    margin-top: 12px;
+}
+
+#chartwerk #author{
+    float: right;
+}
+
+#chartwerk #source{
+    vertical-align: text-top;
+}
+
 #chartwerk #chart {
-    background-color: white;
+    background: transparent;
 }
-#chartwerk #chart-legend .chart-legend-container .key-label {
-    font: 11px 'proxima-nova', arial, sans-serif;
+/****************/
+/*shared legend styles*/
+/****************/
+
+#chart-legend .chart-legend-container.bg, #chart .chart-legend-container.bg{
+    background: transparent;
+}
+#chartwerk #chart-legend 
+.chart-legend-container .key-label{
+    font-family:'franklin-gothic-urw', arial, sans-serif;
     font-weight: 200;
+    font-size: 14px;
+    margin-left: 3px;
+    margin-right: 6px;
 }
-#chartwerk #chart-legend .chart-legend-container .key-color {
-    margin-right: 2px;
+#chartwerk.single #chart-legend 
+.chart-legend-container .key-label{
+    font-size: 13px;
 }
-#chartwerk #chart-legend .chart-legend-container .key {
+#chartwerk #chart-legend 
+.chart-legend-container .key-color{
+    margin-right:2px;
+    margin-top: 2px;
+    width: 12px;
+    height: 12px;
+}
+#chartwerk #chart-legend 
+.chart-legend-container .key{
     margin-right: 8px;
+}
+
+#chartwerk #chart-legend 
+.chart-legend-container{
+    margin-bottom: 2px;
+}
+#chartwerk.single #chart-legend 
+.chart-legend-container{
+    float: left;
+}
+
+#chart-legend .chart-legend-container, #chart .chart-legend-container{
+    padding: 0;
 }
 #chartwerk .annotation p {
     font-family:'proxima-nova', arial, sans-serif;
@@ -61,28 +169,41 @@
     fill: none;
     stroke-width: 2px;
 }
+/****************/
+/*line axis styles*/
+/****************/
+
 .axis path,
 .axis line {
   fill: none;
-  shape-rendering: crispEdges;
   stroke: rgb(180,180,180);
+  shape-rendering: crispEdges;
 }
-.axis text {
-    fill: rgb(132,132,132);
-    font-family:'proxima-nova', arial, sans-serif;
+.axis text{
+    font-family:'franklin-gothic-urw', arial, sans-serif;
     font-weight: 200;
-    font-size: 11px;
+    fill: #666;
+    font-size:14px;
 }
-.y.axis line {
-    stroke-dasharray: 3px 3px;
+.y.axis line{
+    stroke: #ddd;
 }
-.y.axis path {
+.y.axis path{
     display:none;
 }
-.y.axis .label {
-    font-family:'proxima-nova', arial, sans-serif;
+.y.axis .label{
+    font-family:'franklin-gothic-urw', arial, sans-serif;
     font-weight: 200;
 }
+
+#chartwerk.single #chart .y.axis text{
+    font-size: 13px;
+}
+
+#chartwerk.single #chart .x.axis text{
+    font-size: 13px;
+}
+
 rect.shaded-area{
     fill: #DDDDDD;
 }
