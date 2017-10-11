@@ -64,13 +64,17 @@
 }
 
 
-#chartwerk #footnote,
 #chartwerk #source,
 #chartwerk #author {
     font-size:12px;
     font-weight: 400
     color:#666;
     display: inline-block;
+}
+
+#chartwerk #footnote{
+    font-size: 12px;
+    color:#666;
 }
 
 #chartwerk.single #footnote,
