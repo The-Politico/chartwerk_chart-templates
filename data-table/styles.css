@@ -1,5 +1,6 @@
 #chartwerk {
     background: inherit;
+    font-family: 'franklin-gothic-urw', arial, sans-serif;
 }
 #chartwerk table{
     margin:10px 0 20px;
@@ -17,6 +18,7 @@
     cursor:pointer;
     vertical-align: bottom;
     position: relative;
+    font-weight: normal;
 }
 #chartwerk table th:hover{
     background-color:#eee;
@@ -26,10 +28,11 @@
 }
 #chartwerk table th.asc:after, #chartwerk table th.desc:after, #chartwerk table th:hover:after {
     position: absolute;
-    right: 5px;
+    right: 0px;
     top: 7px;
-    font-size: 13px;
+    font-size: 11px;
     color: #999;
+    font-weight: normal;
 }
 #chartwerk table th.asc:after, #chartwerk table th:hover:after {
     content: "\25b2";
@@ -177,14 +180,16 @@
     float: left;
 }
 
-
-#chartwerk #footnote,
 #chartwerk #source,
 #chartwerk #author {
     font-size:12px;
     font-weight: 400
     color:#666;
     display: inline-block;
+}
+#chartwerk #footnote{
+    font-size: 12px;
+    color:#666;
 }
 
 #chartwerk.single #footnote,
