@@ -159,6 +159,10 @@
     line-height: 1.2em;
 }
 
+#chartwerk ul{
+    padding-left: 0;
+    list-style: none;
+}
 
 
 /****************/
