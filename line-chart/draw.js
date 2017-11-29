@@ -92,7 +92,8 @@ function draw(){
     
     series.append("path")
     		.attr("class","line")
-    		.attr("d", function(d){ return line(d.values);})
+    		.attr("d", function(d){ 
+    		    return line(d.values);})
     		.style("stroke", function(d){ return werk.scales.color(d.name);});
     
     //A rect to catch mouse movements
