@@ -69,7 +69,6 @@ function draw(){
 
   facets
     .on('mouseover', function(d) {
-        console.log(d[0][chartwerk.datamap.scale], d[0][VALUE_KEY])
       d3.select(this).classed('highlight', true);
       d3.select('.tooltip .title').text(d[0][chartwerk.datamap.scale]);
       d3.select('.tooltip .value').text(d[0][VALUE_KEY]);
