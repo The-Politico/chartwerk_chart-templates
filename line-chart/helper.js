@@ -1,7 +1,7 @@
 var werkHelper = {
     parse: function(werk){
         werk.parsers = {
-          base: d3.timeParse( chartwerk.axes.base.dateFormat ),
+          base: d3.timeParse(chartwerk.axes.base.dateFormat),
           value: function(d){ return d === '' ? NaN : +d; }
         };
         
