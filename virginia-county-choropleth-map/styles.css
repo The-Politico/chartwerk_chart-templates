@@ -1,0 +1,181 @@
+#chartwerk {
+    font-family:'proxima-nova', arial, sans-serif;
+    font-weight: 200;
+    width:560px;
+    padding: 20px 0;
+    background: #f7f8f8 url(http://static.politico.com/resource/images/website/shared/template/bg-noise.24d18bcf9d414e030c36ffd7f30648e8.jpg) repeat left top;
+}
+
+#chartwerk {
+    background: inherit;
+}
+
+#chartwerk.single{
+    width:270px;
+    float:left;
+    overflow:hidden;
+    margin:10px 30px 10px 0;
+}
+
+#chartwerk strong{
+    font-weight: 600;
+}
+
+#chartwerk #chart-header{
+    line-height: 1.45em;
+    font-weight: 400;
+}
+
+#chartwerk.single{
+    width:290px;
+    float:left;
+    overflow:hidden;
+    margin:10px 30px 10px 0;
+}
+#chartwerk #headline { 
+    font-weight:bold;
+    font-size:25px;
+    line-height: 1.05em;
+}
+#chartwerk #chatter {
+    margin: 6px 0px 12px;
+    font-size: 17px;
+}
+#chartwerk #footnote,
+#chartwerk #source,
+#chartwerk #author {
+    font-size:12px;
+    font-weight: 400
+    color:#666;
+    display: inline-block;
+
+}
+#chartwerk #author {
+    text-align:right;
+}
+
+.double #chart-footer #author{
+    float: right;
+}
+
+.single #chart-footer #source{
+    font-weight: 400;
+    font-size: 10px;
+}
+
+.single #chart-footer #author{
+    font-weight: 400;
+    font-size: 10px;
+    float: left;
+}
+
+#chartwerk.single #footnote,
+#chartwerk.single #source,
+#chartwerk.single #author {
+    display: block;
+}
+
+#chartwerk #chart-footer {
+    margin-top: 12px;
+}
+
+#chartwerk.single #headline { 
+    font-size:22px;
+}
+
+#chartwerk.single #chatter {
+    margin: 8px 0px 10px;
+    font-size: 14px;
+    line-height: 1.2em;
+}
+
+#chartwerk.single #chart-header #headline{
+    line-height: 1em;
+}
+
+#chart-legend .chart-legend-container.bg, #chart .chart-legend-container.bg{
+    background: #f7f8f8 url(http://static.politico.com/resource/images/website/shared/template/bg-noise.24d18bcf9d414e030c36ffd7f30648e8.jpg) repeat left top;
+}
+
+#chartwerk #chart-legend 
+.chart-legend-container .key-label{
+    font-family:'franklin-gothic-urw', arial, sans-serif;
+    font-weight: 400;
+    font-size: 11px;
+    margin-left: -3px;
+}
+
+#chartwerk #chart path.line{
+    fill: none;
+    stroke-width: 2px;
+}
+
+#chartwerk #chart-legend{
+    margin-top:10px;
+}
+
+#chartwerk #chart-legend 
+.chart-legend-container .key-color{
+    margin-right:2px;
+    margin-top: 2px;
+    width: 10px;
+    height: 10px;
+}
+
+#chartwerk #chart path.county{
+    stroke-width:1px;
+    cursor:crosshair;
+}
+
+#chartwerk #chart{
+    position:relative;
+}
+
+#chartwerk #chart .tooltip{
+    font-family: 'franklin-gothic-urw', arial, sans-serif;
+    font-weight: 200;
+    opacity:0;
+    pointer-events:none;
+    padding:5px;
+    width:auto;
+    max-width: 200px;
+    line-height: 1.15em;
+    background:rgb(255,255,255);
+}
+
+#chartwerk.single #chart .tooltip{
+    font-family: 'franklin-gothic-urw', arial, sans-serif;
+    font-weight: 200;
+    font-size: 0.8em;
+    opacity:0;
+    pointer-events:none;
+    padding:5px;
+    width:auto;
+    max-width: 100px;
+    line-height: 1em;
+    background:rgb(255,255,255);
+}
+
+#chartwerk #chart .tooltip .title{
+    font-weight: bold;
+    fill:grey;
+}
+
+#chartwerk #chart .tooltip .value{
+    font-weight: normal;
+}
+
+#preview-pane{
+    background-color: #f7f8f8;
+}
+
+#chartwerk .annotation .inner p{
+    font-size: 14px;
+    line-height: 1.2em;
+    font-family:'franklin-gothic-urw', arial, sans-serif;
+}
+
+#chartwerk .annotation p{
+    font-family: inherit;
+    font-weight: 200;
+}
