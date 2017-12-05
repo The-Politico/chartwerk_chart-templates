@@ -68,7 +68,7 @@ function draw(){
                       .moveToFront();
                   
                     d3.select(".tooltip .title")
-                      .text(d.properties.NAME);
+                      .text(d.properties.name);
                   
                     d3.select(".tooltip .value")
                       .text(function(){
