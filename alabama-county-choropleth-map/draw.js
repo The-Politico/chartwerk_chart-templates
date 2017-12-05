@@ -59,7 +59,7 @@ function draw(){
                 }
                 return '#e2e2e2';
             })
-            .style("stroke", "#ddd")
+            .style("stroke", "#ccc")
             .on("mouseover",function(d){
                 
                 if (getCounty(d)) {
@@ -106,7 +106,7 @@ function draw(){
             })
             .on("mouseout",function(){
                 d3.select(this)
-                  .style("stroke","#ddd")
+                  .style("stroke","#ccc")
                   .style('fill', function(d){ 
                     if (getCounty(d)) {
                         return werk.scales.color(getCounty(d).value);
