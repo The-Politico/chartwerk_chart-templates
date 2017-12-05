@@ -1,8 +1,8 @@
 function draw(){
     var initialProps = {
         dims: {
-          single: { width: 270, height: 205 },
-          double: { width: 580, height: 370}
+          single: { width: 270, height: 275 },
+          double: { width: 580, height: 390}
         },
     };
     
