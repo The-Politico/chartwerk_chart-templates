@@ -7,10 +7,20 @@ var werkHelper = {
         };
     },
     
+    slugify: function(text){
+        return text.toString().toLowerCase()
+            .replace(/\s+/g, '-')
+            .replace(/[^\w\-]+/g, '')
+            .replace(/\-\-+/g, '-')
+            .replace(/^-+/, '')
+            .replace(/-+$/, '');
+    },
+    
     parse: function(werk){
+        var slugify = this.slugify;
         werk.data = chartwerk.data.map(function(d){
             return {
-                state: d[chartwerk.datamap.base],
+                county: slugify(d[chartwerk.datamap.base]),
                 value: d[chartwerk.datamap.scale],
                 // value: chartwerk.axes.color.quantize ? 
                 //     +d[chartwerk.datamap.scale] : d[chartwerk.datamap.scale],
