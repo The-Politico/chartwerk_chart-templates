@@ -7,6 +7,7 @@ function draw(){
     };
     
     var werk = werkHelper.build(initialProps);
+    console.log(werk.data);
 	
 	var comma = d3.format(",");
 
