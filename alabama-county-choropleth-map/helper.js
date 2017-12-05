@@ -8,20 +8,20 @@ var werkHelper = {
     },
     
     slugify: function(text){
-        return text.toString().toLowerCase()
+        return text ? text.toString().toLowerCase()
             .replace(/\s+/g, '-')
             .replace(/[^\w\-]+/g, '')
             .replace(/\-\-+/g, '-')
             .replace(/^-+/, '')
-            .replace(/-+$/, '');
+            .replace(/-+$/, '') : text;
     },
     
     parse: function(werk){
-        var slugify = this.slugify;
+        var localslugify = this.slugify;
         werk.data = chartwerk.data.map(function(d){
             return {
-                county: slugify(d[chartwerk.datamap.base]),
-                value: d[chartwerk.datamap.scale],
+                county: localslugify(d[chartwerk.datamap.base]),
+                value: +d[chartwerk.datamap.scale],
                 // value: chartwerk.axes.color.quantize ? 
                 //     +d[chartwerk.datamap.scale] : d[chartwerk.datamap.scale],
                 tooltip: chartwerk.datamap.custom.tooltip !== '' ?
