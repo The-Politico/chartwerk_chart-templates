@@ -23,10 +23,13 @@ function draw(){
     
 
     function getCounty(d){
-        return map.get(d.properties.state + d.properties.county) ||
-            map.get(d.properties.county) ||
-            map.get(werkHelper.slugify(d.properties.name)) ||
-            map.get(werkHelper.slugify(d.properties.name.replace(' County', '')))
+        // Uses properties in topojson to retrieve the correct datum in your
+        // user's data. Should handle most use cases, but you may need to customize
+        // for individual states.
+        return map.get(d.properties.state + d.properties.county) || // Full fips
+            map.get(d.properties.county) || // Just county fips
+            map.get(werkHelper.slugify(d.properties.name)) || // Full county name, ie, Fulham County
+            map.get(werkHelper.slugify(d.properties.name.replace(' County', ''))) // Just the name
             false;
     }
 
