@@ -1,0 +1,754 @@
+{
+    "axes": {
+        "base": {
+            "dateFormat": null,
+            "format": {
+                "double": {
+                    "customTicks": [],
+                    "dateString": "Y",
+                    "frequency": 1,
+                    "ticks": 7
+                },
+                "single": {
+                    "customTicks": [],
+                    "dateString": "Y",
+                    "frequency": 2,
+                    "ticks": 7
+                }
+            },
+            "label": "",
+            "max": null,
+            "min": null,
+            "prefix": "",
+            "shadedRegions": [],
+            "suffix": "",
+            "type": "categorical"
+        },
+        "color": {
+            "byFacet": false,
+            "domain": [
+                84421,
+                245115,
+                455210
+            ],
+            "ignoreScale": false,
+            "quantize": true,
+            "quantizeProps": {
+                "column": "Population",
+                "groups": 4,
+                "reverseColors": true
+            },
+            "range": [
+                "#e5e8f6",
+                "#afbbe3",
+                "#7791d1",
+                "#2b6abd"
+            ],
+            "scheme": "sequential.democrat"
+        },
+        "scale": {
+            "prefix": "",
+            "suffix": "%"
+        },
+        "value": {
+            "format": {
+                "double": {
+                    "customTicks": [],
+                    "ticks": 7
+                },
+                "single": {
+                    "customTicks": [],
+                    "ticks": 7
+                }
+            },
+            "label": "",
+            "max": null,
+            "min": null,
+            "prefix": "$",
+            "shadedRegions": [],
+            "suffix": ""
+        }
+    },
+    "data": [
+        {
+            "Fips": 51001,
+            "Population": 32947
+        },
+        {
+            "Fips": 51003,
+            "Population": 106878
+        },
+        {
+            "Fips": 51005,
+            "Population": 15595
+        },
+        {
+            "Fips": 51007,
+            "Population": 12913
+        },
+        {
+            "Fips": 51009,
+            "Population": 31633
+        },
+        {
+            "Fips": 51011,
+            "Population": 15475
+        },
+        {
+            "Fips": 51013,
+            "Population": 230050
+        },
+        {
+            "Fips": 51015,
+            "Population": 74997
+        },
+        {
+            "Fips": 51017,
+            "Population": 4476
+        },
+        {
+            "Fips": 51019,
+            "Population": 77960
+        },
+        {
+            "Fips": 51021,
+            "Population": 6513
+        },
+        {
+            "Fips": 51023,
+            "Population": 33231
+        },
+        {
+            "Fips": 51025,
+            "Population": 16243
+        },
+        {
+            "Fips": 51027,
+            "Population": 22178
+        },
+        {
+            "Fips": 51029,
+            "Population": 17048
+        },
+        {
+            "Fips": 51031,
+            "Population": 54952
+        },
+        {
+            "Fips": 51033,
+            "Population": 30178
+        },
+        {
+            "Fips": 51035,
+            "Population": 29531
+        },
+        {
+            "Fips": 51036,
+            "Population": 7071
+        },
+        {
+            "Fips": 51037,
+            "Population": 12129
+        },
+        {
+            "Fips": 51041,
+            "Population": 339009
+        },
+        {
+            "Fips": 51043,
+            "Population": 14374
+        },
+        {
+            "Fips": 51045,
+            "Population": 5158
+        },
+        {
+            "Fips": 51047,
+            "Population": 50083
+        },
+        {
+            "Fips": 51049,
+            "Population": 9652
+        },
+        {
+            "Fips": 51051,
+            "Population": 14968
+        },
+        {
+            "Fips": 51053,
+            "Population": 28144
+        },
+        {
+            "Fips": 51057,
+            "Population": 11123
+        },
+        {
+            "Fips": 51059,
+            "Population": 1138652
+        },
+        {
+            "Fips": 51061,
+            "Population": 69069
+        },
+        {
+            "Fips": 51063,
+            "Population": 15731
+        },
+        {
+            "Fips": 51065,
+            "Population": 26271
+        },
+        {
+            "Fips": 51067,
+            "Population": 56069
+        },
+        {
+            "Fips": 51069,
+            "Population": 84421
+        },
+        {
+            "Fips": 51071,
+            "Population": 16857
+        },
+        {
+            "Fips": 51073,
+            "Population": 37214
+        },
+        {
+            "Fips": 51075,
+            "Population": 22668
+        },
+        {
+            "Fips": 51077,
+            "Population": 15107
+        },
+        {
+            "Fips": 51079,
+            "Population": 19371
+        },
+        {
+            "Fips": 51081,
+            "Population": 11706
+        },
+        {
+            "Fips": 51083,
+            "Population": 34992
+        },
+        {
+            "Fips": 51085,
+            "Population": 104392
+        },
+        {
+            "Fips": 51087,
+            "Population": 326501
+        },
+        {
+            "Fips": 51089,
+            "Population": 51445
+        },
+        {
+            "Fips": 51091,
+            "Population": 2216
+        },
+        {
+            "Fips": 51093,
+            "Population": 36596
+        },
+        {
+            "Fips": 51095,
+            "Population": 74404
+        },
+        {
+            "Fips": 51097,
+            "Population": 7159
+        },
+        {
+            "Fips": 51099,
+            "Population": 25984
+        },
+        {
+            "Fips": 51101,
+            "Population": 16334
+        },
+        {
+            "Fips": 51103,
+            "Population": 10972
+        },
+        {
+            "Fips": 51105,
+            "Population": 24179
+        },
+        {
+            "Fips": 51107,
+            "Population": 385945
+        },
+        {
+            "Fips": 51109,
+            "Population": 35236
+        },
+        {
+            "Fips": 51111,
+            "Population": 12273
+        },
+        {
+            "Fips": 51113,
+            "Population": 13078
+        },
+        {
+            "Fips": 51115,
+            "Population": 8782
+        },
+        {
+            "Fips": 51117,
+            "Population": 30892
+        },
+        {
+            "Fips": 51119,
+            "Population": 10778
+        },
+        {
+            "Fips": 51121,
+            "Population": 98602
+        },
+        {
+            "Fips": 51125,
+            "Population": 14869
+        },
+        {
+            "Fips": 51127,
+            "Population": 21147
+        },
+        {
+            "Fips": 51131,
+            "Population": 12139
+        },
+        {
+            "Fips": 51133,
+            "Population": 12222
+        },
+        {
+            "Fips": 51135,
+            "Population": 15595
+        },
+        {
+            "Fips": 51137,
+            "Population": 35533
+        },
+        {
+            "Fips": 51139,
+            "Population": 23654
+        },
+        {
+            "Fips": 51141,
+            "Population": 17923
+        },
+        {
+            "Fips": 51143,
+            "Population": 61687
+        },
+        {
+            "Fips": 51145,
+            "Population": 28443
+        },
+        {
+            "Fips": 51147,
+            "Population": 23142
+        },
+        {
+            "Fips": 51149,
+            "Population": 37845
+        },
+        {
+            "Fips": 51153,
+            "Population": 455210
+        },
+        {
+            "Fips": 51155,
+            "Population": 34203
+        },
+        {
+            "Fips": 51157,
+            "Population": 7388
+        },
+        {
+            "Fips": 51159,
+            "Population": 8774
+        },
+        {
+            "Fips": 51161,
+            "Population": 94031
+        },
+        {
+            "Fips": 51163,
+            "Population": 22392
+        },
+        {
+            "Fips": 51165,
+            "Population": 79744
+        },
+        {
+            "Fips": 51167,
+            "Population": 27370
+        },
+        {
+            "Fips": 51169,
+            "Population": 21930
+        },
+        {
+            "Fips": 51171,
+            "Population": 43175
+        },
+        {
+            "Fips": 51173,
+            "Population": 31062
+        },
+        {
+            "Fips": 51175,
+            "Population": 18057
+        },
+        {
+            "Fips": 51177,
+            "Population": 132010
+        },
+        {
+            "Fips": 51179,
+            "Population": 144361
+        },
+        {
+            "Fips": 51181,
+            "Population": 6544
+        },
+        {
+            "Fips": 51183,
+            "Population": 11504
+        },
+        {
+            "Fips": 51185,
+            "Population": 42150
+        },
+        {
+            "Fips": 51187,
+            "Population": 39155
+        },
+        {
+            "Fips": 51191,
+            "Population": 54214
+        },
+        {
+            "Fips": 51193,
+            "Population": 17592
+        },
+        {
+            "Fips": 51195,
+            "Population": 39228
+        },
+        {
+            "Fips": 51197,
+            "Population": 29016
+        },
+        {
+            "Fips": 51199,
+            "Population": 67976
+        },
+        {
+            "Fips": 51510,
+            "Population": 155810
+        },
+        {
+            "Fips": 51520,
+            "Population": 16960
+        },
+        {
+            "Fips": 51530,
+            "Population": 6452
+        },
+        {
+            "Fips": 51540,
+            "Population": 46912
+        },
+        {
+            "Fips": 51550,
+            "Population": 237940
+        },
+        {
+            "Fips": 51570,
+            "Population": 17772
+        },
+        {
+            "Fips": 51580,
+            "Population": 5518
+        },
+        {
+            "Fips": 51590,
+            "Population": 41898
+        },
+        {
+            "Fips": 51595,
+            "Population": 5305
+        },
+        {
+            "Fips": 51600,
+            "Population": 24164
+        },
+        {
+            "Fips": 51610,
+            "Population": 14014
+        },
+        {
+            "Fips": 51620,
+            "Population": 8306
+        },
+        {
+            "Fips": 51630,
+            "Population": 28297
+        },
+        {
+            "Fips": 51640,
+            "Population": 6775
+        },
+        {
+            "Fips": 51650,
+            "Population": 135410
+        },
+        {
+            "Fips": 51660,
+            "Population": 53078
+        },
+        {
+            "Fips": 51670,
+            "Population": 22735
+        },
+        {
+            "Fips": 51678,
+            "Population": 7045
+        },
+        {
+            "Fips": 51680,
+            "Population": 80212
+        },
+        {
+            "Fips": 51683,
+            "Population": 41483
+        },
+        {
+            "Fips": 51685,
+            "Population": 15915
+        },
+        {
+            "Fips": 51690,
+            "Population": 13445
+        },
+        {
+            "Fips": 51700,
+            "Population": 181825
+        },
+        {
+            "Fips": 51710,
+            "Population": 245115
+        },
+        {
+            "Fips": 51720,
+            "Population": 3864
+        },
+        {
+            "Fips": 51730,
+            "Population": 31882
+        },
+        {
+            "Fips": 51735,
+            "Population": 12017
+        },
+        {
+            "Fips": 51740,
+            "Population": 95252
+        },
+        {
+            "Fips": 51750,
+            "Population": 17483
+        },
+        {
+            "Fips": 51760,
+            "Population": 223170
+        },
+        {
+            "Fips": 51770,
+            "Population": 99660
+        },
+        {
+            "Fips": 51775,
+            "Population": 25549
+        },
+        {
+            "Fips": 51790,
+            "Population": 24363
+        },
+        {
+            "Fips": 51800,
+            "Population": 89273
+        },
+        {
+            "Fips": 51810,
+            "Population": 452602
+        },
+        {
+            "Fips": 51820,
+            "Population": 21887
+        },
+        {
+            "Fips": 51830,
+            "Population": 15214
+        },
+        {
+            "Fips": 51840,
+            "Population": 27516
+        }
+    ],
+    "datamap": {
+        "base": "Fips",
+        "custom": {},
+        "facet": null,
+        "ignore": [],
+        "scale": "Population",
+        "series": [],
+        "sort": [],
+        "value": null
+    },
+    "embed": {
+        "dimensions": {
+            "double": {
+                "height": 470,
+                "width": 560
+            },
+            "single": {
+                "height": 344,
+                "width": 290
+            }
+        }
+    },
+    "margins": {
+        "double": {
+            "bottom": 0.050000000000000044,
+            "left": 0.05,
+            "right": 0.050000000000000044,
+            "top": 0.05
+        },
+        "single": {
+            "bottom": 0.050000000000000044,
+            "left": 0.05,
+            "right": 0.050000000000000044,
+            "top": 0.05
+        }
+    },
+    "scripts": {
+        "dependencies": {
+            "scripts": [
+                "https://cdnjs.cloudflare.com/ajax/libs/d3/4.12.0/d3.min.js",
+                "https://cdnjs.cloudflare.com/ajax/libs/topojson/3.0.2/topojson.min.js"
+            ],
+            "styles": []
+        },
+        "draw": "function draw(){\n    var initialProps = {\n        dims: {\n          single: { width: 270, height: 125 },\n          double: { width: 580, height: 250}\n        },\n    };\n    \n    var werk = werkHelper.build(initialProps);\n    console.log(werk.data);\n\t\n\tvar comma = d3.format(\",\");\n\n    var map = d3.map(werk.data, function(d){ return d.county; }),\n        path = d3.geoPath();\n\t\n\tvar svg = d3.select(\"#chart\").append(\"svg\")\n      .style(\"background-color\",\"transparent\")\n        .attr(\"width\", werk.dims.svg.width + werk.dims.margins.left + werk.dims.margins.right)\n        .attr(\"height\", werk.dims.svg.height + werk.dims.margins.top + werk.dims.margins.bottom)\n      .append(\"g\")\n        .attr(\"transform\", \"translate(\" + werk.dims.margins.left + \",\" + werk.dims.margins.top + \")\");\n    \n\n    function getCounty(d){\n        // Uses properties in topojson to retrieve the correct datum in your\n        // user's data. Should handle most use cases, but you may need to customize\n        // for individual states.\n        return map.get(d.properties.state + d.properties.county) || // Full fips\n            map.get(d.properties.county) || // Just county fips\n            map.get(werkHelper.slugify(d.properties.name)) || // Full county name, ie, Fulham County\n            map.get(werkHelper.slugify(d.properties.name.replace(' County', ''))) // Just the name\n            false;\n    }\n\n    d3.json(\"https://www.politico.com/interactives/elections/data/geography/2016/state/51/counties.json\", function(error, geoData){\n\n        \n        var features = topojson.feature(geoData, {\n            type: 'GeometryCollection',\n            geometries: geoData.objects['-'].geometries,\n        });\n        \n        var path = d3.geoPath()\n          .projection(d3.geoMercator()\n            .fitSize([werk.dims.svg.width, werk.dims.svg.height], features));\n        \n        var mapG = svg.append(\"g\")\n            .attr(\"id\", \"counties\")\n            .attr(\"width\", werk.dims.svg.width)\n            .attr(\"height\", werk.dims.svg.height);\n        \n        var counties = mapG.selectAll(\"path\")\n            .data(features.features);\n        \n        counties.enter().append(\"path\")\n            .attr('d', path)\n            .attr(\"class\", \"county\")\n            .style('fill', function(d){\n                if (getCounty(d)) {\n                    return werk.scales.color(getCounty(d).value);\n                }\n                return '#e2e2e2';\n            })\n            .style(\"stroke\", \"#ccc\")\n            .on(\"mouseover\",function(d){\n                \n                if (getCounty(d)) {\n                    d3.select(this)\n                      .style(\"stroke\", \"black\")\n                      .moveToFront();\n                  \n                    d3.select(\".tooltip .title\")\n                      .text(d.properties.name);\n                  \n                    d3.select(\".tooltip .value\")\n                      .text(function(){\n                          var s = chartwerk.axes.scale;\n                          var data = getCounty(d);\n                          if (data) {\n                              if (data.tooltip){\n                                  return data.tooltip;\n                              } else {\n                                  return chartwerk.axes.color.quantize ? \n                                    s.prefix + comma(data.value) + s.suffix : data.value;\n                              }\n                          }\n                      });\n                      \n                    var p = d3.mouse(this.parentElement.parentElement);\n                    \n                    d3.select(\".tooltip\")\n                        .style(\"opacity\", 1)\n                        .style(\"top\",function(){\n                            return p[1].toString() + \"px\";\n                        })\n                        .style(\"left\", function(){\n                            // We position either left or right of the mouse point based\n                            // on whether we're past the midpoint of the chart. This protects\n                            // against tooltips overflowing embedded iframes.\n                            var s = chartwerk.ui.size,\n                                w = werk.dims[s].width,\n                                tipW = parseInt(d3.select(\".tooltip\").style(\"width\"), 10),\n                                pos = p[0] > (w / 2) ?\n                                    p[0] - (tipW - 10) : p[0] + 40;\n                            return pos.toString() + \"px\";\n                        });\n                }\n            })\n            .on(\"mouseout\",function(){\n                d3.select(this)\n                  .style(\"stroke\",\"#ccc\")\n                  .style('fill', function(d){ \n                    if (getCounty(d)) {\n                        return werk.scales.color(getCounty(d).value);\n                    }\n                    return '#e2e2e2';\n                });\n                d3.select(\".tooltip\")\n                    .style(\"opacity\", 0);\n            });\n    });\n    \n    var tooltip = d3.select(\"#chart\")\n      .append(\"div\")\n        .attr(\"class\",\"tooltip\")\n        .style(\"position\",\"absolute\");\n    tooltip\n      .append(\"div\")\n      .attr(\"class\",\"title\")\n      .text(chartwerk.datamap.scale);\n    tooltip\n      .append(\"div\")\n      .attr(\"class\",\"value\");\n}",
+        "helper": "var werkHelper = {\n    prototype: function() {\n        d3.selection.prototype.moveToFront = function() {\n          return this.each(function(){\n            this.parentNode.appendChild(this);\n          });\n        };\n    },\n    \n    slugify: function(text){\n        return text ? text.toString().toLowerCase()\n            .replace(/\\s+/g, '-')\n            .replace(/[^\\w\\-]+/g, '')\n            .replace(/\\-\\-+/g, '-')\n            .replace(/^-+/, '')\n            .replace(/-+$/, '') : text;\n    },\n    \n    parse: function(werk){\n        var localslugify = this.slugify;\n        werk.data = chartwerk.data.map(function(d){\n            return {\n                county: localslugify(d[chartwerk.datamap.base]),\n                value: +d[chartwerk.datamap.scale],\n                // value: chartwerk.axes.color.quantize ? \n                //     +d[chartwerk.datamap.scale] : d[chartwerk.datamap.scale],\n                tooltip: chartwerk.datamap.custom.tooltip !== '' ?\n                    d[chartwerk.datamap.custom.tooltip] : null,\n            };\n        });\n    },\n    \n    dims: function(werk){\n        var s = chartwerk.ui.size;\n            w = werk.dims[s].width,\n            h = werk.dims[s].height,\n            margins = {\n                right: chartwerk.margins[s].right * w,\n                left: chartwerk.margins[s].left * w,\n                top: chartwerk.margins[s].top * h,\n                bottom: chartwerk.margins[s].bottom * h\n            },\n            svg = {\n                width: w - margins.left - margins.right,\n                height: h - margins.top - margins.bottom\n            };\n        \n        werk.dims.margins = margins;\n        werk.dims.svg = svg;\n    },\n\n    scales: function(werk){\n        var svg = werk.dims.svg;\n        werk.scales = {\n            color: chartwerk.axes.color.quantize ? \n                d3.scaleThreshold() : d3.scaleOrdinal(),\n        };\n        \n        werk.scales.color\n            .domain(chartwerk.axes.color.domain)\n            .range(chartwerk.axes.color.range);\n    },\n\n    // Build dims, scales and axes.\n    build: function(werk){\n        this.prototype();\n        this.parse(werk);\n        this.dims(werk);\n        this.scales(werk);\n        return werk;\n    },\n};\n\n",
+        "html": "<div id='chart-header'>\n\t<h2 id='headline'></h2>\n\t<div id='chatter'></div> \n</div> \n<div id='chart-ui'>\n\t<!--You can put any necessary buttons, etc., here.-->\n</div>\n<div id='chart-legend'></div>\n<div id='chart'></div> \n<div id='chart-footer'> \n\t<div id='footnote'></div> \n\t<div id='source'></div> \n\t<div id='author'></div> \n</div>",
+        "styles": "#chartwerk {\n    font-family:'proxima-nova', arial, sans-serif;\n    font-weight: 200;\n    width:560px;\n    padding: 20px 0;\n    background: #f7f8f8 url(http://static.politico.com/resource/images/website/shared/template/bg-noise.24d18bcf9d414e030c36ffd7f30648e8.jpg) repeat left top;\n}\n\n#chartwerk {\n    background: inherit;\n}\n\n#chartwerk.single{\n    width:270px;\n    float:left;\n    overflow:hidden;\n    margin:10px 30px 10px 0;\n}\n\n#chartwerk strong{\n    font-weight: 600;\n}\n\n#chartwerk #chart-header{\n    line-height: 1.45em;\n    font-weight: 400;\n}\n\n#chartwerk.single{\n    width:290px;\n    float:left;\n    overflow:hidden;\n    margin:10px 30px 10px 0;\n}\n#chartwerk #headline { \n    font-weight:bold;\n    font-size:25px;\n    line-height: 1.05em;\n}\n#chartwerk #chatter {\n    margin: 6px 0px 12px;\n    font-size: 17px;\n}\n#chartwerk #footnote,\n#chartwerk #source,\n#chartwerk #author {\n    font-size:12px;\n    font-weight: 400\n    color:#666;\n    display: inline-block;\n\n}\n#chartwerk #author {\n    text-align:right;\n}\n\n.double #chart-footer #author{\n    float: right;\n}\n\n.single #chart-footer #source{\n    font-weight: 400;\n    font-size: 10px;\n}\n\n.single #chart-footer #author{\n    font-weight: 400;\n    font-size: 10px;\n    float: left;\n}\n\n#chartwerk.single #footnote,\n#chartwerk.single #source,\n#chartwerk.single #author {\n    display: block;\n}\n\n#chartwerk #chart-footer {\n    margin-top: 12px;\n}\n\n#chartwerk.single #headline { \n    font-size:22px;\n}\n\n#chartwerk.single #chatter {\n    margin: 8px 0px 10px;\n    font-size: 14px;\n    line-height: 1.2em;\n}\n\n#chartwerk.single #chart-header #headline{\n    line-height: 1em;\n}\n\n#chart-legend .chart-legend-container.bg, #chart .chart-legend-container.bg{\n    background: #f7f8f8 url(http://static.politico.com/resource/images/website/shared/template/bg-noise.24d18bcf9d414e030c36ffd7f30648e8.jpg) repeat left top;\n}\n\n#chartwerk #chart-legend \n.chart-legend-container .key-label{\n    font-family:'franklin-gothic-urw', arial, sans-serif;\n    font-weight: 400;\n    font-size: 11px;\n    margin-left: -3px;\n}\n\n#chartwerk #chart path.line{\n    fill: none;\n    stroke-width: 2px;\n}\n\n#chartwerk #chart-legend{\n    margin-top:10px;\n}\n\n#chartwerk #chart-legend \n.chart-legend-container .key-color{\n    margin-right:2px;\n    margin-top: 2px;\n    width: 10px;\n    height: 10px;\n}\n\n#chartwerk #chart path.county{\n    stroke-width:1px;\n    cursor:crosshair;\n}\n\n#chartwerk #chart{\n    position:relative;\n}\n\n#chartwerk #chart .tooltip{\n    font-family: 'franklin-gothic-urw', arial, sans-serif;\n    font-weight: 200;\n    opacity:0;\n    pointer-events:none;\n    padding:5px;\n    width:auto;\n    max-width: 200px;\n    line-height: 1.15em;\n    background:rgb(255,255,255);\n}\n\n#chartwerk.single #chart .tooltip{\n    font-family: 'franklin-gothic-urw', arial, sans-serif;\n    font-weight: 200;\n    font-size: 0.8em;\n    opacity:0;\n    pointer-events:none;\n    padding:5px;\n    width:auto;\n    max-width: 100px;\n    line-height: 1em;\n    background:rgb(255,255,255);\n}\n\n#chartwerk #chart .tooltip .title{\n    font-weight: bold;\n    fill:grey;\n}\n\n#chartwerk #chart .tooltip .value{\n    font-weight: normal;\n}\n\n#preview-pane{\n    background-color: #f7f8f8;\n}\n\n#chartwerk .annotation .inner p{\n    font-size: 14px;\n    line-height: 1.2em;\n    font-family:'franklin-gothic-urw', arial, sans-serif;\n}\n\n#chartwerk .annotation p{\n    font-family: inherit;\n    font-weight: 200;\n}"
+    },
+    "template": {
+        "description": "Use this map if you want to compare counties.\n\nYour data must include a column of county names or FIPS codes.",
+        "icon": null,
+        "id": "us-state-choropleth-map",
+        "tags": [],
+        "title": "Virginia county choropleth map"
+    },
+    "text": {
+        "annotations": [],
+        "author": "Polly Politico / POLITICO",
+        "chatter": "Here's where!",
+        "footnote": "",
+        "headline": "Where people live in Virginia",
+        "legend": {
+            "active": false,
+            "double": {
+                "align": "l",
+                "background": true,
+                "inside": false,
+                "position": {
+                    "x": 10,
+                    "y": 10
+                },
+                "width": 500
+            },
+            "keys": [
+                {
+                    "color": "#e5e8f6",
+                    "text": "2216"
+                },
+                {
+                    "color": "#afbbe3",
+                    "text": "286300"
+                },
+                {
+                    "color": "#7791d1",
+                    "text": "570400"
+                },
+                {
+                    "color": "#2b6abd",
+                    "text": "854500"
+                }
+            ],
+            "single": {
+                "align": "l",
+                "background": true,
+                "inside": false,
+                "position": {
+                    "x": 10,
+                    "y": 10
+                },
+                "width": 250
+            },
+            "title": ""
+        },
+        "source": "SOURCE: U.S. Census Bureau",
+        "title": "Where people live in Virginia"
+    },
+    "ui": {
+        "datamap": [
+            {
+                "alias": "County",
+                "available": true,
+                "class": "base"
+            },
+            {
+                "alias": "value axis",
+                "available": false,
+                "class": "value"
+            },
+            {
+                "alias": "Color value",
+                "available": true,
+                "class": "scale"
+            },
+            {
+                "alias": "data series",
+                "available": false,
+                "class": "series"
+            },
+            {
+                "alias": "faceting column",
+                "available": false,
+                "class": "facet"
+            },
+            {
+                "alias": "ignored column",
+                "available": false,
+                "class": "ignore"
+            },
+            {
+                "alias": "Tooltip",
+                "available": true,
+                "class": "tooltip"
+            }
+        ],
+        "rawData": "Fips\tPopulation\n51001\t32947\n51003\t106878\n51005\t15595\n51007\t12913\n51009\t31633\n51011\t15475\n51013\t230050\n51015\t74997\n51017\t4476\n51019\t77960\n51021\t6513\n51023\t33231\n51025\t16243\n51027\t22178\n51029\t17048\n51031\t54952\n51033\t30178\n51035\t29531\n51036\t7071\n51037\t12129\n51041\t339009\n51043\t14374\n51045\t5158\n51047\t50083\n51049\t9652\n51051\t14968\n51053\t28144\n51057\t11123\n51059\t1138652\n51061\t69069\n51063\t15731\n51065\t26271\n51067\t56069\n51069\t84421\n51071\t16857\n51073\t37214\n51075\t22668\n51077\t15107\n51079\t19371\n51081\t11706\n51083\t34992\n51085\t104392\n51087\t326501\n51089\t51445\n51091\t2216\n51093\t36596\n51095\t74404\n51097\t7159\n51099\t25984\n51101\t16334\n51103\t10972\n51105\t24179\n51107\t385945\n51109\t35236\n51111\t12273\n51113\t13078\n51115\t8782\n51117\t30892\n51119\t10778\n51121\t98602\n51125\t14869\n51127\t21147\n51131\t12139\n51133\t12222\n51135\t15595\n51137\t35533\n51139\t23654\n51141\t17923\n51143\t61687\n51145\t28443\n51147\t23142\n51149\t37845\n51153\t455210\n51155\t34203\n51157\t7388\n51159\t8774\n51161\t94031\n51163\t22392\n51165\t79744\n51167\t27370\n51169\t21930\n51171\t43175\n51173\t31062\n51175\t18057\n51177\t132010\n51179\t144361\n51181\t6544\n51183\t11504\n51185\t42150\n51187\t39155\n51191\t54214\n51193\t17592\n51195\t39228\n51197\t29016\n51199\t67976\n51510\t155810\n51520\t16960\n51530\t6452\n51540\t46912\n51550\t237940\n51570\t17772\n51580\t5518\n51590\t41898\n51595\t5305\n51600\t24164\n51610\t14014\n51620\t8306\n51630\t28297\n51640\t6775\n51650\t135410\n51660\t53078\n51670\t22735\n51678\t7045\n51680\t80212\n51683\t41483\n51685\t15915\n51690\t13445\n51700\t181825\n51710\t245115\n51720\t3864\n51730\t31882\n51735\t12017\n51740\t95252\n51750\t17483\n51760\t223170\n51770\t99660\n51775\t25549\n51790\t24363\n51800\t89273\n51810\t452602\n51820\t21887\n51830\t15214\n51840\t27516",
+        "size": "single"
+    }
+}
