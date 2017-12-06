@@ -12,11 +12,6 @@ function draw(){
     var werk = werkHelper.build(initialProps);
     
     
-    var line = d3.line()
-        .defined(function(d){ return !isNaN(d.y);})
-        .x(function(d) { return werk.scales.x(d.x); })
-        .y(function(d) { return werk.scales.y(d.y); });
-    
     var svg = d3.select("#chart")
         .append("svg")
         .style("background-color","transparent")
@@ -89,12 +84,6 @@ function draw(){
         .data(werk.data)
       .enter().append("g")
         .attr("class","series");
-    
-    series.append("path")
-    		.attr("class","line")
-    		.attr("d", function(d){ 
-    		    return line(d.values);})
-    		.style("stroke", function(d){ return werk.scales.color(d.name);});
     
     //A rect to catch mouse movements
     var pointerRect = svg.append("rect")
