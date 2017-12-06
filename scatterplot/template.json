@@ -1,0 +1,962 @@
+{
+    "axes": {
+        "base": {
+            "dateFormat": null,
+            "format": {
+                "double": {
+                    "customTicks": [],
+                    "dateString": "Y",
+                    "frequency": 1,
+                    "ticks": 5
+                },
+                "single": {
+                    "customTicks": [],
+                    "dateString": "Y",
+                    "frequency": 2,
+                    "ticks": 7
+                }
+            },
+            "label": "",
+            "max": null,
+            "min": null,
+            "prefix": "",
+            "shadedRegions": [],
+            "suffix": "",
+            "type": "numerical"
+        },
+        "color": {
+            "byFacet": false,
+            "domain": [
+                "Natural gas"
+            ],
+            "ignoreScale": false,
+            "quantize": false,
+            "quantizeProps": {
+                "column": null,
+                "groups": 0,
+                "reverseColors": false
+            },
+            "range": [
+                "#329CAC"
+            ],
+            "scheme": "categorical.default"
+        },
+        "scale": {
+            "prefix": "",
+            "suffix": ""
+        },
+        "value": {
+            "format": {
+                "double": {
+                    "customTicks": [],
+                    "ticks": 5
+                },
+                "single": {
+                    "customTicks": [],
+                    "ticks": 6
+                }
+            },
+            "label": "",
+            "max": 60,
+            "min": null,
+            "prefix": "",
+            "shadedRegions": [],
+            "suffix": ""
+        }
+    },
+    "data": [
+        {
+            "Coal": 51.26,
+            "Month": "01/01/07",
+            "Natural gas": 15.83,
+            "Wind and solar": 0.73
+        },
+        {
+            "Coal": 52.02,
+            "Month": "02/01/07",
+            "Natural gas": 16.56,
+            "Wind and solar": 0.81
+        },
+        {
+            "Coal": 51.33,
+            "Month": "03/01/07",
+            "Natural gas": 16.22,
+            "Wind and solar": 1
+        },
+        {
+            "Coal": 49.72,
+            "Month": "04/01/07",
+            "Natural gas": 18.58,
+            "Wind and solar": 1.11
+        },
+        {
+            "Coal": 49.08,
+            "Month": "05/01/07",
+            "Natural gas": 18.88,
+            "Wind and solar": 0.96
+        },
+        {
+            "Coal": 49.09,
+            "Month": "06/01/07",
+            "Natural gas": 21.38,
+            "Wind and solar": 0.77
+        },
+        {
+            "Coal": 48.3,
+            "Month": "07/01/07",
+            "Natural gas": 23.73,
+            "Wind and solar": 0.59
+        },
+        {
+            "Coal": 46.22,
+            "Month": "08/01/07",
+            "Natural gas": 27.8,
+            "Wind and solar": 0.68
+        },
+        {
+            "Coal": 48.99,
+            "Month": "09/01/07",
+            "Natural gas": 23.78,
+            "Wind and solar": 0.86
+        },
+        {
+            "Coal": 50.24,
+            "Month": "10/01/07",
+            "Natural gas": 22.3,
+            "Wind and solar": 1.07
+        },
+        {
+            "Coal": 52.31,
+            "Month": "11/01/07",
+            "Natural gas": 17.9,
+            "Wind and solar": 1.03
+        },
+        {
+            "Coal": 51.67,
+            "Month": "12/01/07",
+            "Natural gas": 17.95,
+            "Wind and solar": 1.05
+        },
+        {
+            "Coal": 51.83,
+            "Month": "01/01/08",
+            "Natural gas": 18.64,
+            "Wind and solar": 1.23
+        },
+        {
+            "Coal": 52.78,
+            "Month": "02/01/08",
+            "Natural gas": 17.06,
+            "Wind and solar": 1.24
+        },
+        {
+            "Coal": 50.99,
+            "Month": "03/01/08",
+            "Natural gas": 17.76,
+            "Wind and solar": 1.55
+        },
+        {
+            "Coal": 49.49,
+            "Month": "04/01/08",
+            "Natural gas": 19.29,
+            "Wind and solar": 1.81
+        },
+        {
+            "Coal": 49,
+            "Month": "05/01/08",
+            "Natural gas": 17.77,
+            "Wind and solar": 1.74
+        },
+        {
+            "Coal": 47.03,
+            "Month": "06/01/08",
+            "Natural gas": 21.54,
+            "Wind and solar": 1.46
+        },
+        {
+            "Coal": 47.57,
+            "Month": "07/01/08",
+            "Natural gas": 23.77,
+            "Wind and solar": 1.06
+        },
+        {
+            "Coal": 47.68,
+            "Month": "08/01/08",
+            "Natural gas": 24.5,
+            "Wind and solar": 0.9
+        },
+        {
+            "Coal": 48.91,
+            "Month": "09/01/08",
+            "Natural gas": 22.41,
+            "Wind and solar": 0.98
+        },
+        {
+            "Coal": 49.05,
+            "Month": "10/01/08",
+            "Natural gas": 21.72,
+            "Wind and solar": 1.57
+        },
+        {
+            "Coal": 51.14,
+            "Month": "11/01/08",
+            "Natural gas": 18.54,
+            "Wind and solar": 1.68
+        },
+        {
+            "Coal": 50.03,
+            "Month": "12/01/08",
+            "Natural gas": 17.48,
+            "Wind and solar": 1.99
+        },
+        {
+            "Coal": 49.67,
+            "Month": "01/01/09",
+            "Natural gas": 17.46,
+            "Wind and solar": 1.73
+        },
+        {
+            "Coal": 48.15,
+            "Month": "02/01/09",
+            "Natural gas": 19.35,
+            "Wind and solar": 2.03
+        },
+        {
+            "Coal": 44.88,
+            "Month": "03/01/09",
+            "Natural gas": 20.66,
+            "Wind and solar": 2.4
+        },
+        {
+            "Coal": 44.73,
+            "Month": "04/01/09",
+            "Natural gas": 19.82,
+            "Wind and solar": 2.71
+        },
+        {
+            "Coal": 43.44,
+            "Month": "05/01/09",
+            "Natural gas": 20.67,
+            "Wind and solar": 2.12
+        },
+        {
+            "Coal": 43.7,
+            "Month": "06/01/09",
+            "Natural gas": 23.09,
+            "Wind and solar": 1.7
+        },
+        {
+            "Coal": 43.61,
+            "Month": "07/01/09",
+            "Natural gas": 26.26,
+            "Wind and solar": 1.41
+        },
+        {
+            "Coal": 43.98,
+            "Month": "08/01/09",
+            "Natural gas": 27.61,
+            "Wind and solar": 1.52
+        },
+        {
+            "Coal": 43.14,
+            "Month": "09/01/09",
+            "Natural gas": 26.95,
+            "Wind and solar": 1.51
+        },
+        {
+            "Coal": 46.99,
+            "Month": "10/01/09",
+            "Natural gas": 22.32,
+            "Wind and solar": 2.33
+        },
+        {
+            "Coal": 47.59,
+            "Month": "11/01/09",
+            "Natural gas": 19.91,
+            "Wind and solar": 2.43
+        },
+        {
+            "Coal": 48.85,
+            "Month": "12/01/09",
+            "Natural gas": 19.04,
+            "Wind and solar": 2.05
+        },
+        {
+            "Coal": 49.31,
+            "Month": "01/01/10",
+            "Natural gas": 19.2,
+            "Wind and solar": 1.97
+        },
+        {
+            "Coal": 49.18,
+            "Month": "02/01/10",
+            "Natural gas": 19.34,
+            "Wind and solar": 1.77
+        },
+        {
+            "Coal": 47.62,
+            "Month": "03/01/10",
+            "Natural gas": 18.86,
+            "Wind and solar": 2.89
+        },
+        {
+            "Coal": 45.49,
+            "Month": "04/01/10",
+            "Natural gas": 21.05,
+            "Wind and solar": 3.58
+        },
+        {
+            "Coal": 44.88,
+            "Month": "05/01/10",
+            "Natural gas": 21.18,
+            "Wind and solar": 2.8
+        },
+        {
+            "Coal": 45.16,
+            "Month": "06/01/10",
+            "Natural gas": 23.43,
+            "Wind and solar": 2.27
+        },
+        {
+            "Coal": 44.87,
+            "Month": "07/01/10",
+            "Natural gas": 27,
+            "Wind and solar": 1.74
+        },
+        {
+            "Coal": 44.56,
+            "Month": "08/01/10",
+            "Natural gas": 28.62,
+            "Wind and solar": 1.73
+        },
+        {
+            "Coal": 44.18,
+            "Month": "09/01/10",
+            "Natural gas": 25.67,
+            "Wind and solar": 2.17
+        },
+        {
+            "Coal": 44.2,
+            "Month": "10/01/10",
+            "Natural gas": 23.97,
+            "Wind and solar": 2.71
+        },
+        {
+            "Coal": 45.54,
+            "Month": "11/01/10",
+            "Natural gas": 21.2,
+            "Wind and solar": 3.34
+        },
+        {
+            "Coal": 47.48,
+            "Month": "12/01/10",
+            "Natural gas": 20.05,
+            "Wind and solar": 2.61
+        },
+        {
+            "Coal": 48.4,
+            "Month": "01/01/11",
+            "Natural gas": 19.12,
+            "Wind and solar": 2.45
+        },
+        {
+            "Coal": 45.45,
+            "Month": "02/01/11",
+            "Natural gas": 19.69,
+            "Wind and solar": 3.49
+        },
+        {
+            "Coal": 43.54,
+            "Month": "03/01/11",
+            "Natural gas": 19.35,
+            "Wind and solar": 3.47
+        },
+        {
+            "Coal": 42.43,
+            "Month": "04/01/11",
+            "Natural gas": 21.77,
+            "Wind and solar": 4.33
+        },
+        {
+            "Coal": 43.62,
+            "Month": "05/01/11",
+            "Natural gas": 21.89,
+            "Wind and solar": 3.84
+        },
+        {
+            "Coal": 44.15,
+            "Month": "06/01/11",
+            "Natural gas": 23.51,
+            "Wind and solar": 3.15
+        },
+        {
+            "Coal": 43.26,
+            "Month": "07/01/11",
+            "Natural gas": 27.54,
+            "Wind and solar": 1.89
+        },
+        {
+            "Coal": 43.27,
+            "Month": "08/01/11",
+            "Natural gas": 28.42,
+            "Wind and solar": 1.96
+        },
+        {
+            "Coal": 42.95,
+            "Month": "09/01/11",
+            "Natural gas": 25.93,
+            "Wind and solar": 2.17
+        },
+        {
+            "Coal": 42.28,
+            "Month": "10/01/11",
+            "Natural gas": 24.26,
+            "Wind and solar": 3.6
+        },
+        {
+            "Coal": 41.26,
+            "Month": "11/01/11",
+            "Natural gas": 23.41,
+            "Wind and solar": 4.3
+        },
+        {
+            "Coal": 40.87,
+            "Month": "12/01/11",
+            "Natural gas": 24.27,
+            "Wind and solar": 3.34
+        },
+        {
+            "Coal": 39.2,
+            "Month": "01/01/12",
+            "Natural gas": 25.48,
+            "Wind and solar": 4.2
+        },
+        {
+            "Coal": 38,
+            "Month": "02/01/12",
+            "Natural gas": 28.07,
+            "Wind and solar": 3.77
+        },
+        {
+            "Coal": 35.21,
+            "Month": "03/01/12",
+            "Natural gas": 28.67,
+            "Wind and solar": 4.8
+        },
+        {
+            "Coal": 33.65,
+            "Month": "04/01/12",
+            "Natural gas": 30.99,
+            "Wind and solar": 4.59
+        },
+        {
+            "Coal": 35.52,
+            "Month": "05/01/12",
+            "Natural gas": 30.79,
+            "Wind and solar": 4.01
+        },
+        {
+            "Coal": 37.42,
+            "Month": "06/01/12",
+            "Natural gas": 30.97,
+            "Wind and solar": 3.59
+        },
+        {
+            "Coal": 39.76,
+            "Month": "07/01/12",
+            "Natural gas": 32.51,
+            "Wind and solar": 2.33
+        },
+        {
+            "Coal": 39.57,
+            "Month": "08/01/12",
+            "Natural gas": 32.28,
+            "Wind and solar": 2.34
+        },
+        {
+            "Coal": 38.71,
+            "Month": "09/01/12",
+            "Natural gas": 31.18,
+            "Wind and solar": 2.87
+        },
+        {
+            "Coal": 40.13,
+            "Month": "10/01/12",
+            "Natural gas": 28.17,
+            "Wind and solar": 4.36
+        },
+        {
+            "Coal": 43.56,
+            "Month": "11/01/12",
+            "Natural gas": 24.77,
+            "Wind and solar": 4.09
+        },
+        {
+            "Coal": 41.41,
+            "Month": "12/01/12",
+            "Natural gas": 23.66,
+            "Wind and solar": 4.63
+        },
+        {
+            "Coal": 40.87,
+            "Month": "01/01/13",
+            "Natural gas": 23.99,
+            "Wind and solar": 4.49
+        },
+        {
+            "Coal": 41.21,
+            "Month": "02/01/13",
+            "Natural gas": 24.55,
+            "Wind and solar": 4.87
+        },
+        {
+            "Coal": 41.52,
+            "Month": "03/01/13",
+            "Natural gas": 24.62,
+            "Wind and solar": 5.24
+        },
+        {
+            "Coal": 38.63,
+            "Month": "04/01/13",
+            "Natural gas": 24.63,
+            "Wind and solar": 6.31
+        },
+        {
+            "Coal": 38.31,
+            "Month": "05/01/13",
+            "Natural gas": 24.67,
+            "Wind and solar": 5.49
+        },
+        {
+            "Coal": 39.96,
+            "Month": "06/01/13",
+            "Natural gas": 26.7,
+            "Wind and solar": 4.25
+        },
+        {
+            "Coal": 39.9,
+            "Month": "07/01/13",
+            "Natural gas": 29.45,
+            "Wind and solar": 3.13
+        },
+        {
+            "Coal": 39.98,
+            "Month": "08/01/13",
+            "Natural gas": 30.36,
+            "Wind and solar": 2.84
+        },
+        {
+            "Coal": 40.3,
+            "Month": "09/01/13",
+            "Natural gas": 28.75,
+            "Wind and solar": 3.84
+        },
+        {
+            "Coal": 39.74,
+            "Month": "10/01/13",
+            "Natural gas": 26.8,
+            "Wind and solar": 4.83
+        },
+        {
+            "Coal": 39.78,
+            "Month": "11/01/13",
+            "Natural gas": 25.35,
+            "Wind and solar": 5.51
+        },
+        {
+            "Coal": 41.54,
+            "Month": "12/01/13",
+            "Natural gas": 24.88,
+            "Wind and solar": 4.36
+        },
+        {
+            "Coal": 42.88,
+            "Month": "01/01/14",
+            "Natural gas": 22.82,
+            "Wind and solar": 5.12
+        },
+        {
+            "Coal": 45.54,
+            "Month": "02/01/14",
+            "Natural gas": 22.01,
+            "Wind and solar": 4.74
+        },
+        {
+            "Coal": 42.42,
+            "Month": "03/01/14",
+            "Natural gas": 22.11,
+            "Wind and solar": 5.96
+        },
+        {
+            "Coal": 37.93,
+            "Month": "04/01/14",
+            "Natural gas": 24.38,
+            "Wind and solar": 7.03
+        },
+        {
+            "Coal": 37.73,
+            "Month": "05/01/14",
+            "Natural gas": 26.16,
+            "Wind and solar": 5.54
+        },
+        {
+            "Coal": 39.56,
+            "Month": "06/01/14",
+            "Natural gas": 26.35,
+            "Wind and solar": 5.12
+        },
+        {
+            "Coal": 39.93,
+            "Month": "07/01/14",
+            "Natural gas": 28.7,
+            "Wind and solar": 3.75
+        },
+        {
+            "Coal": 39.79,
+            "Month": "08/01/14",
+            "Natural gas": 30.76,
+            "Wind and solar": 3.24
+        },
+        {
+            "Coal": 38.27,
+            "Month": "09/01/14",
+            "Natural gas": 30.2,
+            "Wind and solar": 4.07
+        },
+        {
+            "Coal": 36.55,
+            "Month": "10/01/14",
+            "Natural gas": 29.83,
+            "Wind and solar": 5.36
+        },
+        {
+            "Coal": 38.76,
+            "Month": "11/01/14",
+            "Natural gas": 25.17,
+            "Wind and solar": 6.63
+        },
+        {
+            "Coal": 38.11,
+            "Month": "12/01/14",
+            "Natural gas": 25.53,
+            "Wind and solar": 4.85
+        },
+        {
+            "Coal": 37.9,
+            "Month": "01/01/15",
+            "Natural gas": 26.95,
+            "Wind and solar": 4.7
+        },
+        {
+            "Coal": 39.08,
+            "Month": "02/01/15",
+            "Natural gas": 26.11,
+            "Wind and solar": 5.08
+        },
+        {
+            "Coal": 34.47,
+            "Month": "03/01/15",
+            "Natural gas": 29.55,
+            "Wind and solar": 5.56
+        },
+        {
+            "Coal": 31.24,
+            "Month": "04/01/15",
+            "Natural gas": 30.41,
+            "Wind and solar": 7.15
+        },
+        {
+            "Coal": 33.49,
+            "Month": "05/01/15",
+            "Natural gas": 30.41,
+            "Wind and solar": 6.33
+        },
+        {
+            "Coal": 35.72,
+            "Month": "06/01/15",
+            "Natural gas": 32.48,
+            "Wind and solar": 4.56
+        },
+        {
+            "Coal": 35.78,
+            "Month": "07/01/15",
+            "Natural gas": 34.28,
+            "Wind and solar": 4.21
+        },
+        {
+            "Coal": 35.37,
+            "Month": "08/01/15",
+            "Natural gas": 34.49,
+            "Wind and solar": 4.16
+        },
+        {
+            "Coal": 34.76,
+            "Month": "09/01/15",
+            "Natural gas": 34.1,
+            "Wind and solar": 4.79
+        },
+        {
+            "Coal": 32.05,
+            "Month": "10/01/15",
+            "Natural gas": 34.1,
+            "Wind and solar": 6.1
+        },
+        {
+            "Coal": 30.03,
+            "Month": "11/01/15",
+            "Natural gas": 32.74,
+            "Wind and solar": 7.43
+        },
+        {
+            "Coal": 28.55,
+            "Month": "12/01/15",
+            "Natural gas": 32.54,
+            "Wind and solar": 6.97
+        },
+        {
+            "Coal": 33.22,
+            "Month": "01/01/16",
+            "Natural gas": 29.91,
+            "Wind and solar": 5.9
+        },
+        {
+            "Coal": 30.51,
+            "Month": "02/01/16",
+            "Natural gas": 30.04,
+            "Wind and solar": 7.5
+        },
+        {
+            "Coal": 24.5,
+            "Month": "03/01/16",
+            "Natural gas": 32.89,
+            "Wind and solar": 8.47
+        },
+        {
+            "Coal": 25.44,
+            "Month": "04/01/16",
+            "Natural gas": 32.72,
+            "Wind and solar": 8.43
+        },
+        {
+            "Coal": 26.61,
+            "Month": "05/01/16",
+            "Natural gas": 33.75,
+            "Wind and solar": 7.34
+        },
+        {
+            "Coal": 32.5,
+            "Month": "06/01/16",
+            "Natural gas": 34.78,
+            "Wind and solar": 5.59
+        },
+        {
+            "Coal": 34.04,
+            "Month": "07/01/16",
+            "Natural gas": 35.9,
+            "Wind and solar": 5.42
+        },
+        {
+            "Coal": 34.07,
+            "Month": "08/01/16",
+            "Natural gas": 36.92,
+            "Wind and solar": 4.4
+        },
+        {
+            "Coal": 33.52,
+            "Month": "09/01/16",
+            "Natural gas": 34.63,
+            "Wind and solar": 5.92
+        },
+        {
+            "Coal": 32.86,
+            "Month": "10/01/16",
+            "Natural gas": 31.49,
+            "Wind and solar": 7.83
+        },
+        {
+            "Coal": 30.36,
+            "Month": "11/01/16",
+            "Natural gas": 30.29,
+            "Wind and solar": 7.73
+        },
+        {
+            "Coal": 35.58,
+            "Month": "12/01/16",
+            "Natural gas": 26.47,
+            "Wind and solar": 7.61
+        },
+        {
+            "Coal": 35.03,
+            "Month": "01/01/17",
+            "Natural gas": 25.28,
+            "Wind and solar": 6.87
+        },
+        {
+            "Coal": 31.35,
+            "Month": "02/01/17",
+            "Natural gas": 25.73,
+            "Wind and solar": 8.77
+        },
+        {
+            "Coal": 29.15,
+            "Month": "03/01/17",
+            "Natural gas": 27.77,
+            "Wind and solar": 9.84
+        },
+        {
+            "Coal": 28.84,
+            "Month": "04/01/17",
+            "Natural gas": 27.95,
+            "Wind and solar": 10.71
+        },
+        {
+            "Coal": 29.95,
+            "Month": "05/01/17",
+            "Natural gas": 28.71,
+            "Wind and solar": 9.09
+        },
+        {
+            "Coal": 31.32,
+            "Month": "06/01/17",
+            "Natural gas": 30.98,
+            "Wind and solar": 7.47
+        }
+    ],
+    "datamap": {
+        "base": "Coal",
+        "custom": {
+            "tooltip": "Month"
+        },
+        "facet": null,
+        "ignore": [],
+        "scale": null,
+        "series": [],
+        "sort": [
+            "Month",
+            "Coal",
+            "Natural gas",
+            "Wind and solar"
+        ],
+        "value": "Natural gas"
+    },
+    "embed": {
+        "dimensions": {
+            "double": {
+                "height": 418,
+                "width": 560
+            },
+            "single": {
+                "height": 452,
+                "width": 270
+            }
+        }
+    },
+    "margins": {
+        "double": {
+            "bottom": 0.07999999999999996,
+            "left": 0.05,
+            "right": 0.050000000000000044,
+            "top": 0.05
+        },
+        "single": {
+            "bottom": 0.06999999999999995,
+            "left": 0.09,
+            "right": 0.050000000000000044,
+            "top": 0.06
+        }
+    },
+    "scripts": {
+        "dependencies": {
+            "scripts": [
+                "https://cdnjs.cloudflare.com/ajax/libs/d3/4.2.3/d3.min.js"
+            ],
+            "styles": []
+        },
+        "draw": "function draw(){\n\n    var initialProps = {\n        dims: {\n          single: { width: 260, height: 225 },\n          double: { width: 540, height: 250}\n        },\n    };\n    \n    // Returns object with properties and methods representing\n    // dimensions, scales, axes, etc.\n    var werk = werkHelper.build(initialProps);\n    \n    \n    var svg = d3.select(\"#chart\")\n        .append(\"svg\")\n        .style(\"background-color\",\"transparent\")\n        .attr(\"width\", werk.dims.svg.width + werk.dims.margins.left + werk.dims.margins.right)\n        .attr(\"height\", werk.dims.svg.height + werk.dims.margins.top + werk.dims.margins.bottom)\n      .append(\"g\")\n        .attr(\"transform\", \"translate(\" + werk.dims.margins.left + \",\" + werk.dims.margins.top + \")\");\n\n    chartwerk.axes.base.shadedRegions.forEach(function(shade) {\n        var rectLeft = werk.scales.x(werk.parsers.base(shade.min));\n        var rectRight = werk.scales.x(werk.parsers.base(shade.max));\n        var minWidth = 2;\n        var width = Math.max(2, rectRight - rectLeft);\n        if (rectRight === rectLeft) {\n            svg.append('line')\n                .attr(\"class\",'solid-line')\n                .attr(\"y1\", 0)\n                .attr(\"y2\", werk.scales.y.range()[0])\n                .attr(\"x1\", rectLeft)\n                .attr(\"x2\", rectLeft);\n        } else {\n            svg.append('rect')\n                .attr(\"class\",\"shaded-area\")\n                .attr('y', 0)\n                .attr('x', rectLeft)\n                .attr('width', width)\n                .attr('height', werk.scales.y.range()[0]); \n        }\n    });\n    \n    chartwerk.axes.value.shadedRegions.forEach(function(shade) {\n        var rectMin = werk.scales.y(werk.parsers.value(shade.min));\n        var rectMax = werk.scales.y(werk.parsers.value(shade.max));\n        var height = Math.max(2, rectMin - rectMax);\n        if (rectMin === rectMax) {\n            svg.append('line')\n                .attr(\"class\",'dotted-line')\n                .attr(\"x1\", 0)\n                .attr(\"x2\", werk.scales.x.range()[1])\n                .attr(\"y1\", rectMin)\n                .attr(\"y2\", rectMin);\n        } else {\n            svg.append('rect')\n                .attr(\"class\",\"shaded-area\")\n                .attr('x', 0)\n                .attr('y', rectMax)\n                .attr('width', werk.scales.x.range()[1])\n                .attr('height', height); \n        }\n    });\n\n    svg.append(\"g\")\n        .attr(\"class\", \"y axis\")\n        .call(werk.axes.y)\n      .append(\"text\")\n        .attr(\"class\",\"label\")\n        .attr(\"y\", -werk.dims.margins.top + 15)\n        .attr(\"x\", -werk.dims.margins.left)\n        .style(\"text-anchor\", \"start\")\n        .text(chartwerk.axes.value.label);\n    \n    svg.append(\"g\")\n        .attr(\"class\", \"x axis\")\n        .attr(\"transform\", \"translate(0,\" + werk.dims.svg.height + \")\")\n        .call(werk.axes.x);\n    \n    var dots = svg.append(\"g\")\n        .attr(\"class\", \"dots\");\n    \n    \n    dots.selectAll(\"circle.dot\")\n        .data(werk.data)\n      .enter().append(\"circle\")\n        .attr(\"class\",function(d, i){ return \"dot n-\" + i.toString()})\n        .attr(\"r\", 6)\n        .attr(\"cx\", function(d) { return werk.scales.x(d.x); })\n        .attr(\"cy\", function(d) { return werk.scales.y(d.y); })\n        .style(\"fill\", werk.scales.color());\n    \n    var voronois = svg.selectAll(\"path.voronoi\")\n        .data(werk.scales.voronoi.polygons(werk.data))\n      .enter().append(\"path\")\n        .attr(\"class\", \"voronoi\")\n        .attr(\"d\", function(d, i) { return \"M\" + d.join(\"L\") + \"Z\"; })\n        .style(\"fill\", \"none\")\n        .style(\"pointer-events\", \"all\")\n        .on(\"mouseout\",  hideTooltip)\n        .on(\"mouseover\", showTooltip);\n    \n    \n    \n    var tooltip = d3.select(\"#chart\")\n      .append(\"div\")\n        .attr(\"class\",\"tooltip\")\n        .style(\"position\",\"absolute\");\n    tooltip\n      .append(\"div\")\n      .attr(\"class\",\"value\");\n    \n    \n      \n    function hideTooltip(d, i){\n        d3.select(\".tooltip\")\n          .style(\"opacity\", 0);\n        svg.selectAll('circle.n-' + i.toString())\n            .classed(\"active\", false)\n            .moveToBack();\n    }\n    \n    function showTooltip(d, i){\n        console.log(i);\n        if (!d.data.tooltip) return;\n        var x = werk.scales.x(d.data.x);\n        var y = werk.scales.y(d.data.y);\n        console.log(x, y);\n        tooltip\n            .style('top', function() {\n                return y < (werk.dims.svg.height / 2) ?\n                    (y + 20) + 'px' :\n                    (y - 20) + 'px';\n            })\n            .style('left', function() {\n                return x < (werk.dims.svg.width / 2) ?\n                    (x + 40) + 'px' :\n                    (x - 40) + 'px';\n            })\n            .style('opacity', 1);\n        tooltip.select('div')\n            .text(d.data.tooltip);\n        \n        svg.selectAll('circle.n-' + i.toString())\n            .classed(\"active\", true)\n            .moveToFront();\n    }\n}",
+        "helper": "var werkHelper = {\n    addMethods: function(){\n      d3.selection.prototype.moveToFront = function() {  \n          return this.each(function(){\n            this.parentNode.appendChild(this);\n          });\n        };\n        d3.selection.prototype.moveToBack = function() {  \n            return this.each(function() { \n                var firstChild = this.parentNode.firstChild; \n                if (firstChild) { \n                    this.parentNode.insertBefore(this, firstChild); \n                } \n            });\n        };  \n    },\n    parse: function(werk){\n        werk.parsers = {\n          base: function(d){ return +d; },\n          value: function(d){ return +d; }\n        };\n\n        werk.data = chartwerk.data.map(function(d){\n            return {\n                x: werk.parsers.base(d[chartwerk.datamap.base]),\n                y: werk.parsers.value(d[chartwerk.datamap.value]),\n                tooltip: chartwerk.datamap.custom.tooltip === \"\" ? null :\n                    d[chartwerk.datamap.custom.tooltip],\n            };\n        });\n        \n        // Get max and min of data \n        var xMax = d3.max(werk.data, function(d){return d.x; }),\n\t        xMin = d3.min(werk.data, function(d){return d.x; }),\n\t        yMax = d3.max(werk.data, function(d){return d.y; }),\n\t        yMin = d3.min(werk.data, function(d){return d.y; });\n        \n        werk.dataDims = {\n            xMin: xMin,\n            xMax: xMax,\n            yMin: yMin,\n            yMax: yMax\n        };\n    },\n    \n    dims: function(werk){\n        var s = chartwerk.ui.size;\n            w = werk.dims[s].width,\n            h = werk.dims[s].height,\n            margins = {\n                right: chartwerk.margins[s].right * w,\n                left: chartwerk.margins[s].left * w,\n                top: chartwerk.margins[s].top * h,\n                bottom: chartwerk.margins[s].bottom * h,\n            },\n            svg = {\n                width: w - margins.left - margins.right,\n                height: h - margins.top - margins.bottom,\n            };\n        \n        werk.dims.margins = margins;\n        werk.dims.svg = svg;\n    },\n\n    scales: function(werk){\n        var svg = werk.dims.svg;\n        werk.scales = {\n            x: d3.scaleLinear()\n                .range([0, svg.width]),\n            y: d3.scaleLinear()\n                .range([svg.height, 0]),\n            color: function(d){return chartwerk.axes.color.range[0];},\n        };\n        werk.scales.voronoi = d3.voronoi()\n            .x(function(d){ return werk.scales.x(d.x); })\n            .y(function(d){ return werk.scales.y(d.y); })\n            .size([svg.width, svg.height]);\n    },\n    \n    baseDomain:  function(werk){\n        var domain = [werk.dataDims.xMin, werk.dataDims.xMax];\n        var base = chartwerk.axes.base;\n        \n        switch (isNaN(base.min) || base.min) {\n            case true:\n            case null:\n            case '':\n                break;\n            default:\n                domain.splice(0, 1, base.min);\n        }\n        switch (isNaN(base.max) || base.max) {\n            case null:\n            case true:\n            case '':\n                break;\n            default:\n                domain.splice(1, 1, base.max);\n        }\n\n        werk.scales.x\n            .domain(domain)\n            .nice();\n    },\n\n    valueDomain: function(werk){\n        var domain = [werk.dataDims.yMin, werk.dataDims.yMax];\n        var value = chartwerk.axes.value;\n        \n        switch (isNaN(value.min) || value.min) {\n            case true:\n            case null:\n            case '':\n                break;\n            default:\n                domain.splice(0, 1, value.min);\n        }\n        switch (isNaN(value.max) || value.max) {\n            case null:\n            case true:\n            case '':\n                break;\n            default:\n                domain.splice(1, 1, value.max);\n        }\n\n        werk.scales.y\n            .domain(domain)\n            .nice();\n    },\n\n    axes: function(werk){\n        werk.axes = {\n          x: d3.axisBottom(werk.scales.x)\n              .tickSizeInner(-werk.dims.svg.height)\n              .tickSizeOuter(0)\n              .tickPadding(7)\n              .tickFormat( function(d){ \n                var formatter = werk.scales.x.tickFormat();\n                if (d >= 0) {\n                  return formatter(d) === '0' ? '0' : \n                  chartwerk.axes.base.prefix + formatter(d) + chartwerk.axes.base.suffix;\n                } else {\n                  return \"-\" + chartwerk.axes.base.prefix + formatter(Math.abs(d)) + chartwerk.axes.base.suffix;\n                }\n              }),\n          y: d3.axisLeft(werk.scales.y)\n              .tickSizeInner(-werk.dims.svg.width)\n              .tickSizeOuter(0)\n              .tickPadding(7)\n              .tickFormat( function(d){ \n                var formatter = werk.scales.y.tickFormat();\n                if (d >= 0) {\n                  return formatter(d) === '0' ? '0' : \n                  chartwerk.axes.value.prefix + formatter(d) + chartwerk.axes.value.suffix;\n                } else {\n                  return \"-\" + chartwerk.axes.value.prefix + formatter(Math.abs(d)) + chartwerk.axes.value.suffix;\n                }\n              }),\n        };\n    },\n\n    baseTicks: function(werk){\n        var s = chartwerk.ui.size;\n        if (chartwerk.axes.base.format[s].customTicks.length > 0) { \n            werk.axes.x.tickValues(\n                chartwerk.axes.base.format[s].customTicks\n            );\n        } else {\n            werk.axes.x.ticks(\n              chartwerk.axes.base.format[s].ticks\n            );\n        }\n    },\n\n    valueTicks: function(werk){\n        var s = chartwerk.ui.size;\n        if (chartwerk.axes.value.format[s].customTicks.length > 0) { \n            werk.axes.y.tickValues(\n                chartwerk.axes.value.format[s].customTicks\n            );\n        } else {\n            werk.axes.y.ticks(\n              chartwerk.axes.value.format[s].ticks\n            );\n        }\n    },\n\n    // Build dims, scales and axes.\n    build: function(werk){\n        this.addMethods();\n        this.parse(werk);\n        this.dims(werk);\n        this.scales(werk);\n        this.baseDomain(werk);\n        this.valueDomain(werk);\n        this.axes(werk);\n        this.baseTicks(werk);\n        this.valueTicks(werk);\n        return werk;\n    },\n};",
+        "html": "<div id='chart-header'>\n\t<h2 id='headline'></h2>\n\t<div id='chatter'></div> \n</div> \n<div id='chart-ui'>\n\t<!--You can put any necessary buttons, etc., here.-->\n</div>\n<div id='chart-legend'></div>\n<div id='chart'></div> \n<div id='chart-footer'> \n\t<div id='footnote'></div> \n\t<div id='source'></div> \n\t<div id='author'></div> \n</div>",
+        "styles": "/****************/\n/*shared head dek styles*/\n/****************/\n\n\n#chartwerk strong{\n    font-weight: 600;\n}\n\n#chartwerk #chart-header{\n    line-height: 1.45em;\n    font-weight: 400;\n}\n\n#chartwerk #chart-header #headline{\n    line-height: 1.1em;\n}\n\n#chartwerk.single #chart-header #headline{\n    line-height: 1em;\n}\n\n#chartwerk #headline { \n    font-weight:bold;\n    font-size:25px;\n    line-height: 1.05em;\n    margin: 0;\n}\n\n#chartwerk.single #headline { \n    font-size:22px;\n}\n\n#chartwerk #chatter {\n    margin: 6px 0px 12px;\n    font-size: 17px;\n}\n\n#chartwerk.single #chatter {\n    margin: 8px 0px 10px;\n    font-size: 14px;\n    line-height: 1.2em;\n}\n\n\n\n/****************/\n/*shared source byline styles*/\n/****************/\n\n#chartwerk.double #chart-footer #author{\n    float: right;\n}\n\n#chartwerk.single #chart-footer #source{\n    font-weight: 400;\n    font-size: 10px;\n}\n\n#chartwerk.single #chart-footer #author{\n    font-weight: 400;\n    font-size: 10px;\n    float: left;\n}\n\n\n#chartwerk #source,\n#chartwerk #author {\n    font-size:12px;\n    font-weight: 400\n    color:#666;\n    display: inline-block;\n}\n\n#chartwerk #footnote{\n    font-size: 12px;\n    color:#666;\n}\n\n#chartwerk.single #footnote,\n#chartwerk.single #source,\n#chartwerk.single #author {\n    display: block;\n}\n\n#chartwerk #chart-footer {\n    margin-top: 12px;\n}\n\n#chartwerk #author{\n    float: right;\n}\n\n#chartwerk #source{\n    vertical-align: text-top;\n}\n\n/****************/\n/*shared tooltip styles*/\n/****************/\n\n#chartwerk #chart .tooltip .value{\n    text-shadow: -1px -1px 0px #fff, -1px 1px 0px #fff, 1px -1px 0px #fff, 1px 1px 0px #fff,  -1px -1px 0px #fff, -1px 1px 0px #fff, 1px -1px 0px #fff, 1px 1px 0px #fff,  -1px -1px 0px #fff, -1px 1px 0px #fff, 1px -1px 0px #fff, 1px 1px 0px #fff,-1px -1px 0px #fff, -1px 1px 0px #fff, 1px -1px 0px #fff, 1px 1px 0px #fff,-1px -1px 0px #fff, -1px 1px 0px #fff, 1px -1px 0px #fff, 1px 1px 0px #fff, -1px -1px 0px #fff, -1px 1px 0px #fff, 1px -1px 0px #fff, 1px 1px 0px #fff,-1px -1px 0px #fff, -1px 1px 0px #fff, 1px -1px 0px #fff, 1px 1px 0px #fff,-1px -1px 0px #fff, -1px 1px 0px #fff, 1px -1px 0px #fff, 1px 1px 0px #fff;\n    font-weight: bold;\n}\n\n#chartwerk #chart .tooltip{\n    font-family: 'franklin-gothic-urw', arial, sans-serif;\n    font-weight: 200;\n    opacity:0;\n    pointer-events:none;\n    padding:5px;\n    width:auto;\n    background: none;\n    z-index: 2;\n}\n\n/****************/\n/*shared annotation styles*/\n/****************/\n\n\n#chartwerk .annotation .inner p{\n    font-size: 14px;\n    line-height: 1.2em;\n    font-family:'franklin-gothic-urw', arial, sans-serif;\n}\n\n#chartwerk .annotation p{\n    font-family: inherit;\n    font-weight: 200;\n}\n\n/****************/\n/*shared chart spec styles*/\n/****************/\n\n#chartwerk {\n    font-family: 'proxima-nova', arial, sans-serif;\n    font-weight: 200;\n    padding: 20px 0;\n    width:560px;\n    background: transparent;\n}\n\n\n#chartwerk.single{\n    width:270px;\n    float:left;\n    overflow:hidden;\n    margin:10px 30px 10px 0;\n}\n\n/****************/\n/*shared legend styles*/\n/****************/\n\n#chart-legend .chart-legend-container.bg, #chart .chart-legend-container.bg{\n    background: transparent;\n}\n#chartwerk #chart-legend \n.chart-legend-container .key-label{\n    font-family:'franklin-gothic-urw', arial, sans-serif;\n    font-weight: 200;\n    font-size: 14px;\n    margin-left: 3px;\n    margin-right: 6px;\n}\n#chartwerk.single #chart-legend \n.chart-legend-container .key-label{\n    font-size: 13px;\n}\n#chartwerk #chart-legend \n.chart-legend-container .key-color{\n    margin-right:2px;\n    margin-top: 2px;\n    width: 12px;\n    height: 12px;\n}\n#chartwerk #chart-legend \n.chart-legend-container .key{\n    margin-right: 8px;\n}\n\n#chartwerk #chart-legend \n.chart-legend-container{\n    margin-bottom: 2px;\n}\n#chartwerk.single #chart-legend \n.chart-legend-container{\n    float: left;\n}\n\n#chart-legend .chart-legend-container, #chart .chart-legend-container{\n    padding: 0;\n}\n\n/****************/\n/*line axis styles*/\n/****************/\n\n.axis path,\n.axis line {\n  fill: none;\n  stroke: rgb(180,180,180);\n  shape-rendering: crispEdges;\n}\n.axis text{\n    font-family:'franklin-gothic-urw', arial, sans-serif;\n    font-weight: 200;\n    fill: #666;\n    font-size:14px;\n}\n.axis line{\n    stroke: #ddd;\n}\n.axis path{\n    stroke: #ddd;\n    stroke-width: 1px;\n}\n.y.axis .label{\n    font-family:'franklin-gothic-urw', arial, sans-serif;\n    font-weight: 200;\n}\n\n#chartwerk.single #chart .y.axis text{\n    font-size: 13px;\n}\n\n#chartwerk.single #chart .x.axis text{\n    font-size: 13px;\n}\n\n\n/****************/\n/*line chart styles*/\n/****************/\n\n#chartwerk #chart circle.dot{\n    stroke: white;\n    stroke-width: 1px;\n    fill-opacity: 0.6;\n}\n#chartwerk #chart circle.dot.active{\n    stroke: #333;\n    stroke-width: 2px;\n}\n#chartwerk #chart path.voronoi {\n    cursor: crosshair;\n}"
+    },
+    "template": {
+        "description": "Use scatterplots to show the relationship between two variables, like education attainment and economic background.",
+        "icon": null,
+        "id": "line-chart",
+        "tags": [],
+        "title": "Scatterplot"
+    },
+    "text": {
+        "annotations": [],
+        "author": "Peter Politico / POLITICO",
+        "chatter": "",
+        "footnote": "",
+        "headline": "Coal loses ground",
+        "legend": {
+            "active": false,
+            "double": {
+                "align": "l",
+                "background": true,
+                "inside": false,
+                "position": {
+                    "x": 10,
+                    "y": 10
+                },
+                "width": 500
+            },
+            "keys": [],
+            "single": {
+                "align": "l",
+                "background": true,
+                "inside": false,
+                "position": {
+                    "x": 10,
+                    "y": 10
+                },
+                "width": 250
+            },
+            "title": ""
+        },
+        "source": "SOURCE: POLITICO analysis",
+        "title": ""
+    },
+    "ui": {
+        "datamap": [
+            {
+                "alias": "X axis",
+                "available": true,
+                "class": "base"
+            },
+            {
+                "alias": "Y axis",
+                "available": true,
+                "class": "value"
+            },
+            {
+                "alias": "Color",
+                "available": false,
+                "class": "scale"
+            },
+            {
+                "alias": "data series",
+                "available": false,
+                "class": "series"
+            },
+            {
+                "alias": "faceting column",
+                "available": false,
+                "class": "facet"
+            },
+            {
+                "alias": "ignored column",
+                "available": false,
+                "class": "ignore"
+            },
+            {
+                "alias": "Tooltip",
+                "available": true,
+                "class": "tooltip"
+            }
+        ],
+        "rawData": "Month\tCoal\tNatural gas\tWind and solar\n01/01/07\t51.26\t15.83\t0.73\n02/01/07\t52.02\t16.56\t0.81\n03/01/07\t51.33\t16.22\t1\n04/01/07\t49.72\t18.58\t1.11\n05/01/07\t49.08\t18.88\t0.96\n06/01/07\t49.09\t21.38\t0.77\n07/01/07\t48.3\t23.73\t0.59\n08/01/07\t46.22\t27.8\t0.68\n09/01/07\t48.99\t23.78\t0.86\n10/01/07\t50.24\t22.3\t1.07\n11/01/07\t52.31\t17.9\t1.03\n12/01/07\t51.67\t17.95\t1.05\n01/01/08\t51.83\t18.64\t1.23\n02/01/08\t52.78\t17.06\t1.24\n03/01/08\t50.99\t17.76\t1.55\n04/01/08\t49.49\t19.29\t1.81\n05/01/08\t49\t17.77\t1.74\n06/01/08\t47.03\t21.54\t1.46\n07/01/08\t47.57\t23.77\t1.06\n08/01/08\t47.68\t24.5\t0.9\n09/01/08\t48.91\t22.41\t0.98\n10/01/08\t49.05\t21.72\t1.57\n11/01/08\t51.14\t18.54\t1.68\n12/01/08\t50.03\t17.48\t1.99\n01/01/09\t49.67\t17.46\t1.73\n02/01/09\t48.15\t19.35\t2.03\n03/01/09\t44.88\t20.66\t2.4\n04/01/09\t44.73\t19.82\t2.71\n05/01/09\t43.44\t20.67\t2.12\n06/01/09\t43.7\t23.09\t1.7\n07/01/09\t43.61\t26.26\t1.41\n08/01/09\t43.98\t27.61\t1.52\n09/01/09\t43.14\t26.95\t1.51\n10/01/09\t46.99\t22.32\t2.33\n11/01/09\t47.59\t19.91\t2.43\n12/01/09\t48.85\t19.04\t2.05\n01/01/10\t49.31\t19.2\t1.97\n02/01/10\t49.18\t19.34\t1.77\n03/01/10\t47.62\t18.86\t2.89\n04/01/10\t45.49\t21.05\t3.58\n05/01/10\t44.88\t21.18\t2.8\n06/01/10\t45.16\t23.43\t2.27\n07/01/10\t44.87\t27\t1.74\n08/01/10\t44.56\t28.62\t1.73\n09/01/10\t44.18\t25.67\t2.17\n10/01/10\t44.2\t23.97\t2.71\n11/01/10\t45.54\t21.2\t3.34\n12/01/10\t47.48\t20.05\t2.61\n01/01/11\t48.4\t19.12\t2.45\n02/01/11\t45.45\t19.69\t3.49\n03/01/11\t43.54\t19.35\t3.47\n04/01/11\t42.43\t21.77\t4.33\n05/01/11\t43.62\t21.89\t3.84\n06/01/11\t44.15\t23.51\t3.15\n07/01/11\t43.26\t27.54\t1.89\n08/01/11\t43.27\t28.42\t1.96\n09/01/11\t42.95\t25.93\t2.17\n10/01/11\t42.28\t24.26\t3.6\n11/01/11\t41.26\t23.41\t4.3\n12/01/11\t40.87\t24.27\t3.34\n01/01/12\t39.2\t25.48\t4.2\n02/01/12\t38\t28.07\t3.77\n03/01/12\t35.21\t28.67\t4.8\n04/01/12\t33.65\t30.99\t4.59\n05/01/12\t35.52\t30.79\t4.01\n06/01/12\t37.42\t30.97\t3.59\n07/01/12\t39.76\t32.51\t2.33\n08/01/12\t39.57\t32.28\t2.34\n09/01/12\t38.71\t31.18\t2.87\n10/01/12\t40.13\t28.17\t4.36\n11/01/12\t43.56\t24.77\t4.09\n12/01/12\t41.41\t23.66\t4.63\n01/01/13\t40.87\t23.99\t4.49\n02/01/13\t41.21\t24.55\t4.87\n03/01/13\t41.52\t24.62\t5.24\n04/01/13\t38.63\t24.63\t6.31\n05/01/13\t38.31\t24.67\t5.49\n06/01/13\t39.96\t26.7\t4.25\n07/01/13\t39.9\t29.45\t3.13\n08/01/13\t39.98\t30.36\t2.84\n09/01/13\t40.3\t28.75\t3.84\n10/01/13\t39.74\t26.8\t4.83\n11/01/13\t39.78\t25.35\t5.51\n12/01/13\t41.54\t24.88\t4.36\n01/01/14\t42.88\t22.82\t5.12\n02/01/14\t45.54\t22.01\t4.74\n03/01/14\t42.42\t22.11\t5.96\n04/01/14\t37.93\t24.38\t7.03\n05/01/14\t37.73\t26.16\t5.54\n06/01/14\t39.56\t26.35\t5.12\n07/01/14\t39.93\t28.7\t3.75\n08/01/14\t39.79\t30.76\t3.24\n09/01/14\t38.27\t30.2\t4.07\n10/01/14\t36.55\t29.83\t5.36\n11/01/14\t38.76\t25.17\t6.63\n12/01/14\t38.11\t25.53\t4.85\n01/01/15\t37.9\t26.95\t4.7\n02/01/15\t39.08\t26.11\t5.08\n03/01/15\t34.47\t29.55\t5.56\n04/01/15\t31.24\t30.41\t7.15\n05/01/15\t33.49\t30.41\t6.33\n06/01/15\t35.72\t32.48\t4.56\n07/01/15\t35.78\t34.28\t4.21\n08/01/15\t35.37\t34.49\t4.16\n09/01/15\t34.76\t34.1\t4.79\n10/01/15\t32.05\t34.1\t6.1\n11/01/15\t30.03\t32.74\t7.43\n12/01/15\t28.55\t32.54\t6.97\n01/01/16\t33.22\t29.91\t5.9\n02/01/16\t30.51\t30.04\t7.5\n03/01/16\t24.5\t32.89\t8.47\n04/01/16\t25.44\t32.72\t8.43\n05/01/16\t26.61\t33.75\t7.34\n06/01/16\t32.5\t34.78\t5.59\n07/01/16\t34.04\t35.9\t5.42\n08/01/16\t34.07\t36.92\t4.4\n09/01/16\t33.52\t34.63\t5.92\n10/01/16\t32.86\t31.49\t7.83\n11/01/16\t30.36\t30.29\t7.73\n12/01/16\t35.58\t26.47\t7.61\n01/01/17\t35.03\t25.28\t6.87\n02/01/17\t31.35\t25.73\t8.77\n03/01/17\t29.15\t27.77\t9.84\n04/01/17\t28.84\t27.95\t10.71\n05/01/17\t29.95\t28.71\t9.09\n06/01/17\t31.32\t30.98\t7.47",
+        "size": "double"
+    }
+}
