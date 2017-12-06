@@ -211,11 +211,12 @@
     fill: #666;
     font-size:14px;
 }
-.y.axis line{
+.axis line{
     stroke: #ddd;
 }
-.y.axis path{
-    display:none;
+.axis path{
+    stroke: #ddd;
+    stroke-width: 1px;
 }
 .y.axis .label{
     font-family:'franklin-gothic-urw', arial, sans-serif;
@@ -235,23 +236,15 @@
 /*line chart styles*/
 /****************/
 
-#chartwerk #chart path.line{
-    fill: none;
+#chartwerk #chart circle.dot{
+    stroke: white;
+    stroke-width: 1px;
+    fill-opacity: 0.6;
+}
+#chartwerk #chart circle.dot.active{
+    stroke: #333;
     stroke-width: 2px;
-    stroke-linejoin: round;
-    stroke-linecap: round;
 }
-
-
-line.dotted-line{
-    stroke:rgb(33,33,33);
-    stroke-width:1px;
-}
-line.solid-line{
-    stroke:rgb(33,33,33);
-    stroke-width:1px;
-}
-rect.shaded-area{
-    fill:#ddd;
-    fill-opacity: 0.5;
+#chartwerk #chart path.voronoi {
+    cursor: crosshair;
 }
