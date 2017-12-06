@@ -81,10 +81,13 @@ function draw(){
         .call(werk.axes.x);
     
     
-    var series = svg.selectAll(".series")
+    var dot = svg.selectAll("circle.dot")
         .data(werk.data)
-      .enter().append("g")
-        .attr("class","series");
+      .enter().append("circle")
+        .attr("class","dot")
+        .attr("r", 4)
+        .attr("cx", function(d) { return werk.scales.x(d.x); })
+        .attr("cy", function(d) { return werk.scales.y(d.y); });
     
     //A rect to catch mouse movements
     var pointerRect = svg.append("rect")
