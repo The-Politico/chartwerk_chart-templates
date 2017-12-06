@@ -111,7 +111,7 @@ var werkHelper = {
     axes: function(werk){
         werk.axes = {
           x: d3.axisBottom(werk.scales.x)
-              .tickSizeInner(6)
+              .tickSizeInner(-werk.dims.svg.height)
               .tickSizeOuter(0)
               .tickPadding(3)
               .tickFormat( function(d){ 
