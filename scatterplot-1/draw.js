@@ -20,49 +20,50 @@ function draw(){
       .append("g")
         .attr("transform", "translate(" + werk.dims.margins.left + "," + werk.dims.margins.top + ")");
 
-    chartwerk.axes.base.shadedRegions.forEach(function(shade) {
-        var rectLeft = werk.scales.x(werk.parsers.base(shade.min));
-        var rectRight = werk.scales.x(werk.parsers.base(shade.max));
-        var minWidth = 2;
-        var width = Math.max(2, rectRight - rectLeft);
-        if (rectRight === rectLeft) {
-            svg.append('line')
-                .attr("class",'solid-line')
-                .attr("y1", 0)
-                .attr("y2", werk.scales.y.range()[0])
-                .attr("x1", rectLeft)
-                .attr("x2", rectLeft);
-        } else {
-            svg.append('rect')
-                .attr("class","shaded-area")
-                .attr('y', 0)
-                .attr('x', rectLeft)
-                .attr('width', width)
-                .attr('height', werk.scales.y.range()[0]); 
-        }
-    });
+    // chartwerk.axes.base.shadedRegions.forEach(function(shade) {
+    //     var rectLeft = werk.scales.x(werk.parsers.base(shade.min));
+    //     var rectRight = werk.scales.x(werk.parsers.base(shade.max));
+    //     var minWidth = 2;
+    //     var width = Math.max(2, rectRight - rectLeft);
+    //     if (rectRight === rectLeft) {
+    //         svg.append('line')
+    //             .attr("class",'solid-line')
+    //             .attr("y1", 0)
+    //             .attr("y2", werk.scales.y.range()[0])
+    //             .attr("x1", rectLeft)
+    //             .attr("x2", rectLeft);
+    //     } else {
+    //         svg.append('rect')
+    //             .attr("class","shaded-area")
+    //             .attr('y', 0)
+    //             .attr('x', rectLeft)
+    //             .attr('width', width)
+    //             .attr('height', werk.scales.y.range()[0]); 
+    //     }
+    // });
     
-    chartwerk.axes.value.shadedRegions.forEach(function(shade) {
-        var rectMin = werk.scales.y(werk.parsers.value(shade.min));
-        var rectMax = werk.scales.y(werk.parsers.value(shade.max));
-        var height = Math.max(2, rectMin - rectMax);
-        if (rectMin === rectMax) {
-            svg.append('line')
-                .attr("class",'dotted-line')
-                .attr("x1", 0)
-                .attr("x2", werk.scales.x.range()[1])
-                .attr("y1", rectMin)
-                .attr("y2", rectMin);
-        } else {
-            svg.append('rect')
-                .attr("class","shaded-area")
-                .attr('x', 0)
-                .attr('y', rectMax)
-                .attr('width', werk.scales.x.range()[1])
-                .attr('height', height); 
-        }
-    });
+    // chartwerk.axes.value.shadedRegions.forEach(function(shade) {
+    //     var rectMin = werk.scales.y(werk.parsers.value(shade.min));
+    //     var rectMax = werk.scales.y(werk.parsers.value(shade.max));
+    //     var height = Math.max(2, rectMin - rectMax);
+    //     if (rectMin === rectMax) {
+    //         svg.append('line')
+    //             .attr("class",'dotted-line')
+    //             .attr("x1", 0)
+    //             .attr("x2", werk.scales.x.range()[1])
+    //             .attr("y1", rectMin)
+    //             .attr("y2", rectMin);
+    //     } else {
+    //         svg.append('rect')
+    //             .attr("class","shaded-area")
+    //             .attr('x', 0)
+    //             .attr('y', rectMax)
+    //             .attr('width', werk.scales.x.range()[1])
+    //             .attr('height', height); 
+    //     }
+    // });
     
+    console.log(werk.scales.y.domain());
 
     svg.append("g")
         .attr("class", "y axis")
@@ -90,9 +91,9 @@ function draw(){
     	.attr("height", werk.dims.svg.height)
     	.attr("width", werk.dims.svg.width)
     	.style("fill","none")
-    	.style("pointer-events", "fill")
-        .on("mouseout",  hideTooltip)
-        .on("mousemove", showTooltip);
+    	.style("pointer-events", "fill");
+        // .on("mouseout",  hideTooltip)
+        // .on("mousemove", showTooltip);
     
     
     
@@ -113,70 +114,70 @@ function draw(){
 		.style("display","none")
         .style("pointer-events", "none");
       
-    function hideTooltip(){
-        d3.select(".tooltip")
-          .style("opacity", 0);
-        trackCirc
-          .style("display", "none");
-    }
+    // function hideTooltip(){
+    //     d3.select(".tooltip")
+    //       .style("opacity", 0);
+    //     trackCirc
+    //       .style("display", "none");
+    // }
     
-    function showTooltip(){
-        var x0 = werk.scales.x.invert(d3.mouse(this)[0]),
-    		y0 = werk.scales.y.invert(d3.mouse(this)[1]),
+//     function showTooltip(){
+//         var x0 = werk.scales.x.invert(d3.mouse(this)[0]),
+//     		y0 = werk.scales.y.invert(d3.mouse(this)[1]),
     
-    		//Start dist at a max number so we can check all distances less than
-    		dist = werk.dataDims.xMax - werk.dataDims.xMin + werk.dataDims.yMax - werk.dataDims.yMin,
-    		nearestX = 0,
-    		nearestY = 0,
-    		colorGroup = "",
-    		comma = d3.format(",");
+//     		//Start dist at a max number so we can check all distances less than
+//     		dist = werk.dataDims.xMax - werk.dataDims.xMin + werk.dataDims.yMax - werk.dataDims.yMin,
+//     		nearestX = 0,
+//     		nearestY = 0,
+//     		colorGroup = "",
+//     		comma = d3.format(",");
     
-    	werk.data.forEach(function(series){
-    		series.values.forEach(function(d){
-    			if(Math.abs(x0 - d.x) + Math.abs(y0 - d.y)  < dist){
-    				nearestX = d.x
-    				nearestY = d.y
-    				colorGroup = series.name
-    				dist = Math.abs(x0 - d.x) + Math.abs(y0 - d.y)
-    			}
-    		})
+//     	werk.data.forEach(function(series){
+//     		series.values.forEach(function(d){
+//     			if(Math.abs(x0 - d.x) + Math.abs(y0 - d.y)  < dist){
+//     				nearestX = d.x
+//     				nearestY = d.y
+//     				colorGroup = series.name
+//     				dist = Math.abs(x0 - d.x) + Math.abs(y0 - d.y)
+//     			}
+//     		})
     
-    	});
+//     	});
 
 
-	    trackCirc
-			.attr("cx", werk.scales.x(nearestX))
-			.attr("cy", werk.scales.y(nearestY))
-			.style("stroke","#333")
-			.style("display","");
+// 	    trackCirc
+// 			.attr("cx", werk.scales.x(nearestX))
+// 			.attr("cy", werk.scales.y(nearestY))
+// 			.style("stroke","#333")
+// 			.style("display","");
 		
-        d3.select(".tooltip .value")
-          .style("color", werk.scales.color(colorGroup))
-          .text(function(){
-              var v = chartwerk.axes.value;
-              return v.prefix + comma(nearestY) + v.suffix;
-          });
-        var p = d3.mouse(this.parentElement.parentElement);
-        d3.select(".tooltip")
-            .style("opacity", 1)
-            .style("top", function(){
-                var s = chartwerk.ui.size,
-                    h = werk.dims[s].height,
-                    tipH = parseInt(d3.select(".tooltip").style("height"), 10),
-                    pos = p[1] > (h / 2) ?
-                        p[1] - 30 : p[1] - 30;
-                return pos.toString() + "px";
-            })
-            .style("left", function(){
-                // We position either left or right of the mouse point based
-                // on whether we're past the midpoint of the chart. This protects
-                // against tooltips overflowing embedded iframes.
-                var s = chartwerk.ui.size,
-                    w = werk.dims[s].width,
-                    tipW = parseInt(d3.select(".tooltip").style("width"), 10),
-                    pos = p[0] > (w / 2) ?
-                        p[0] - (tipW + 5) : p[0] + 20;
-                return pos.toString() + "px";
-            });
-    }
+//         d3.select(".tooltip .value")
+//           .style("color", werk.scales.color(colorGroup))
+//           .text(function(){
+//               var v = chartwerk.axes.value;
+//               return v.prefix + comma(nearestY) + v.suffix;
+//           });
+//         var p = d3.mouse(this.parentElement.parentElement);
+//         d3.select(".tooltip")
+//             .style("opacity", 1)
+//             .style("top", function(){
+//                 var s = chartwerk.ui.size,
+//                     h = werk.dims[s].height,
+//                     tipH = parseInt(d3.select(".tooltip").style("height"), 10),
+//                     pos = p[1] > (h / 2) ?
+//                         p[1] - 30 : p[1] - 30;
+//                 return pos.toString() + "px";
+//             })
+//             .style("left", function(){
+//                 // We position either left or right of the mouse point based
+//                 // on whether we're past the midpoint of the chart. This protects
+//                 // against tooltips overflowing embedded iframes.
+//                 var s = chartwerk.ui.size,
+//                     w = werk.dims[s].width,
+//                     tipW = parseInt(d3.select(".tooltip").style("width"), 10),
+//                     pos = p[0] > (w / 2) ?
+//                         p[0] - (tipW + 5) : p[0] + 20;
+//                 return pos.toString() + "px";
+//             });
+//     }
 }
