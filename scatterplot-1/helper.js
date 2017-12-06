@@ -4,11 +4,13 @@ var werkHelper = {
           base: function(d){ return +d; },
           value: function(d){ return +d; }
         };
-        
+
         werk.data = chartwerk.data.map(function(d){
             return {
                 x: werk.parsers.base(d[chartwerk.datamap.base]),
                 y: werk.parsers.value(d[chartwerk.datamap.value]),
+                tooltip: chartwerk.datamap.custom.tooltip === "" ? null :
+                    d[chartwerk.datamap.custom.tooltip],
             };
         });
         
