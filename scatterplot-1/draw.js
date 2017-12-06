@@ -62,8 +62,6 @@ function draw(){
     //             .attr('height', height); 
     //     }
     // });
-    
-    console.log(werk.scales.y.domain());
 
     svg.append("g")
         .attr("class", "y axis")
@@ -87,7 +85,16 @@ function draw(){
         .attr("class","dot")
         .attr("r", 4)
         .attr("cx", function(d) { return werk.scales.x(d.x); })
-        .attr("cy", function(d) { return werk.scales.y(d.y); });
+        .attr("cy", function(d) { return werk.scales.y(d.y); })
+        .style("fill", werk.scales.color());
+    
+    var voronois = svg.selectAll("path.voronoi")
+        .data(werk.scales.voronoi.polygons(werk.data))
+      .enter().append("path")
+        .attr("class", "voronoi")
+        .attr("d", function(d, i) { return "M" + d.join("L") + "Z"; })
+        .style("fill", "none")
+        .style("stroke", "grey");
     
     //A rect to catch mouse movements
     var pointerRect = svg.append("rect")
@@ -116,6 +123,8 @@ function draw(){
 		.style("stroke-width",2)
 		.style("display","none")
         .style("pointer-events", "none");
+    
+    
       
     // function hideTooltip(){
     //     d3.select(".tooltip")
