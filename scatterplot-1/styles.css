@@ -241,3 +241,10 @@
     stroke-width: 1px;
     opacity: 0.6;
 }
+#chartwerk #chart circle.dot.active{
+    stroke: #333;
+    stroke-width: 2px;
+}
+#chartwerk #chart path.voronoi {
+    cursor: crosshair;
+}
