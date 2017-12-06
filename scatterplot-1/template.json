@@ -37,7 +37,7 @@
                 "reverseColors": false
             },
             "range": [
-                "#47BEF8"
+                "#F7A12D"
             ],
             "scheme": "categorical.default"
         },
@@ -886,7 +886,7 @@
     },
     "text": {
         "annotations": [],
-        "author": "Bob King / POLITICO",
+        "author": "Peter Politico / POLITICO",
         "chatter": "",
         "footnote": "",
         "headline": "Coal loses ground",
