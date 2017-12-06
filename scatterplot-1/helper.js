@@ -54,6 +54,10 @@ var werkHelper = {
                 .range([svg.height, 0]),
             color: function(d){return chartwerk.axes.color.range[0];},
         };
+        werk.scales.voronoi = d3.voronoi()
+            .x(function(d){ return werk.scales.x(d.x); })
+            .y(function(d){ return werk.scales.y(d.y); })
+            .size([svg.width, svg.height]);
     },
     
     baseDomain:  function(werk){
@@ -70,7 +74,7 @@ var werkHelper = {
         }
         switch (isNaN(base.max) || base.max) {
             case null:
-            case NaN:
+            case true:
             case '':
                 break;
             default:
@@ -96,7 +100,7 @@ var werkHelper = {
         }
         switch (isNaN(value.max) || value.max) {
             case null:
-            case NaN:
+            case true:
             case '':
                 break;
             default:
@@ -113,7 +117,7 @@ var werkHelper = {
           x: d3.axisBottom(werk.scales.x)
               .tickSizeInner(-werk.dims.svg.height)
               .tickSizeOuter(0)
-              .tickPadding(3)
+              .tickPadding(7)
               .tickFormat( function(d){ 
                 var formatter = werk.scales.x.tickFormat();
                 if (d >= 0) {
