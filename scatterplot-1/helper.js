@@ -1,8 +1,8 @@
 var werkHelper = {
     parse: function(werk){
         werk.parsers = {
-          base: function(d){ return d === '' ? NaN : +d; },
-          value: function(d){ return d === '' ? NaN : +d; }
+          base: function(d){ return +d; },
+          value: function(d){ return +d; }
         };
         
         werk.data = chartwerk.data.map(function(d){
@@ -16,7 +16,7 @@ var werkHelper = {
         var xMax = d3.max(werk.data, function(d){return d.x; }),
 	        xMin = d3.min(werk.data, function(d){return d.x; }),
 	        yMax = d3.max(werk.data, function(d){return d.y; }),
-	        yMin = d3.min(werk.data,function(d){return d.y; });
+	        yMin = d3.min(werk.data, function(d){return d.y; });
         
         werk.dataDims = {
             xMin: xMin,
@@ -57,44 +57,55 @@ var werkHelper = {
     },
     
     baseDomain:  function(werk){
-        if (chartwerk.axes.base.min !== null && chartwerk.axes.base.max !== null) {
-            werk.scales.x.domain(
-                [chartwerk.axes.base.min, chartwerk.axes.base.max]
-            );
-        } else if (chartwerk.axes.base.min !== null) {
-            werk.scales.x.domain(
-                [chartwerk.axes.base.min, werk.dataDims.xMax ]
-            );
-        } else if (chartwerk.axes.base.max !== null) {
-            werk.scales.x.domain(
-                [werk.dataDims.xMin, chartwerk.axes.base.max]
-            );
-        } else {
-            werk.scales.x.domain([werk.dataDims.xMin, werk.dataDims.xMax]);
-        }
+        var domain = [werk.dataDims.xMin, werk.dataDims.xMax];
+        var base = chartwerk.axes.base;
         
-        werk.scales.x.nice();
+        switch (isNaN(base.min) || base.min) {
+            case true:
+            case null:
+            case '':
+                break;
+            default:
+                domain.splice(0, 1, base.min);
+        }
+        switch (isNaN(base.max) || base.max) {
+            case null:
+            case NaN:
+            case '':
+                break;
+            default:
+                domain.splice(1, 1, base.max);
+        }
+
+        werk.scales.x
+            .domain(domain)
+            .nice();
     },
 
     valueDomain: function(werk){
+        var domain = [werk.dataDims.yMin, werk.dataDims.yMax];
+        var value = chartwerk.axes.value;
         
-        if (chartwerk.axes.value.min !== null && chartwerk.axes.value.max !== null) {
-            werk.scales.y.domain(
-                [chartwerk.axes.value.min, chartwerk.axes.value.max]
-            );
-        } else if (chartwerk.axes.value.min !== null) {
-            werk.scales.y.domain(
-                [chartwerk.axes.value.min, werk.dataDims.yMax ]
-            );
-        } else if (chartwerk.axes.value.max !== null) {
-            werk.scales.y.domain(
-                [werk.dataDims.yMin, chartwerk.axes.value.max]
-            );
-        } else {
-            werk.scales.y.domain([werk.dataDims.yMin, werk.dataDims.yMax]);
+        switch (isNaN(value.min) || value.min) {
+            case true:
+            case null:
+            case '':
+                break;
+            default:
+                domain.splice(0, 1, value.min);
         }
-        
-        werk.scales.y.nice();
+        switch (isNaN(value.max) || value.max) {
+            case null:
+            case NaN:
+            case '':
+                break;
+            default:
+                domain.splice(1, 1, value.max);
+        }
+
+        werk.scales.y
+            .domain(domain)
+            .nice();
     },
 
     axes: function(werk){
