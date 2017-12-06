@@ -215,8 +215,7 @@
     stroke: #ddd;
 }
 .axis path{
-    stroke: #ddd;
-    stroke-width: 1px;
+    display: none;
 }
 .y.axis .label{
     font-family:'franklin-gothic-urw', arial, sans-serif;
