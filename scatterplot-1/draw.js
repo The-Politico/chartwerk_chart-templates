@@ -78,8 +78,11 @@ function draw(){
         .attr("transform", "translate(0," + werk.dims.svg.height + ")")
         .call(werk.axes.x);
     
+    var dots = svg.append("g")
+        .attr("class", "dots");
     
-    var dots = svg.selectAll("circle.dot")
+    
+    dots.selectAll("circle.dot")
         .data(werk.data)
       .enter().append("circle")
         .attr("class",function(d, i){ return "dot n-" + i.toString()})
@@ -114,7 +117,8 @@ function draw(){
         d3.select(".tooltip")
           .style("opacity", 0);
         svg.selectAll('circle.n-' + i.toString())
-            .classed("active", false);
+            .classed("active", false)
+            .moveToBack();
     }
     
     function showTooltip(d, i){
@@ -139,6 +143,7 @@ function draw(){
             .text(d.data.tooltip);
         
         svg.selectAll('circle.n-' + i.toString())
-            .classed("active", true);
+            .classed("active", true)
+            .moveToFront();
     }
 }
