@@ -129,6 +129,7 @@
 #chartwerk .annotation p{
     font-family: inherit;
     font-weight: 200;
+    margin: 0;
 }
 
 /****************/
