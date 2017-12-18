@@ -891,7 +891,19 @@
         "title": "Line chart"
     },
     "text": {
-        "annotations": [],
+        "annotations": [
+            {
+                "align": "l",
+                "background": true,
+                "color": "#2d3035",
+                "fontSize": "m",
+                "size": "d",
+                "text": "TK TK text annotation goes here",
+                "w": 117.98294830322266,
+                "x": 251,
+                "y": 20
+            }
+        ],
         "author": "Bob King / POLITICO",
         "chatter": "Coal's role as the biggest energy source for the U.S. electric power sector has eroded during the past decade amid stiff competition from natural gas, while wind and solar have surged.",
         "footnote": "",
@@ -903,8 +915,8 @@
                 "background": false,
                 "inside": false,
                 "position": {
-                    "x": 10,
-                    "y": 10
+                    "x": 0,
+                    "y": 0
                 },
                 "width": 500
             },
