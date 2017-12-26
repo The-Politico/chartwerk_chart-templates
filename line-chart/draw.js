@@ -118,8 +118,7 @@ function draw(){
     var trackCirc = svg.append("circle")
 		.attr("cx",0)
 		.attr("cy",0)
-		.attr("r",4)
-		.style("fill","none")
+		.attr("r",4.5)
 		.style("stroke-width",2)
 		.style("display","none")
         .style("pointer-events", "none");
@@ -158,7 +157,7 @@ function draw(){
 	    trackCirc
 			.attr("cx", werk.scales.x(nearestX))
 			.attr("cy", werk.scales.y(nearestY))
-			.style("stroke","#333")
+			.style("fill", werk.scales.color(colorGroup))
 			.style("display","");
 		
         d3.select(".tooltip .value")
