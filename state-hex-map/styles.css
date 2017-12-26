@@ -18,6 +18,7 @@
 
 #chartwerk.single #chart-header #headline{
     line-height: 1em;
+    
 }
 
 #preview-pane{
@@ -28,6 +29,7 @@
     font-weight:bold;
     font-size:25px;
     line-height: 1.05em;
+    margin: 0px;
 }
 
 #chartwerk.single #headline { 
@@ -51,19 +53,24 @@
 /*shared source byline styles*/
 /****************/
 
-.double #chart-footer #author{
+#chartwerk #chart-footer #author{
     float: right;
 }
 
-.single #chart-footer #source{
+#chartwerk.single #chart-footer #source{
     font-weight: 400;
     font-size: 10px;
 }
 
-.single #chart-footer #author{
+#chartwerk.single #chart-footer #author{
     font-weight: 400;
     font-size: 10px;
     float: left;
+}
+
+#chartwerk #chart-footer #source{
+    vertical-align: text-top;
+    max-width: 350px;
 }
 
 
@@ -83,7 +90,11 @@
 }
 
 #chartwerk #chart-footer {
-    margin-top: 12px;
+    margin-top: 6px;
+}
+
+#chartwerk.single #chart-footer {
+    margin-top: 2px;
 }
 
 /****************/
@@ -183,7 +194,7 @@
 }
 .map-label-active{
     fill:#fff;
-    text-shadow: 1px 1px 3px black;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.5)
 }
 #chartwerk.single .map-label {
     font-size: 24px;
