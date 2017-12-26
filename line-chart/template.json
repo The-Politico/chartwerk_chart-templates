@@ -39,11 +39,11 @@
                 "reverseColors": false
             },
             "range": [
-                "#3D284D",
-                "#2F6CBA",
-                "#88C2B2"
+                "#AB9F8F",
+                "#F95100",
+                "#329CAC"
             ],
-            "scheme": "categorical.alt"
+            "scheme": "categorical.default"
         },
         "scale": {
             "prefix": "",
@@ -848,18 +848,18 @@
     "embed": {
         "dimensions": {
             "double": {
-                "height": 415.76702880859375,
+                "height": 415.1988525390625,
                 "width": 560
             },
             "single": {
-                "height": 446.23577880859375,
+                "height": 428.3948669433594,
                 "width": 270
             }
         }
     },
     "margins": {
         "double": {
-            "bottom": 0.15000000000000002,
+            "bottom": 0.09999999999999998,
             "left": 0.07,
             "right": 0.020000000000000018,
             "top": 0.15
@@ -891,7 +891,19 @@
         "title": "Line chart"
     },
     "text": {
-        "annotations": [],
+        "annotations": [
+            {
+                "align": "l",
+                "background": true,
+                "color": "#2d3035",
+                "fontSize": "m",
+                "size": "d",
+                "text": "\u2190 Annotation testing, here's some words",
+                "w": 150,
+                "x": 373,
+                "y": 48
+            }
+        ],
         "author": "Bob King / POLITICO",
         "chatter": "Coal's role as the biggest energy source for the U.S. electric power sector has eroded during the past decade amid stiff competition from natural gas, while wind and solar have surged.",
         "footnote": "",
@@ -910,16 +922,16 @@
             },
             "keys": [
                 {
-                    "color": "#3D284D",
-                    "text": "Coal"
+                    "color": "#AB9F8F",
+                    "text": ""
                 },
                 {
-                    "color": "#2F6CBA",
-                    "text": "Natural gas"
+                    "color": "#F95100",
+                    "text": ""
                 },
                 {
-                    "color": "#88C2B2",
-                    "text": "Wind and solar"
+                    "color": "#329CAC",
+                    "text": ""
                 }
             ],
             "single": {
@@ -935,7 +947,7 @@
             "title": ""
         },
         "source": "SOURCE: POLITICO analysis of data from U.S. Energy Information Administration",
-        "title": ""
+        "title": "test1"
     },
     "ui": {
         "datamap": [
