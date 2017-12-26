@@ -36,6 +36,7 @@
     font-weight:bold;
     font-size:25px;
     line-height: 1.05em;
+    margin: 0px;
 }
 #chartwerk #chatter {
     margin: 6px 0px 12px;
@@ -76,7 +77,11 @@
 }
 
 #chartwerk #chart-footer {
-    margin-top: 12px;
+    margin-top: 6px;
+}
+
+#chartwerk.single #chart-footer {
+    margin-top: 2px;
 }
 
 #chartwerk.single #headline { 
@@ -123,7 +128,7 @@
 }
 
 #chartwerk #chart path.state{
-    stroke-width:1px;
+    stroke-width: 0.5px;
     cursor:crosshair;
 }
 
