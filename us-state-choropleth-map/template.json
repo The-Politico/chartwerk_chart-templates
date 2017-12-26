@@ -424,6 +424,6 @@
             }
         ],
         "rawData": "state\tvalue\nAlabama\t32.0\nAlaska\t27.8\nArizona\t29.9\nArkansas\t39.5\nCalifornia\t21.1\nColorado\t20.3\nConnecticut\t11.5\nDelaware\t20.7\nDistrict of Columbia\t28.4\nFlorida\t22.5\nGeorgia\t28.4\nHawaii\t23.1\nIdaho\t23.2\nIllinois\t22.8\nIndiana\t28.0\nIowa\t19.8\nKansas\t27.6\nKentucky\t35.3\nLouisiana\t35.8\nMaine\t16.5\nMaryland\t17.8\nMassachusetts\t10.6\nMichigan\t21.1\nMinnesota\t15.5\nMississippi\t38.0\nMissouri\t27.2\nMontana\t26.4\nNebraska\t22.2\nNevada\t28.5\nNew Hampshire\t11.0\nNew Jersey\t13.1\nNew Mexico\t37.8\nNew York\t16.1\nNorth Carolina\t25.9\nNorth Dakota\t23.9\nOhio\t25.1\nOklahoma\t38.5\nOregon\t20.0\nPennsylvania\t19.3\nRhode Island\t15.8\nSouth Carolina\t28.5\nSouth Dakota\t26.2\nTennessee\t33.0\nTexas\t37.8\nUtah\t19.4\nVermont\t14.2\nVirginia\t18.4\nWashington\t19.1\nWest Virginia\t36.6\nWisconsin\t18.0\nWyoming\t30.1",
-        "size": "single"
+        "size": "double"
     }
 }
