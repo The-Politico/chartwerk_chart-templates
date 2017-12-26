@@ -62,7 +62,8 @@ function draw(){
                 }
                 return '#e2e2e2';
             })
-            .style("stroke", "#ccc")
+            .style("stroke", "white")
+            .style("stroke-width", 0.5)
             .on("mouseover",function(d){
                 
                 if (getCounty(d)) {
