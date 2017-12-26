@@ -18,7 +18,7 @@
 
 #chartwerk.single #chart-header #headline{
     line-height: 1em;
-    margin: 0px;
+   ;
 }
 
 #preview-pane{
@@ -29,6 +29,7 @@
     font-weight:bold;
     font-size:25px;
     line-height: 1.05em;
+    margin: 0px
 }
 
 #chartwerk.single #headline { 
