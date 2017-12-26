@@ -82,8 +82,13 @@
 }
 
 #chartwerk #chart-footer {
-    margin-top: 12px;
+    margin-top: 6px;
 }
+
+#chartwerk.single #chart-footer {
+    margin-top: 2px;
+}
+
 
 #chartwerk.single #headline { 
     font-size:22px;
