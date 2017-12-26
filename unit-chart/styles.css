@@ -14,6 +14,7 @@
 
 #chartwerk #chart-header #headline{
     line-height: 1.1em;
+    margin: 0px;
 }
 
 #chartwerk.single #chart-header #headline{
@@ -83,7 +84,11 @@
 }
 
 #chartwerk #chart-footer {
-    margin-top: 12px;
+    margin-top: 6px;
+}
+
+#chartwerk.single #chart-footer {
+    margin-top: 2px;
 }
 
 
@@ -121,6 +126,10 @@
 #chartwerk .annotation p{
     font-family: inherit;
     font-weight: 200;
+}
+
+#chart .annotation .inner{
+    margin: 0px;
 }
 
 /****************/
