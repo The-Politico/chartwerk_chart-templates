@@ -27,9 +27,9 @@
         "color": {
             "byFacet": false,
             "domain": [
-                30.98,
-                49.65,
-                68.33
+                22.9,
+                36.9,
+                55.5
             ],
             "ignoreScale": false,
             "quantize": true,
@@ -39,12 +39,12 @@
                 "reverseColors": true
             },
             "range": [
-                "#e5e8f6",
-                "#afbbe3",
-                "#7791d1",
-                "#2b6abd"
+                "#ffe37e",
+                "#fcaf5a",
+                "#f37a38",
+                "#e53516"
             ],
-            "scheme": "sequential.democrat"
+            "scheme": "sequential.redyellow"
         },
         "scale": {
             "prefix": "",
@@ -415,19 +415,19 @@
             },
             "keys": [
                 {
-                    "color": "#e5e8f6",
+                    "color": "#ffe37e",
                     "text": "12.3"
                 },
                 {
-                    "color": "#afbbe3",
+                    "color": "#fcaf5a",
                     "text": "30.98"
                 },
                 {
-                    "color": "#7791d1",
+                    "color": "#f37a38",
                     "text": "49.65"
                 },
                 {
-                    "color": "#2b6abd",
+                    "color": "#e53516",
                     "text": "68.33"
                 }
             ],
@@ -485,6 +485,6 @@
             }
         ],
         "rawData": "County\tPercentObama\nAutauga\t26.5\nBaldwin\t21.6\nBarbour\t51.3\nBibb\t26.2\nBlount\t12.3\nBullock\t76.3\nButler\t46.0\nCalhoun\t33.5\nChambers\t47.0\nCherokee\t21.8\nChilton\t19.4\nChoctaw\t47.5\nClarke\t45.7\nClay\t26.6\nCleburne\t15.4\nCoffee\t24.8\nColbert\t39.1\nConecuh\t50.6\nCoosa\t41.5\nCovington\t20.5\nCrenshaw\t31.9\nCullman\t14.6\nDale\t28.4\nDallas\t69.7\nDeKalb\t21.9\nElmore\t25.2\nEscambia\t36.9\nEtowah\t30.0\nFayette\t22.8\nFranklin\t29.1\nGeneva\t18.0\nGreene\t84.6\nHale\t62.6\nHenry\t35.2\nHouston\t29.5\nJackson\t28.2\nJefferson\t52.5\nLamar\t22.9\nLauderdale\t33.8\nLawrence\t35.8\nLee\t39.2\nLimestone\t27.7\nLowndes\t76.4\nMacon\t87.0\nMadison\t39.9\nMarengo\t53.4\nMarion\t18.5\nMarshall\t19.3\nMobile\t45.0\nMonroe\t45.9\nMontgomery\t61.8\nMorgan\t27.2\nPerry\t74.9\nPickens\t46.3\nPike\t42.7\nRandolph\t29.5\nRussell\t55.5\nSt. Clair\t16.5\nShelby\t21.6\nSumter\t77.1\nTalladega\t41.6\nTallapoosa\t33.5\nTuscaloosa\t40.7\nWalker\t22.9\nWashington\t33.9\nWilcox\t74.3\nWinston\t13.2",
-        "size": "single"
+        "size": "double"
     }
 }
