@@ -48,7 +48,7 @@
 /*shared source byline styles*/
 /****************/
 
-#chartwerk.double #chart-footer #author{
+#chartwerk #chart-footer #author{
     float: right;
 }
 
@@ -61,6 +61,11 @@
     font-weight: 400;
     font-size: 10px;
     float: left;
+}
+
+#chartwerk #chart-footer #source{
+    vertical-align: text-top;
+    max-width: 350px;
 }
 
 
