@@ -224,15 +224,11 @@
     width:100%;
     text-align:right;
     padding:2px 5px 0 0;
-    margin-left:-100%;
+    margin-left:-101%;
     position:absolute;
     color:#666;
     font: 14px/16px 'franklin-gothic-urw', arial, sans-serif;
     
-}
-
-#chartwerk #chart .bar .name.label span{
-    margin-right: 5px; 
 }
 
 #chartwerk #chart .bar .value.label span{
