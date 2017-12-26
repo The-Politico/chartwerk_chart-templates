@@ -36,6 +36,7 @@
     font-weight:bold;
     font-size:25px;
     line-height: 1.05em;
+    margin: 0px;
 }
 #chartwerk #chatter {
     margin: 6px 0px 12px;
@@ -54,19 +55,24 @@
     text-align:right;
 }
 
-.double #chart-footer #author{
+#chartwerk #chart-footer #author{
     float: right;
 }
 
-.single #chart-footer #source{
+#chartwerk.single #chart-footer #source{
     font-weight: 400;
     font-size: 10px;
 }
 
-.single #chart-footer #author{
+#chartwerk.single #chart-footer #author{
     font-weight: 400;
     font-size: 10px;
     float: left;
+}
+
+#chartwerk #chart-footer #source{
+    vertical-align: text-top;
+    max-width: 350px;
 }
 
 #chartwerk.single #footnote,
@@ -173,6 +179,10 @@
     font-size: 14px;
     line-height: 1.2em;
     font-family:'franklin-gothic-urw', arial, sans-serif;
+}
+
+#chart .annotation .inner{
+    margin: 0px;
 }
 
 #chartwerk .annotation p{
