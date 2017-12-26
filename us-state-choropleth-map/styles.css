@@ -55,22 +55,21 @@
     text-align:right;
 }
 
-.double #chart-footer #author{
+#chartwerk #chart-footer #author{
     float: right;
 }
 
 #chartwerk #chart-footer #source{
     vertical-align: text-top;
-    max-width: 200px;
-}
-
-.single #chart-footer #source{
-    font-weight: 400;
-    font-size: 10px;
     max-width: 350px;
 }
 
-.single #chart-footer #author{
+#chartwerk.single #chart-footer #source{
+    font-weight: 400;
+    font-size: 10px;
+}
+
+#chartwerk.single #chart-footer #author{
     font-weight: 400;
     font-size: 10px;
     float: left;
