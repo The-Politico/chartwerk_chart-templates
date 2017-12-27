@@ -74,6 +74,21 @@
     word-wrap: normal;
     line-height:12px;
 }
+
+#chartwerk.single #list p:first-child .list-hed{
+    width:100%;
+}
+
+#chartwerk.single #list .list-hed{
+    margin-bottom: 8px;
+}
+
+#chartwerk.single #list p:first-child  span:not(:first-child){
+     margin-bottom: 8px;
+    font-weight: 600;
+    font-size: 12px;
+}
+
 ::-webkit-scrollbar{
   width: 6px;
 }
@@ -128,6 +143,7 @@
 
 #chartwerk #chart-header #headline{
     line-height: 1.1em;
+    margin: 0px;
 }
 
 #chartwerk.single #chart-header #headline{
