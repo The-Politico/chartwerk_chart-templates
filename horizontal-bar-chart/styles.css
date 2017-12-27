@@ -138,8 +138,12 @@
     margin: 0px;
 }
 
-#chart .annotation .inner{
+#chartwerk .annotation .inner{
     margin: 0px;
+}
+
+#chartwerk .annotation.bg{
+    background: transparent;
 }
 
 
@@ -236,16 +240,16 @@
     
 }
 
-#chartwerk #chart .bar .value.label span{
+#chartwerk #chart .bar .value.label p{
     padding-right:5px;
-    padding-top:0px;
+    padding-top:2px;
     font-size:14px;
     line-height:18px;
     color:#fff;
     padding-left: 5px;
    
 }
-#chartwerk #chart .bar .value.label span.offset{
+#chartwerk #chart .bar .value.label p.offset{
     text-align:left;
     padding-left:5px;
     color:#666;
