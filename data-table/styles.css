@@ -64,10 +64,10 @@
     margin:1px 0;
     line-height:12px;
     padding:5px 2px;
-    font-size:14px;
+    font-size:16px;
 }
 #chartwerk #list p span.list-hed{
-    font-size:12px;
+    font-size:14px;
     color:grey;
     display:inline-block;
     width:40%;
@@ -79,15 +79,23 @@
     width:100%;
 }
 
+#chartwerk #list p{
+    padding: 0;
+}
+
 #chartwerk #list .list-hed{
-    margin-bottom: 5px;
+    margin-bottom: 4px;
+}
+
+#chartwerk #list p:first-child{
+    margin-bottom: 16px;
 }
 
 #chartwerk #list p:first-child  span:not(:first-child){
  
     font-weight: 600;
     font-size: 14px;
-    line-height: 1.1em;
+    line-height: 1.2em;
 }
 
 ::-webkit-scrollbar{
