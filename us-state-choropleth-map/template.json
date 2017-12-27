@@ -344,8 +344,8 @@
                 "size": "d",
                 "text": "\u2190 Let's just say Texas is **very importan**t in this story",
                 "w": 212,
-                "x": 258,
-                "y": 295
+                "x": 230,
+                "y": 246
             }
         ],
         "author": "Sarah Frostenson / POLITICO",
@@ -395,7 +395,7 @@
             "title": ""
         },
         "source": "SOURCE: National Organization for the Reform of Marijuana Laws",
-        "title": "map test1"
+        "title": "map test2"
     },
     "ui": {
         "datamap": [
