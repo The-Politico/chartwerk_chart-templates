@@ -40,7 +40,7 @@ function draw(){
         
     bar.append("div")
         .attr("class","value label")
-      .append("span")
+      .append("p")
         .attr("class", function(d){
             return werk.scales.x(d.value) < 75 ?
                 'offset' : '';
