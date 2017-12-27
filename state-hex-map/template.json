@@ -293,11 +293,11 @@
     "embed": {
         "dimensions": {
             "double": {
-                "height": 489.0340576171875,
+                "height": 455.7954406738281,
                 "width": 560
             },
             "single": {
-                "height": 334.40338134765625,
+                "height": 302.0738525390625,
                 "width": 270
             }
         }
@@ -339,14 +339,14 @@
         "annotations": [
             {
                 "align": "l",
-                "background": true,
+                "background": false,
                 "color": "#2d3035",
                 "fontSize": "m",
                 "size": "d",
                 "text": "\u2191 <br> Annotation testing, here's **some words**",
                 "w": 131,
-                "x": 429,
-                "y": 234
+                "x": 429.0056915283203,
+                "y": 232
             }
         ],
         "author": "John Doe / POLITICO",
@@ -354,7 +354,7 @@
         "footnote": "",
         "headline": "You can use hex maps to show binned data",
         "legend": {
-            "active": true,
+            "active": false,
             "double": {
                 "align": "l",
                 "background": true,
