@@ -18,7 +18,6 @@
 
 #chartwerk.single #chart-header #headline{
     line-height: 1em;
-    
 }
 
 #preview-pane{
@@ -108,9 +107,18 @@
     font-family:'franklin-gothic-urw', arial, sans-serif;
 }
 
+#chartwerk .annotation .inner{
+    margin: 0px;
+}
+
+#chartwerk .annotation.bg{
+    background: transparent;
+}
+
 #chartwerk .annotation p{
     font-family: inherit;
-    font-weight: 200;
+    font-weight: 400;
+    text-shadow: -1px -1px 0px rgba(255, 255, 255, 0.3), -1px 1px 0px rgba(255, 255, 255, 0.3), 1px -1px 0px rgba(255, 255, 255, 0.3), 1px 1px 0px rgba(255, 255, 255, 0.3), -1px -1px 0px rgba(255, 255, 255, 0.3), -1px 1px 0px rgba(255, 255, 255, 0.3), 1px -1px 0px rgba(255, 255, 255, 0.3), 1px 1px 0px rgba(255, 255, 255, 0.3);
 }
 
 /****************/
