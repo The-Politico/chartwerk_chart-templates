@@ -233,13 +233,10 @@
     font-weight: 200;
 }
 
-#chartwerk.single #chart .y.axis text{
-    font-size: 13px;
+#chartwerk.single .axis text{
+    font-size: 12px;
 }
 
-#chartwerk.single #chart .x.axis text{
-    font-size: 13px;
-}
 
 
 /****************/
