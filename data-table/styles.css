@@ -1,13 +1,13 @@
 #chartwerk {
     background: inherit;
-    font-family: 'franklin-gothic-urw', arial, sans-serif;
+    font-family: 'din-2014', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-weight: 300;
 }
 #chartwerk table{
     margin:10px 0 20px;
     overflow-x:visible;
     text-align:left;
     width:100%;
-    font-family: 'franklin-gothic-urw', arial, sans-serif;
 }
 #chartwerk table th, #chartwerk table td{
     padding:6px 10px 6px 5px;
@@ -121,11 +121,8 @@
 /****************/
 
 #chartwerk {
-    font-family: 'proxima-nova', arial, sans-serif;
-    font-weight: 200;
     padding: 20px 0;
     width:560px;
-    background: #f7f8f8 url(http://static.politico.com/resource/images/website/shared/template/bg-noise.24d18bcf9d414e030c36ffd7f30648e8.jpg) repeat left top;
 }
 
 
