@@ -2,7 +2,6 @@
 /*shared head dek styles*/
 /****************/
 
-
 #chartwerk strong{
     font-weight: 600;
 }
@@ -34,6 +33,7 @@
 #chartwerk #chatter {
     margin: 6px 0px 12px;
     font-size: 17px;
+    line-height: 22px;
 }
 
 #chartwerk.single #chatter {
@@ -110,8 +110,6 @@
 }
 
 #chartwerk #chart .tooltip{
-    font-family: 'franklin-gothic-urw', arial, sans-serif;
-    font-weight: 200;
     opacity:0;
     pointer-events:none;
     padding:5px;
@@ -128,12 +126,9 @@
 #chartwerk .annotation .inner p{
     font-size: 14px;
     line-height: 1.2em;
-    font-family:'franklin-gothic-urw', arial, sans-serif;
 }
 
 #chartwerk .annotation p{
-    font-family: inherit;
-    font-weight: 200;
     margin: 0;
     text-shadow: -1px -1px 0px rgba(255, 255, 255, 0.3), -1px 1px 0px rgba(255, 255, 255, 0.3), 1px -1px 0px rgba(255, 255, 255, 0.3), 1px 1px 0px rgba(255, 255, 255, 0.3), -1px -1px 0px rgba(255, 255, 255, 0.3), -1px 1px 0px rgba(255, 255, 255, 0.3), 1px -1px 0px rgba(255, 255, 255, 0.3), 1px 1px 0px rgba(255, 255, 255, 0.3);
 }
@@ -147,8 +142,8 @@
 /****************/
 
 #chartwerk {
-    font-family: 'proxima-nova', arial, sans-serif;
-    font-weight: 200;
+    font-family: 'din-2014', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-weight: 300;
     padding: 20px 0;
     width:560px;
     background: transparent;
@@ -171,10 +166,8 @@
 }
 #chartwerk #chart-legend 
 .chart-legend-container .key-label{
-    font-family:'franklin-gothic-urw', arial, sans-serif;
-    font-weight: 200;
     font-size: 14px;
-    margin-left: 3px;
+    margin-left: 2px;
     margin-right: 6px;
 }
 #chartwerk.single #chart-legend 
@@ -217,8 +210,6 @@
   shape-rendering: crispEdges;
 }
 .axis text{
-    font-family:'franklin-gothic-urw', arial, sans-serif;
-    font-weight: 200;
     fill: #666;
     font-size:14px;
 }
@@ -228,10 +219,7 @@
 .y.axis path{
     display:none;
 }
-.y.axis .label{
-    font-family:'franklin-gothic-urw', arial, sans-serif;
-    font-weight: 200;
-}
+
 
 #chartwerk.single .axis text{
     font-size: 13px;
