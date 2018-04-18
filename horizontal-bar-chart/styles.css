@@ -21,10 +21,6 @@
    ;
 }
 
-#preview-pane{
-    background-color: #f7f8f8;
-}
-
 #chartwerk #headline { 
     font-weight:bold;
     font-size:25px;
@@ -112,8 +108,6 @@
 }
 
 #chartwerk #chart .tooltip{
-    font-family: 'franklin-gothic-urw', arial, sans-serif;
-    font-weight: 200;
     opacity:0;
     pointer-events:none;
     padding:5px;
@@ -129,12 +123,10 @@
 #chartwerk .annotation .inner p{
     font-size: 14px;
     line-height: 1.2em;
-    font-family:'franklin-gothic-urw', arial, sans-serif;
 }
 
 #chartwerk .annotation p{
     font-family: inherit;
-    font-weight: 200;
     margin: 0px;
 }
 
@@ -153,11 +145,9 @@
 /****************/
 
 #chartwerk {
-    font-family: 'proxima-nova', arial, sans-serif;
-    font-weight: 200;
+    font-family: 'din-2014', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     padding: 20px 0;
     width:560px;
-    background: #f7f8f8 url(http://static.politico.com/resource/images/website/shared/template/bg-noise.24d18bcf9d414e030c36ffd7f30648e8.jpg) repeat left top;
 }
 
 
@@ -172,13 +162,8 @@
 /*shared legend styles*/
 /****************/
 
-#chart-legend .chart-legend-container.bg, #chart .chart-legend-container.bg{
-    background: #f7f8f8 url(http://static.politico.com/resource/images/website/shared/template/bg-noise.24d18bcf9d414e030c36ffd7f30648e8.jpg) repeat left top;
-}
 #chartwerk #chart-legend 
 .chart-legend-container .key-label{
-    font-family:'franklin-gothic-urw', arial, sans-serif;
-    font-weight: 200;
     font-size: 14px;
     margin-left: 3px;
     margin-right: 6px;
@@ -214,7 +199,6 @@
 
 // horizontal bar styles below
 #chartwerk .response p{
-    font: 13px/16px 'franklin-gothic-urw', arial, sans-serif;
     font-weight: 200;
 }
 #chartwerk #chart .bar{
@@ -232,7 +216,6 @@
     margin-left:-101%;
     position:absolute;
     color:#666;
-    font: 14px/16px 'franklin-gothic-urw', arial, sans-serif;
     
 }
 
