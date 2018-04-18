@@ -1,6 +1,6 @@
 #chartwerk {
     width:560px;
-    font-family: 'proxima-nova', arial, sans-serif;
+    font-family: 'din-2014', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     background: transparent;
 }
 #chartwerk.single{
@@ -101,7 +101,7 @@
     margin-top:10px;
 }
 #chartwerk .response p{
-    font: 13px/16px 'franklin-gothic-urw', arial, sans-serif;
+    font: 14px/18px 'din-2014', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     margin: 0px;
 }
 #chartwerk #chart .bar{
@@ -112,12 +112,10 @@
 #chartwerk #chart .bar .label{
     width:100%;
     text-align:right;
-    font-family:'franklin-gothic-urw', arial, sans-serif;
 }
 #chartwerk #chart .bar .label p{
     padding-right:5px;
     padding-top:4px;
-    font-family:'franklin-gothic-urw', arial, sans-serif;
     font-size:14px;
     line-height:18px;
     color:#fff;
