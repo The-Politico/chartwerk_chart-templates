@@ -1,6 +1,5 @@
 #chartwerk {
-    font-family:'proxima-nova', arial, sans-serif;
-    font-weight: 200;
+    font-family: 'din-2014', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     width: 560px;
     background: transparent;
 }
@@ -45,13 +44,14 @@
 
 #chartwerk #chatter {
     margin: 6px 0px 12px;
-    font-size: 17px;
+    font-size: 18px;
+    line-height: 24px;
 }
 
 #chartwerk.single #chatter {
     margin: 8px 0px 10px;
-    font-size: 14px;
-    line-height: 1.2em;
+    font-size: 15px;
+    line-height: 19px;
 }
 
 
@@ -116,8 +116,6 @@
 }
 #chartwerk #chart-legend 
 .chart-legend-container .key-label{
-    font-family:'franklin-gothic-urw', arial, sans-serif;
-    font-weight: 200;
     font-size: 14px;
     margin-left: 3px;
     margin-right: 6px;
@@ -150,14 +148,8 @@
 #chart-legend .chart-legend-container, #chart .chart-legend-container{
     padding: 0;
 }
-#chartwerk .annotation p {
-    font-family:'proxima-nova', arial, sans-serif;
-    font-weight: 200;
-}
 #chartwerk #chart .tooltip {
     background: rgba(255,255,255,.75);
-    font: 13px 'proxima-nova', arial, sans-serif;
-    font-weight: 200;
     opacity: 0;
     padding: 5px;
     pointer-events: none;
@@ -181,10 +173,9 @@
   shape-rendering: crispEdges;
 }
 .axis text{
-    font-family:'franklin-gothic-urw', arial, sans-serif;
-    font-weight: 200;
     fill: #666;
     font-size:14px;
+    font-family: 'din-2014', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 .y.axis line{
     stroke: #ddd;
@@ -193,8 +184,7 @@
     display:none;
 }
 .y.axis .label{
-    font-family:'franklin-gothic-urw', arial, sans-serif;
-    font-weight: 200;
+
 }
 
 #chartwerk.single #chart .y.axis text{
