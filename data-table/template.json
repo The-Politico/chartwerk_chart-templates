@@ -62,14 +62,14 @@
     },
     "data": [
         {
-            "DK/NA": "5%",
             "Do you support/oppose ___?": "Requiring background checks on all gun sales",
+            "NA": "5%",
             "Oppose": "7%",
             "Support": "88%"
         },
         {
-            "DK/NA": "7%",
             "Do you support/oppose ___?": "Expanding screening and treatment for the mentally ill",
+            "NA": "7%",
             "Oppose": "6%",
             "Support": "87%"
         }
@@ -85,7 +85,7 @@
             "Do you support/oppose ___?",
             "Support",
             "Oppose",
-            "DK/NA"
+            "NA"
         ],
         "value": null
     },
@@ -202,7 +202,7 @@
                 "class": "ignore"
             }
         ],
-        "rawData": "Do you support/oppose ___?\tSupport\tOppose\tDK/NA\nRequiring background checks on all gun sales\t88%\t7%\t5%\nExpanding screening and treatment for the mentally ill\t87%\t6%\t7%",
+        "rawData": "Do you support/oppose ___?\tSupport\tOppose\tNA\nRequiring background checks on all gun sales\t88%\t7%\t5%\nExpanding screening and treatment for the mentally ill\t87%\t6%\t7%",
         "size": "single"
     }
 }
