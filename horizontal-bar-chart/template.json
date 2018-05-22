@@ -154,30 +154,7 @@
         "title": "Horizontal bar chart"
     },
     "text": {
-        "annotations": [
-            {
-                "align": "l",
-                "background": true,
-                "color": "#2d3035",
-                "fontSize": "m",
-                "size": "d",
-                "text": "\u2190 This data entry is **very important**",
-                "w": 122,
-                "x": 438,
-                "y": 25
-            },
-            {
-                "align": "l",
-                "background": true,
-                "color": "#2d3035",
-                "fontSize": "m",
-                "size": "s",
-                "text": "\u2190 This data entry is **very important**",
-                "w": 72,
-                "x": 198.01136779785156,
-                "y": 76
-            }
-        ],
+        "annotations": [],
         "author": "Jane Doe / POLITICO",
         "chatter": "Some states even have more letters in their names than some others.",
         "footnote": "",
