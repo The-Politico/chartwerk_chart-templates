@@ -211,7 +211,9 @@
 }
 .axis text{
     fill: #666;
-    font-size:14px;
+    font-size:13px;
+    font-family: 'din-2014', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    letter-spacing: .5px;
 }
 .y.axis line{
     stroke: #ddd;
