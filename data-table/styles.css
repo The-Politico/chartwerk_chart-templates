@@ -214,8 +214,12 @@
     display: inline-block;
 }
 #chartwerk #footnote{
-    font-size: 12px;
+    font-size: 11px;
     color:#666;
+}
+
+#footnote + #source{
+  margin-top: 4px;
 }
 
 #chartwerk.single #footnote,
@@ -225,5 +229,5 @@
 }
 
 #chartwerk #chart-footer {
-    margin-top: 12px;
+    margin-top: 10px;
 }
