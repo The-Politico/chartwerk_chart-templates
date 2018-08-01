@@ -1,19 +1,6 @@
-#chartwerk {
-    font-family:'proxima-nova', arial, sans-serif;
-    font-weight: 200;
-    width: 560px;
-    background: transparent;
-}
-#chartwerk.single {
-    float: left;
-    margin: 10px 30px 10px 0;
-    overflow: hidden;
-    width: 270px;
-}
 /****************/
 /*shared head dek styles*/
 /****************/
-
 
 #chartwerk strong{
     font-weight: 600;
@@ -21,7 +8,7 @@
 
 #chartwerk #chart-header{
     line-height: 1.45em;
-    font-weight: 400;
+    font-weight: 500;
 }
 
 #chartwerk #chart-header #headline{
@@ -46,6 +33,7 @@
 #chartwerk #chatter {
     margin: 6px 0px 12px;
     font-size: 17px;
+    line-height: 22px;
 }
 
 #chartwerk.single #chatter {
@@ -60,7 +48,7 @@
 /*shared source byline styles*/
 /****************/
 
-#chartwerk.double #chart-footer #author{
+#chartwerk #chart-footer #author{
     float: right;
 }
 
@@ -75,14 +63,23 @@
     float: left;
 }
 
+#chartwerk #chart-footer #source{
+    vertical-align: text-top;
+    max-width: 350px;
+}
 
-#chartwerk #footnote,
+
 #chartwerk #source,
 #chartwerk #author {
     font-size:12px;
     font-weight: 400
     color:#666;
     display: inline-block;
+}
+
+#chartwerk #footnote{
+    font-size: 12px;
+    color:#666;
 }
 
 #chartwerk.single #footnote,
@@ -103,8 +100,61 @@
     vertical-align: text-top;
 }
 
-#chartwerk #chart {
+/****************/
+/*shared tooltip styles*/
+/****************/
+
+#chartwerk #chart .tooltip .value{
+    text-shadow: -1px -1px 0px #fff, -1px 1px 0px #fff, 1px -1px 0px #fff, 1px 1px 0px #fff,  -1px -1px 0px #fff, -1px 1px 0px #fff, 1px -1px 0px #fff, 1px 1px 0px #fff,  -1px -1px 0px #fff, -1px 1px 0px #fff, 1px -1px 0px #fff, 1px 1px 0px #fff,-1px -1px 0px #fff, -1px 1px 0px #fff, 1px -1px 0px #fff, 1px 1px 0px #fff,-1px -1px 0px #fff, -1px 1px 0px #fff, 1px -1px 0px #fff, 1px 1px 0px #fff, -1px -1px 0px #fff, -1px 1px 0px #fff, 1px -1px 0px #fff, 1px 1px 0px #fff,-1px -1px 0px #fff, -1px 1px 0px #fff, 1px -1px 0px #fff, 1px 1px 0px #fff,-1px -1px 0px #fff, -1px 1px 0px #fff, 1px -1px 0px #fff, 1px 1px 0px #fff;
+    font-weight: bold;
+}
+
+#chartwerk #chart .tooltip{
+    opacity:0;
+    pointer-events:none;
+    padding:5px;
+    width:auto;
+    background: none;
+    z-index: 2;
+}
+
+/****************/
+/*shared annotation styles*/
+/****************/
+
+
+#chartwerk .annotation .inner p{
+    font-size: 14px;
+    line-height: 1.2em;
+}
+
+#chartwerk .annotation p{
+    margin: 0;
+    text-shadow: -1px -1px 0px rgba(255, 255, 255, 0.3), -1px 1px 0px rgba(255, 255, 255, 0.3), 1px -1px 0px rgba(255, 255, 255, 0.3), 1px 1px 0px rgba(255, 255, 255, 0.3), -1px -1px 0px rgba(255, 255, 255, 0.3), -1px 1px 0px rgba(255, 255, 255, 0.3), 1px -1px 0px rgba(255, 255, 255, 0.3), 1px 1px 0px rgba(255, 255, 255, 0.3);
+}
+
+#chartwerk .annotation.bg{
     background: transparent;
+}
+
+/****************/
+/*shared chart spec styles*/
+/****************/
+
+#chartwerk {
+    font-family: 'din-2014', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-weight: 300;
+    padding: 20px 0;
+    width:560px;
+    background: transparent;
+}
+
+
+#chartwerk.single{
+    width:270px;
+    float:left;
+    overflow:hidden;
+    margin:10px 30px 10px 0;
 }
 
 /****************/
@@ -116,10 +166,8 @@
 }
 #chartwerk #chart-legend 
 .chart-legend-container .key-label{
-    font-family:'franklin-gothic-urw', arial, sans-serif;
-    font-weight: 200;
     font-size: 14px;
-    margin-left: 3px;
+    margin-left: 2px;
     margin-right: 6px;
 }
 #chartwerk.single #chart-legend 
@@ -150,26 +198,7 @@
 #chart-legend .chart-legend-container, #chart .chart-legend-container{
     padding: 0;
 }
-#chartwerk .annotation p {
-    font-family:'proxima-nova', arial, sans-serif;
-    font-weight: 200;
-}
-#chartwerk #chart .tooltip {
-    background: rgba(255,255,255,.75);
-    font: 13px 'proxima-nova', arial, sans-serif;
-    font-weight: 200;
-    opacity: 0;
-    padding: 5px;
-    pointer-events: none;
-    width: auto;
-}
-#chartwerk #chart .tooltip .value {
-    font-weight: bold;
-}
-#chartwerk #chart path.line {
-    fill: none;
-    stroke-width: 2px;
-}
+
 /****************/
 /*line axis styles*/
 /****************/
@@ -181,8 +210,36 @@
   shape-rendering: crispEdges;
 }
 .axis text{
-    font-family:'franklin-gothic-urw', arial, sans-serif;
-    font-weight: 200;
+    fill: #666;
+    font-size:13px;
+    font-family: 'din-2014', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    letter-spacing: .5px;
+}
+.y.axis line{
+    stroke: #ddd;
+}
+.y.axis path{
+    display:none;
+}
+
+
+#chartwerk.single .axis text{
+    font-size: 13px;
+}
+
+/****************/
+/*line axis styles*/
+/****************/
+
+.axis path,
+.axis line {
+  fill: none;
+  stroke: rgb(180,180,180);
+  shape-rendering: crispEdges;
+}
+.axis text{
+    font-family: 'din-2014', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-weight: 500;
     fill: #666;
     font-size:14px;
 }
@@ -193,8 +250,8 @@
     display:none;
 }
 .y.axis .label{
-    font-family:'franklin-gothic-urw', arial, sans-serif;
-    font-weight: 200;
+    font-family: 'din-2014', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-weight: 500;
 }
 
 #chartwerk.single #chart .y.axis text{
