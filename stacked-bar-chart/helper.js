@@ -10,7 +10,7 @@ var werkHelper = {
                     values: chartwerk.data.map(function(d){
                         return { x: d[chartwerk.datamap.base], y: d[category] };
                     })
-                    .sort(function(a, b){ return d3.ascending(a.x, b.x); })
+                    // .sort(function(a, b){ return d3.descending(a.x, b.x); })
                 };
             });
         }
@@ -62,7 +62,7 @@ var werkHelper = {
         werk.scales.x0.domain(
             chartwerk.data.map(
                 function(dataPoint) { return dataPoint[chartwerk.datamap.base]; }
-            ).sort()
+            )
         );
         werk.scales.x1.domain(keys).rangeRound([0, werk.scales.x0.bandwidth()]);
     },
