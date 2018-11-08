@@ -71,7 +71,7 @@ function draw() {
             .style('text-anchor', 'start')
             .text(chartwerk.axes.value.label);
     }
-
+    console.log(chartwerk.data);
     g.append('g')
         .selectAll('g')
         .data(chartwerk.data)
@@ -93,6 +93,7 @@ function draw() {
         .data(
             function(d) {
                 var keys = chartwerk.axes.color.domain.sort();
+                console.log(keys);
 
                 return keys.map(function(key) { return {key: key, value: d[key]}; });
             }
