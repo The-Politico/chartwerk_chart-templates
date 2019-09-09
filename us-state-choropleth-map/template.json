@@ -335,19 +335,7 @@
         "title": "US state choropleth map"
     },
     "text": {
-        "annotations": [
-            {
-                "align": "l",
-                "background": true,
-                "color": "#2d3035",
-                "fontSize": "m",
-                "size": "d",
-                "text": "\u2190 Let's just say Texas is **very importan**t in this story",
-                "w": 212,
-                "x": 226,
-                "y": 252
-            }
-        ],
+        "annotations": [],
         "author": "Sarah Frostenson / POLITICO",
         "chatter": "Where you can \u2014 and can't \u2014 smoke the reefer.",
         "footnote": "",
